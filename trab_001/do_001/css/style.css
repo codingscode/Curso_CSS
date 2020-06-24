@@ -53,11 +53,17 @@ body {
 }
 
 .cabecalho-primario-principal {
-
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
 }
 
 .cabecalho-primario-sub {
-
+    display: block; 
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 15px;
 }
 
 
