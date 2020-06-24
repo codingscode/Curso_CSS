@@ -62,11 +62,16 @@ body {
 .cabecalho-primario-sub {
     display: block; 
     font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 15px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
 }
 
-
+.caixa-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+}
 
 
 
