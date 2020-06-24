@@ -28,7 +28,7 @@ body {
 
 .cabecalho {
     height: 95vh;
-    background-image: linear-gradient(to right,#7ed56f, #28b485), url('../img/hero.jpg');
+    background-image: linear-gradient(to right bottom,#7ed56fcb, #28b485cb), url('../img/hero.jpg'); /* opacidade 80%, pois uma imagem fica na frente da outra */
     background-size: cover;
     background-position: top;
 }
