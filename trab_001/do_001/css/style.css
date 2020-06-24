@@ -68,9 +68,9 @@ body {
 
 .caixa-texto {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    background-color: red;
+    transform: translate(-50%, -50%);
 }
 
 
