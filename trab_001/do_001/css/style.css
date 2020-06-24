@@ -24,6 +24,7 @@ body {
     font-size: 16px;
     line-height: 1.7;
     color: #777;
+    padding: 30px;
 }
 
 .cabecalho {
@@ -31,6 +32,7 @@ body {
     background-image: linear-gradient(to right bottom,#7ed56fcb, #28b485cb), url('../img/hero.jpg'); /* opacidade 80%, pois uma imagem fica na frente da outra */
     background-size: cover;
     background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 200px, 0 100%);
 }
 
 
