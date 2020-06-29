@@ -60,9 +60,11 @@ body {
 
     animation-name: moverParaEsquerda;
     animation-duration: 1s;
-    /* animation-delay: 1.5s; */
+    /* animation-delay: 1.5s; 
+     animation-iteration-count: 3;  vezes */
 
-    animation-iteration-count: 3; /* vezes */
+    animation-timing-function: ease-in-out;
+    
 }
 
 .cabecalho-primario-sub {
