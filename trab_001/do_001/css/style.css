@@ -57,6 +57,9 @@ body {
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 35px;
+
+    animation-name: moverParaEsquerda;
+    animation-duration: 5s;
 }
 
 .cabecalho-primario-sub {
@@ -73,7 +76,17 @@ body {
     transform: translate(-50%, -50%);
 }
 
+@keyframes moverParaEsquerda {
+    0% {
+       opacity: 0;
+       transform: translateX(-100px);
+    }
 
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+}
 
 
 
