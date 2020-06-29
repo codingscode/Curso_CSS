@@ -50,6 +50,8 @@ body {
 .cabecalho-primario {
     color: #fff;
     text-transform: uppercase;
+
+    backface-visibility: hidden;
 }
 
 .cabecalho-primario-principal {
