@@ -58,7 +58,7 @@ body {
     font-weight: 400;
     letter-spacing: 35px;
 
-    animation-name: moverParaEsquerda;
+    animation-name: moverParaDireita;
     animation-duration: 1s;
     /* animation-delay: 1.5s; 
      animation-iteration-count: 3;  vezes */
@@ -72,6 +72,8 @@ body {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 17.4px;
+
+    animation: moverParaEsquerda 1s ease-out; /* name duration timing-function delay iteration-count direction fill-mode */
 }
 
 .caixa-texto {
@@ -81,15 +83,30 @@ body {
     transform: translate(-50%, -50%);
 }
 
-@keyframes moverParaEsquerda {
+@keyframes moverParaDireita {
     0% {
        opacity: 0;
        transform: translateX(-100px);
     }
-
     
     80% {
        transform: translateX(10px);
+    }
+
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+}
+
+@keyframes moverParaEsquerda {
+    0% {
+       opacity: 0;
+       transform: translateX(100px);
+    }
+    
+    80% {
+       transform: translateX(-10px);
     }
 
     100% {
