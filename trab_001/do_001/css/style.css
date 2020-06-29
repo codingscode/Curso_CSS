@@ -47,6 +47,10 @@ body {
     height: 35px;
 }
 
+.logo:hover {  /* tirar depois */
+    animation: moverParaEsquerda 1s ease-out;
+}
+
 .cabecalho-primario {
     color: #fff;
     text-transform: uppercase;
@@ -88,20 +92,16 @@ body {
 @keyframes moverParaDireita {
     0% {
        opacity: 0;
-       transform: translateX(-100px) rotate(0deg);
+       transform: translateX(-100px);
     }
 
-    60% {
-        transform: rotate(180deg);
-    }
-    
     80% {
        transform: translateX(10px);
     }
 
     100% {
        opacity: 1;
-       transform: translateX(0) rotate(180deg);
+       transform: translateX(0);
     }
 }
 
