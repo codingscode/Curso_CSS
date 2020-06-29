@@ -82,6 +82,11 @@ body {
        transform: translateX(-100px);
     }
 
+    
+    80% {
+       transform: translateX(20px);
+    }
+
     100% {
        opacity: 1;
        transform: translateX(0);
