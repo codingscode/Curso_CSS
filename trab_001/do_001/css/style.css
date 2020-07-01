@@ -87,6 +87,7 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 @keyframes moverParaDireita {
@@ -125,6 +126,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     padding: 15px 40px;
+    display: inline-block;
  
 }
 
