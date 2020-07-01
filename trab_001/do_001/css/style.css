@@ -123,9 +123,16 @@ body {
 
 .botao:link, .botao:visited {
     text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
  
 }
 
+.botao-branco {
+    background-color: white;
+    color: #777;
+
+}
 
 
 
