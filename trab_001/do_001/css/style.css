@@ -121,7 +121,10 @@ body {
     }
 }
 
-
+.botao:link, .botao:visited {
+    text-transform: uppercase;
+ 
+}
 
 
 
