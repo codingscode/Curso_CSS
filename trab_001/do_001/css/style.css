@@ -130,6 +130,7 @@ body {
     display: inline-block;
     border-radius: 100px;
     transition: all .5s;
+    position: relative;
  
 }
 
@@ -155,13 +156,19 @@ body {
     height: 100%;
     width: 100%;
     border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
  
 .botao-branco::after {
     background-color: #fff;
 }
 
-
+.botao:hover::after {
+    transform: scale(2);
+}
 
 
 
