@@ -185,7 +185,8 @@ body {
 }
 
 .botao-animado {
-    animation: moverDoFundo 0.5s ease-out 0.75s;
+    animation: moverDoFundo 1s ease-out 0.75s;
+    animation-fill-mode: backwards;
 }
 
 
