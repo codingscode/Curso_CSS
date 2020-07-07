@@ -160,6 +160,7 @@ body {
     top: 0;
     left: 0;
     z-index: -1;
+    transition: all .4s;
 }
  
 .botao-branco::after {
@@ -167,7 +168,8 @@ body {
 }
 
 .botao:hover::after {
-    transform: scale(2);
+    transform: scale(1.3);
+    opacity: 0;
 }
 
 
