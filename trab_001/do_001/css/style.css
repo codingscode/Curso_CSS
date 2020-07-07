@@ -168,7 +168,7 @@ body {
 }
 
 .botao:hover::after {
-    transform: scale(1.3);
+    transform: scaleX(1.4) scaleY(1.2);
     opacity: 0;
 }
 
