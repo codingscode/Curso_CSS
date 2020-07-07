@@ -123,6 +123,18 @@ body {
     }
 }
 
+@keyframes moverDoFundo {
+    0% {
+       opacity: 0;
+       transform: translateY(30px);
+    }
+    
+    100% {
+       opacity: 1;
+       transform: translate(0);
+    }
+}
+
 .botao:link, .botao:visited {
     text-transform: uppercase;
     text-decoration: none;
@@ -172,7 +184,9 @@ body {
     opacity: 0;
 }
 
-
+.botao-animado {
+    animation: moverDoFundo 0.5s ease-out 0.75s;
+}
 
 
 
