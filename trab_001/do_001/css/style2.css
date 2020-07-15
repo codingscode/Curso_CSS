@@ -7,10 +7,10 @@ Dark green: #28b485
 
 */
 
-* {
+*, *::after, *::before {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: inherit;    
 }
 
 @font-face {
@@ -19,7 +19,7 @@ Dark green: #28b485
 }
 
 html {
-    font-size: 10px;  /* 1 rem = 10px */ /* quando alterado muda tudo */
+    font-size: 62.5%;  /* 1 rem = 10px */ /* quando alterado muda tudo,  62.5% = 10/16 */
 }
 
 body {
@@ -29,6 +29,7 @@ body {
     line-height: 1.7;
     color: #777;
     padding: 3rem;
+    box-sizing: border-box;    
 }
 
 .cabecalho {
