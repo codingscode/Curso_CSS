@@ -41,18 +41,18 @@ body {
     position: relative;
 }
 
-.logo-box {
+.cabecalho__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
  
  
-.logo {
+.cabecalho__logo {
     height: 3.5rem;
 }
 
-.logo:hover {  /* tirar depois */
+.cabecalho__logo:hover {  /* tirar depois */
     animation: moverParaEsquerda 1s ease-out;
 }
 
@@ -64,7 +64,7 @@ body {
     margin-bottom: 6rem;
 }
 
-.cabecalho-primario-principal {
+.cabecalho-primario--principal {
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -79,7 +79,7 @@ body {
     
 }
 
-.cabecalho-primario-sub {
+.cabecalho-primario--sub {
     display: block; 
     font-size: 2rem;
     font-weight: 700;
@@ -88,7 +88,7 @@ body {
     animation: moverParaEsquerda 1s ease-out; /* name duration timing-function delay iteration-count direction fill-mode */
 }
 
-.caixa-texto {
+.cabecalho__caixa-texto {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -151,7 +151,7 @@ body {
     font-size: 1.6rem;
 }
 
-.botao-branco {
+.botao--branco {
     background-color: white;
     color: #777;
 
@@ -180,7 +180,7 @@ body {
     transition: all .4s;
 }
  
-.botao-branco::after {
+.botao--branco::after {
     background-color: #fff;
 }
 
@@ -189,7 +189,7 @@ body {
     opacity: 0;
 }
 
-.botao-animado {
+.botao--animado {
     animation: moverDoFundo 1s ease-out 0.75s;
     animation-fill-mode: backwards;
 }
