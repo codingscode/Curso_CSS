@@ -3,8 +3,8 @@ codepen.io: escolher scss
 
 no terminal:
      npm init -y
-
-
+     npm i node-sass --save-dev
+     npm uninstall jquery --save
 
 
 
