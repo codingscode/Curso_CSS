@@ -1,0 +1,11 @@
+
+codepen.io: escolher scss
+
+no terminal:
+     npm init -y
+
+
+
+
+
+
