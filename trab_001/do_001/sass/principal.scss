@@ -7,6 +7,13 @@ Dark green: #28b485
 
 */
 
+$cor-primaria: #55c57a;
+$cor-primaria-clara: #7ed56f;
+$cor-primaria-escura: #28b485;
+
+
+
+
 *, *::after, *::before {
     margin: 0;
     padding: 0;
@@ -34,7 +41,7 @@ body {
 
 .cabecalho {
     height: 95vh;
-    background-image: linear-gradient(to right bottom,#7ed56fcb, #28b485cb), url('../img/hero.jpg'); /* opacidade 80%, pois uma imagem fica na frente da outra */
+    background-image: linear-gradient(to right bottom, rgba($cor-primaria-clara, 0.8), rgba($cor-primaria-escura, 0.8)), url('../img/hero.jpg'); /* opacidade 80%, pois uma imagem fica na frente da outra */
     background-size: cover;
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); 

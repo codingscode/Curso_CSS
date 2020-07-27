@@ -6,6 +6,7 @@ no terminal:
      npm i node-sass --save-dev
      npm uninstall jquery --save
 
+npm run compile:sass
 
 
 
