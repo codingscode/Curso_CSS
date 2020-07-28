@@ -10,7 +10,8 @@ Dark green: #28b485
 $cor-primaria: #55c57a;
 $cor-primaria-clara: #7ed56f;
 $cor-primaria-escura: #28b485;
-
+$cor-cinza-escura: #777;
+$cor-branca: #fff;
 
 
 
@@ -34,7 +35,7 @@ body {
     font-weight: 400;
     /* font-size: 16px; */
     line-height: 1.7;
-    color: #777;
+    color: $cor-cinza-escura;
     padding: 3rem;
     box-sizing: border-box;    
 }
@@ -64,7 +65,7 @@ body {
 }
 
 .cabecalho-primario {
-    color: #fff;
+    color: $cor-branca;
     text-transform: uppercase;
 
     backface-visibility: hidden;
@@ -160,7 +161,7 @@ body {
 
 .botao--branco {
     background-color: white;
-    color: #777;
+    color: $cor-cinza-escura;
 
 }
 
@@ -188,7 +189,7 @@ body {
 }
  
 .botao--branco::after {
-    background-color: #fff;
+    background-color: $cor-branca;
 }
 
 .botao:hover::after {
