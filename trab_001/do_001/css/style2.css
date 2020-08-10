@@ -123,6 +123,9 @@ body {
 .botao:hover {
   transform: translateY(-0.3rem);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); }
+  .botao:hover::after {
+    transform: scaleX(1.4) scaleY(1.2);
+    opacity: 0; }
 
 .botao:active {
   transform: translateY(-0.1rem);
@@ -139,10 +142,6 @@ body {
   left: 0;
   z-index: -1;
   transition: all .4s; }
-
-.botao:hover::after {
-  transform: scaleX(1.4) scaleY(1.2);
-  opacity: 0; }
 
 .botao--animado {
   animation: moverDoFundo 1s ease-out 0.75s;

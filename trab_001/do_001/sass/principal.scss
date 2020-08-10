@@ -104,11 +104,6 @@ body {
     }
 }
 
-
-
- 
-
-
 @keyframes moverParaDireita {
     0% {
        opacity: 0;
@@ -172,13 +167,16 @@ body {
         &::after {
             background-color: $cor-branca;
         }
-
     }
     
-
     &:hover {
         transform: translateY(-0.3rem);
         box-shadow: 0 10px 20px rgba($cor-preta, 0.5);
+
+        &::after {
+            transform: scaleX(1.4) scaleY(1.2);
+            opacity: 0;
+        }
     }
      
     &:active {
@@ -198,13 +196,7 @@ body {
         z-index: -1;
         transition: all .4s;
     }
-     
-    
-    &:hover::after {
-        transform: scaleX(1.4) scaleY(1.2);
-        opacity: 0;
-    }
-    
+         
     &--animado {
         animation: moverDoFundo 1s ease-out 0.75s;
         animation-fill-mode: backwards;
