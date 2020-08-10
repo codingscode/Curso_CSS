@@ -12,7 +12,7 @@ $cor-primaria-clara: #7ed56f;
 $cor-primaria-escura: #28b485;
 $cor-cinza-escura: #777;
 $cor-branca: #fff;
-
+$cor-preta: #000;
 
 
 *, *::after, *::before {
@@ -47,14 +47,13 @@ body {
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); 
     position: relative;
-}
 
-.cabecalho__logo-box {
-    position: absolute;
-    top: 4rem;
-    left: 4rem;
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
 }
- 
  
 .cabecalho__logo {
     height: 3.5rem;
@@ -167,12 +166,12 @@ body {
 
 .botao:hover {
     transform: translateY(-0.3rem);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 20px rgba($cor-preta, 0.5);
 }
  
 .botao:active {
     transform: translateY(-0.1rem);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 10px rgba($cor-preta, 0.5);
 }
  
 .botao::after {
