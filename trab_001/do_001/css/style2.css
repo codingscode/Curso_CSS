@@ -41,45 +41,40 @@ body {
     position: absolute;
     top: 4rem;
     left: 4rem; }
-
-.cabecalho__logo {
-  height: 3.5rem; }
-
-.cabecalho__logo:hover {
-  /* tirar depois */
-  animation: moverParaEsquerda 1s ease-out; }
+  .cabecalho__logo {
+    height: 3.5rem; }
+  .cabecalho__logo:hover {
+    /* tirar depois */
+    animation: moverParaEsquerda 1s ease-out; }
+  .cabecalho__caixa-texto {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
 
 .cabecalho-primario {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
-
-.cabecalho-primario--principal {
-  display: block;
-  font-size: 6rem;
-  font-weight: 400;
-  letter-spacing: 3.5rem;
-  animation-name: moverParaDireita;
-  animation-duration: 1s;
-  /* animation-delay: 1.5s; 
-     animation-iteration-count: 3;  vezes */
-  animation-timing-function: ease-in-out; }
-
-.cabecalho-primario--sub {
-  display: block;
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 1.74rem;
-  animation: moverParaEsquerda 1s ease-out;
-  /* name duration timing-function delay iteration-count direction fill-mode */ }
-
-.cabecalho__caixa-texto {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center; }
+  .cabecalho-primario--principal {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+    animation-name: moverParaDireita;
+    animation-duration: 1s;
+    /* animation-delay: 1.5s; 
+         animation-iteration-count: 3;  vezes */
+    animation-timing-function: ease-in-out; }
+  .cabecalho-primario--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.74rem;
+    animation: moverParaEsquerda 1s ease-out;
+    /* name duration timing-function delay iteration-count direction fill-mode */ }
 
 @keyframes moverParaDireita {
   0% {

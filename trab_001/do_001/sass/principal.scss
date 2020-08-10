@@ -53,14 +53,22 @@ body {
         top: 4rem;
         left: 4rem;
     }
-}
- 
-.cabecalho__logo {
-    height: 3.5rem;
-}
 
-.cabecalho__logo:hover {  /* tirar depois */
-    animation: moverParaEsquerda 1s ease-out;
+    &__logo {
+        height: 3.5rem;
+    }
+    
+    &__logo:hover {  /* tirar depois */
+        animation: moverParaEsquerda 1s ease-out;
+    }
+
+    &__caixa-texto {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
 }
 
 .cabecalho-primario {
@@ -69,39 +77,37 @@ body {
 
     backface-visibility: hidden;
     margin-bottom: 6rem;
-}
 
-.cabecalho-primario--principal {
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
 
-    animation-name: moverParaDireita;
-    animation-duration: 1s;
-    /* animation-delay: 1.5s; 
-     animation-iteration-count: 3;  vezes */
-
-    animation-timing-function: ease-in-out;
+    &--principal {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
     
+        animation-name: moverParaDireita;
+        animation-duration: 1s;
+        /* animation-delay: 1.5s; 
+         animation-iteration-count: 3;  vezes */
+    
+        animation-timing-function: ease-in-out;
+        
+    }
+    
+    &--sub {
+        display: block; 
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.74rem;
+    
+        animation: moverParaEsquerda 1s ease-out; /* name duration timing-function delay iteration-count direction fill-mode */
+    }
 }
 
-.cabecalho-primario--sub {
-    display: block; 
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.74rem;
 
-    animation: moverParaEsquerda 1s ease-out; /* name duration timing-function delay iteration-count direction fill-mode */
-}
 
-.cabecalho__caixa-texto {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
+ 
+
 
 @keyframes moverParaDireita {
     0% {
@@ -147,60 +153,60 @@ body {
     }
 }
 
-.botao:link, .botao:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 1.5rem 4rem;
-    display: inline-block;
-    border-radius: 10rem;
-    transition: all .5s;
-    position: relative;
-    font-size: 1.6rem;
-}
+.botao {
+    &:link, &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .5s;
+        position: relative;
+        font-size: 1.6rem;
+    }
+    
+    &--branco {
+        background-color: white;
+        color: $cor-cinza-escura;
+    
+    }
+    
+    &:hover {
+        transform: translateY(-0.3rem);
+        box-shadow: 0 10px 20px rgba($cor-preta, 0.5);
+    }
+     
+    &:active {
+        transform: translateY(-0.1rem);
+        box-shadow: 0 5px 10px rgba($cor-preta, 0.5);
+    }
+     
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+     
+    &--branco::after {
+        background-color: $cor-branca;
+    }
+    
+    &:hover::after {
+        transform: scaleX(1.4) scaleY(1.2);
+        opacity: 0;
+    }
+    
+    &--animado {
+        animation: moverDoFundo 1s ease-out 0.75s;
+        animation-fill-mode: backwards;
+    }
 
-.botao--branco {
-    background-color: white;
-    color: $cor-cinza-escura;
-
 }
-
-.botao:hover {
-    transform: translateY(-0.3rem);
-    box-shadow: 0 10px 20px rgba($cor-preta, 0.5);
-}
- 
-.botao:active {
-    transform: translateY(-0.1rem);
-    box-shadow: 0 5px 10px rgba($cor-preta, 0.5);
-}
- 
-.botao::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 10rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s;
-}
- 
-.botao--branco::after {
-    background-color: $cor-branca;
-}
-
-.botao:hover::after {
-    transform: scaleX(1.4) scaleY(1.2);
-    opacity: 0;
-}
-
-.botao--animado {
-    animation: moverDoFundo 1s ease-out 0.75s;
-    animation-fill-mode: backwards;
-}
-
-
-
 
