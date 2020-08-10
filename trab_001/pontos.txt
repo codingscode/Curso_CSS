@@ -8,5 +8,6 @@ no terminal:
 
 npm run compile:sass
 
-npm i live-server 
+npm i -g live-server 
+terminal vscode: live-server
 
