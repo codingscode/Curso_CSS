@@ -8,5 +8,5 @@ no terminal:
 
 npm run compile:sass
 
-
+npm i live-server 
 
