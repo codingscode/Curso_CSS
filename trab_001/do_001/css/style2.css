@@ -117,6 +117,8 @@ body {
 .botao--branco {
   background-color: white;
   color: #777; }
+  .botao--branco::after {
+    background-color: #fff; }
 
 .botao:hover {
   transform: translateY(-0.3rem);
@@ -137,9 +139,6 @@ body {
   left: 0;
   z-index: -1;
   transition: all .4s; }
-
-.botao--branco::after {
-  background-color: #fff; }
 
 .botao:hover::after {
   transform: scaleX(1.4) scaleY(1.2);

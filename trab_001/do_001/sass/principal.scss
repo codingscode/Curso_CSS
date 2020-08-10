@@ -168,9 +168,14 @@ body {
     &--branco {
         background-color: white;
         color: $cor-cinza-escura;
-    
+
+        &::after {
+            background-color: $cor-branca;
+        }
+
     }
     
+
     &:hover {
         transform: translateY(-0.3rem);
         box-shadow: 0 10px 20px rgba($cor-preta, 0.5);
@@ -194,9 +199,6 @@ body {
         transition: all .4s;
     }
      
-    &--branco::after {
-        background-color: $cor-branca;
-    }
     
     &:hover::after {
         transform: scaleX(1.4) scaleY(1.2);
