@@ -7,6 +7,18 @@ Dark green: #28b485
 
 */
 
+@import './base/base';
+@import './base/animacoes';
+@import './base/tipografia';
+@import './base/utilidades';
+
+@import './abstracts/funcoes';
+@import './abstracts/mixins';
+@import './abstracts/variaveis';
+
+@import './paginas/inicio';
+
+
 $cor-primaria: #55c57a;
 $cor-primaria-clara: #7ed56f;
 $cor-primaria-escura: #28b485;
