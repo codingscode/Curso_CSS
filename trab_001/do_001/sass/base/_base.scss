@@ -1,0 +1,26 @@
+/* @import '../abstracts/variaveis'; */
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;    
+}
+
+/* @font-face {
+    font-family: 'Lato', sans-serif;
+    src: url('../../font/Lato/Lato-Regular.ttf'); 
+} */
+
+html {
+    font-size: 62.5%;  /* 1 rem = 10px */ /* quando alterado muda tudo,  62.5% = 10/16 */
+}
+
+body {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    
+    line-height: 1.7;
+    color: $cor-cinza-escura;
+    padding: 3rem; */
+    box-sizing: border-box;    
+}

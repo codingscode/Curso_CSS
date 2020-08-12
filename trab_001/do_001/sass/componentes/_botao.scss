@@ -1,0 +1,57 @@
+
+
+.botao {
+    &:link, &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .5s;
+        position: relative;
+        font-size: 1.6rem;
+    }
+    
+    &--branco {
+        background-color: white;
+        color: $cor-cinza-escura;
+
+        &::after {
+            background-color: $cor-branca;
+        }
+    }
+    
+    &:hover {
+        transform: translateY(-0.3rem);
+        box-shadow: 0 10px 20px rgba($cor-preta, 0.5);
+
+        &::after {
+            transform: scaleX(1.4) scaleY(1.2);
+            opacity: 0;
+        }
+    }
+     
+    &:active {
+        transform: translateY(-0.1rem);
+        box-shadow: 0 5px 10px rgba($cor-preta, 0.5);
+    }
+     
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+         
+    &--animado {
+        animation: moverDoFundo 1s ease-out 0.75s;
+        animation-fill-mode: backwards;
+    }
+
+}
