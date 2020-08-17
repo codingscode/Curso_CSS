@@ -164,4 +164,6 @@ body {
 .linha {
   max-width: 114rem;
   background-color: #ddd7dc;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  margin-top: 10px; }
