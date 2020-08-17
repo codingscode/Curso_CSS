@@ -11,3 +11,7 @@ npm run compile:sass
 npm i -g live-server 
 terminal vscode: live-server
 
+
+npm run compile:sass
+
+fundo cinza

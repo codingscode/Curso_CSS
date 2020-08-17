@@ -161,38 +161,7 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
-@font-face {
-  font-family: 'Lato', sans-serif;
-  src: url("../../font/Lato/Lato-Regular.ttf");
-  /* ../font/Lato/Lato-Regular.ttf */ }
-
-body {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  /* font-size: 16px; */
-  line-height: 1.7;
-  color: #777;
-  padding: 3rem; }
-
-.cabecalho-primario {
-  color: #fff;
-  text-transform: uppercase;
-  backface-visibility: hidden;
-  margin-bottom: 6rem; }
-  .cabecalho-primario--principal {
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
-    animation-name: moverParaDireita;
-    animation-duration: 1s;
-    /* animation-delay: 1.5s; 
-         animation-iteration-count: 3;  vezes */
-    animation-timing-function: ease-in-out; }
-  .cabecalho-primario--sub {
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.74rem;
-    animation: moverParaEsquerda 1s ease-out;
-    /* name duration timing-function delay iteration-count direction fill-mode */ }
+.linha {
+  max-width: 114rem;
+  background-color: #ddd7dc;
+  margin: 0 auto; }
