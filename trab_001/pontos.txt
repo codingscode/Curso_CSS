@@ -15,3 +15,5 @@ terminal vscode: live-server
 npm run compile:sass
 
 fundo cinza
+
+verificar elements

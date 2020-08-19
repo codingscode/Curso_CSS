@@ -2,10 +2,18 @@
     max-width: $grid-largura;
     background-color: rgb(221, 215, 220);
     margin: 0 auto;
-    margin-bottom: $espaco-vertical;
     margin-top: 10px;
+    
+    &:not(:last-child) {
+        margin-bottom: $espaco-vertical;
+        
+    }
+    
+    
+    
 }
 
-
+//.linha:not()  ->  linha não  
+// &:not(:last-child) -> seleciona-se tudo, exceto o último descendente
 
 
