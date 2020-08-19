@@ -16,4 +16,9 @@ npm run compile:sass
 
 fundo cinza
 
-verificar elements
+verificar elements; idem; 
+
+
+
+
+

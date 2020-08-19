@@ -170,6 +170,7 @@ body {
     margin-bottom: 2rem; }
   .linha .col-1-de-2 {
     width: calc((100% - 6rem) / 2);
-    background-color: orangered; }
+    background-color: orangered;
+    float: left; }
     .linha .col-1-de-2:not(:last-child) {
       margin-right: 6rem; }

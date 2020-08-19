@@ -12,6 +12,7 @@
     .col-1-de-2 {
         width: calc((100% - #{$espaco-horizontal}) / 2);
         background-color: orangered;
+        float: left;
         
         &:not(:last-child) {
            margin-right: $espaco-horizontal;
