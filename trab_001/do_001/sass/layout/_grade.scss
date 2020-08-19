@@ -33,7 +33,7 @@
     }
 
     .col-2-de-3 {
-        width: calc((100% - 2 * #{$espaco-horizontal}) / 3);
+        width: calc(2*((100% - 2 * #{$espaco-horizontal}) / 3) +  #{$espaco-horizontal});
     }
 
     .col-1-de-4 {

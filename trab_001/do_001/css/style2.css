@@ -182,6 +182,6 @@ body {
   .linha .col-1-de-3 {
     width: calc((100% - 2 * 6rem) / 3); }
   .linha .col-2-de-3 {
-    width: calc((100% - 2 * 6rem) / 3); }
+    width: calc(2*((100% - 2 * 6rem) / 3) +  6rem); }
   .linha .col-1-de-4 {
     width: calc((100% - 3 * 6rem) / 4); }
