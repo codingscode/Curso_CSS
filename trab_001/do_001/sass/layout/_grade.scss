@@ -8,6 +8,8 @@
         margin-bottom: $espaco-vertical;
         
     }
+
+    @include clearfix;
     
     .col-1-de-2 {
         width: calc((100% - #{$espaco-horizontal}) / 2);
@@ -23,5 +25,5 @@
 
 //.linha:not()  ->  linha não  
 // &:not(:last-child) -> seleciona-se tudo, exceto o último descendente
-
+// .linha::after {
 
