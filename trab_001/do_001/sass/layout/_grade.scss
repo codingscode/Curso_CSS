@@ -26,12 +26,18 @@
     
     .col-1-de-2 {
         width: calc((100% - #{$espaco-horizontal}) / 2);
-        
     }
 
     .col-1-de-3 {
         width: calc((100% - 2 * #{$espaco-horizontal}) / 3);
-        
+    }
+
+    .col-2-de-3 {
+        width: calc((100% - 2 * #{$espaco-horizontal}) / 3);
+    }
+
+    .col-1-de-4 {
+        width: calc((100% - 3 * #{$espaco-horizontal}) / 4);
     }
     
 }
