@@ -168,19 +168,16 @@ body {
   margin-top: 10px; }
   .linha:not(:last-child) {
     margin-bottom: 2rem; }
+  .linha [class^="col-"] {
+    background-color: orangered;
+    float: left; }
+    .linha [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
   .linha::after {
     content: "";
     display: table;
     clear: both; }
   .linha .col-1-de-2 {
-    width: calc((100% - 6rem) / 2);
-    background-color: orangered;
-    float: left; }
-    .linha .col-1-de-2:not(:last-child) {
-      margin-right: 6rem; }
+    width: calc((100% - 6rem) / 2); }
   .linha .col-1-de-3 {
-    width: calc((100% - 2 * 6rem) / 3);
-    background-color: orangered;
-    float: left; }
-    .linha .col-1-de-3:not(:last-child) {
-      margin-right: 6rem; }
+    width: calc((100% - 2 * 6rem) / 3); }

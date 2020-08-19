@@ -9,26 +9,29 @@
         
     }
 
+    // class^="?" -> atributo class que inicia com valor de ?
+    // class*="?" -> atributo class que contem com valor de ?
+    // class$="?" -> atributo class que termina com valor de ?
+    [class^="col-"] {
+        background-color: orangered;
+        float: left;
+            
+        &:not(:last-child) {
+            margin-right: $espaco-horizontal;
+        }
+    
+    }
+
     @include clearfix;
     
     .col-1-de-2 {
         width: calc((100% - #{$espaco-horizontal}) / 2);
-        background-color: orangered;
-        float: left;
         
-        &:not(:last-child) {
-           margin-right: $espaco-horizontal;
-        }
     }
 
     .col-1-de-3 {
         width: calc((100% - 2 * #{$espaco-horizontal}) / 3);
-        background-color: orangered;
-        float: left;
         
-        &:not(:last-child) {
-           margin-right: $espaco-horizontal;
-        }
     }
     
 }
