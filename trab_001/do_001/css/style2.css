@@ -178,3 +178,9 @@ body {
     float: left; }
     .linha .col-1-de-2:not(:last-child) {
       margin-right: 6rem; }
+  .linha .col-1-de-3 {
+    width: calc((100% - 2 * 6rem) / 3);
+    background-color: orangered;
+    float: left; }
+    .linha .col-1-de-3:not(:last-child) {
+      margin-right: 6rem; }
