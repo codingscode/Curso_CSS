@@ -94,6 +94,11 @@ body {
     animation: moverParaEsquerda 1s ease-out;
     /* name duration timing-function delay iteration-count direction fill-mode */ }
 
+.cabecalho-secundario {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700; }
+
 .secao-sobre {
   background-color: #f7f7f7;
   padding: 25rem 0;
