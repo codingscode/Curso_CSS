@@ -53,7 +53,7 @@ body {
     display: inline-block;
     background-image: linear-gradient(to right, $cor-primaria-clara, $cor-primaria-escura);
     -webkit-background-clip: text;
-    
+    color: transparent;
 }
 
 

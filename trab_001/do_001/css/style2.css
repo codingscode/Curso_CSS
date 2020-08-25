@@ -100,7 +100,8 @@ body {
   font-weight: 700;
   display: inline-block;
   background-image: linear-gradient(to right, #7ed56f, #28b485);
-  -webkit-background-clip: text; }
+  -webkit-background-clip: text;
+  color: transparent; }
 
 .secao-sobre {
   background-color: #f7f7f7;
