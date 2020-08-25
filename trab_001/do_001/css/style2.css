@@ -97,7 +97,8 @@ body {
 .cabecalho-secundario {
   font-size: 3.5rem;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+  background-image: linear-gradient(to right, #7ed56f, #28b485); }
 
 .secao-sobre {
   background-color: #f7f7f7;
