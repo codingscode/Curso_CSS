@@ -50,7 +50,10 @@ body {
     font-size: 3.5rem;
     text-transform: uppercase;
     font-weight: 700;
+    display: inline-block;
     background-image: linear-gradient(to right, $cor-primaria-clara, $cor-primaria-escura);
+    
+    
 }
 
 
