@@ -101,7 +101,11 @@ body {
   display: inline-block;
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
-  color: transparent; }
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s; }
+  .cabecalho-secundario:hover {
+    transform: skewY(2deg); }
 
 .secao-sobre {
   background-color: #f7f7f7;
