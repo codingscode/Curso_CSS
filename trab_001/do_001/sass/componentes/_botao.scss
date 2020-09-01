@@ -9,7 +9,7 @@
         border-radius: 10rem;
         transition: all .5s;
         position: relative;
-        font-size: 1.6rem;
+        font-size: $font-size-padrao;
     }
     
     &--branco {
@@ -58,19 +58,24 @@
 
 .botao-texto {
      &:link, &:visited {
-        font-size: 1.6rem;
+        font-size: $font-size-padrao;
         color: $cor-primaria;
         display: inline-block;
         text-decoration: none;
         border-bottom: 1px solid $cor-primaria;
+        transition: all .2s;
      }
      
-     &.hover {
-     
+     &:hover {
+        background-color: $cor-primaria;
+        color: $cor-branca;
+        box-shadow: 0 1rem 2rem rgba($cor-preta, .15);
+        transform: translateY(-2px);
      }
      
      &:active {
-     
+        box-shadow: 0 .5rem 1rem rgba($cor-preta, .15);
+        transform: translateY(0);
      }
 }
 

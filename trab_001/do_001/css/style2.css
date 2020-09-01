@@ -183,7 +183,18 @@ body {
   color: #55c57a;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #55c57a; }
+  border-bottom: 1px solid #55c57a;
+  transition: all .2s; }
+
+.botao-texto:hover {
+  background-color: #55c57a;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); }
+
+.botao-texto:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0); }
 
 .cabecalho {
   height: 95vh;

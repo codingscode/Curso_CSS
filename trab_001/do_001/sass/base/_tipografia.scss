@@ -65,13 +65,13 @@ body {
 }
 
 .cabecalho-terciario {
-    font-size: 1.6rem;
+    font-size: $font-size-padrao;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .paragrafo {
-    font-size: 1.6rem;
+    font-size: $font-size-padrao;
 
     &:not(:last-child) {
        margin-bottom: 3rem;
