@@ -55,3 +55,27 @@
     }
 
 }
+
+.botao-texto {
+     &:link, &:visited {
+        font-size: 1.6rem;
+        color: $cor-primaria;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid $cor-primaria;
+     }
+     
+     &.hover {
+     
+     }
+     
+     &:active {
+     
+     }
+}
+
+
+
+
+
+
