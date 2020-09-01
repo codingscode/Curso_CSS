@@ -121,8 +121,14 @@ body {
 .u-texto-centralizado {
   text-align: center; }
 
-.u-margin-bottom-8 {
+.u-margin-bottom-grande {
   margin-bottom: 8rem; }
+
+.u-margin-bottom-medio {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-pequeno {
+  margin-bottom: 1.5rem; }
 
 .secao-sobre {
   background-color: #f7f7f7;
