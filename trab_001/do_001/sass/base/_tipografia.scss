@@ -64,4 +64,18 @@ body {
     }
 }
 
+.cabecalho-terciario {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragrafo {
+    font-size: 1.6rem;
+
+    &:not(:last-child) {
+       margin-bottom: 3rem;
+    }
+}
+
 

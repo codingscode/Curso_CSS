@@ -108,6 +108,16 @@ body {
     transform: skewY(2deg) skewX(10deg) scale(1.05);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+.cabecalho-terciario {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragrafo {
+  font-size: 1.6rem; }
+  .paragrafo:not(:last-child) {
+    margin-bottom: 3rem; }
+
 .u-texto-centralizado {
   text-align: center; }
 
