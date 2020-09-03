@@ -25,6 +25,7 @@
        }
 
        &:hover {
+            outline: 1.5rem solid $cor-primaria;
             transform: scale(1.05);
             box-shadow: 0 2.5rem 4rem rgba($cor-preta, .5);
             z-index: 20;

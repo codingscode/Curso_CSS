@@ -215,6 +215,7 @@ body {
       left: 20%;
       top: 10rem; }
     .composicao__foto:hover {
+      outline: 1.5rem solid #55c57a;
       transform: scale(1.05);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
