@@ -34,5 +34,9 @@
              
     }
 
-
+    &:hover &__foto:not(:hover) {
+        transform: scale(.9);
+    }
+     // composicao:hover composicao__foto:not(:hover) {}
+     
 }

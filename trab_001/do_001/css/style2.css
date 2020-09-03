@@ -220,6 +220,8 @@ body {
       transform: scale(1.05);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
+  .composicao:hover .composicao__foto:not(:hover) {
+    transform: scale(0.9); }
 
 .cabecalho {
   height: 95vh;
