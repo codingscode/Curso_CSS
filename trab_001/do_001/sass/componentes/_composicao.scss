@@ -1,8 +1,10 @@
 .composicao {
+    position: relative;
 
     &__foto {
        width: 55%;
        box-shadow: 0 1.5rem 4rem rgba($cor-preta, .4);
        border-radius: 2px;
+       position: absolute;
     }
 }
