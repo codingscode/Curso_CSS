@@ -229,6 +229,14 @@ body {
   .composicao:hover .composicao__foto:not(:hover) {
     transform: scale(0.9); }
 
+.caixa-destaque {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem gba(#000, 0.15); }
+
 .cabecalho {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/hero.jpg");

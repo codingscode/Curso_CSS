@@ -1,4 +1,10 @@
 .caixa-destaque {
+    background-color: rgba($cor-branca, 0.8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem gba($cor-preta, 0.15);
 
     &__icone {
  
