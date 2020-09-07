@@ -6,5 +6,7 @@
 
 .secao-destaques {
     padding: 20rem 0;
+    background-image: linear-gradient(to right bottom, rgba($cor-primaria-clara, 0.8), rgba($cor-primaria-escura, 0.8)), url('../img/nat-4.jpg'); /* opacidade 80%, pois uma imagem fica na frente da outra */
+    background-size: cover;
 }
 
