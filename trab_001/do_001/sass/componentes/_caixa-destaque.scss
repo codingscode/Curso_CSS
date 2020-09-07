@@ -8,7 +8,11 @@
 
     &__icone {
         font-size: 6rem;
-        margin-bottom: 0.5rem; 
+        margin-bottom: 0.5rem;
+        display: inline-block;
+        background-image: linear-gradient(to right, $cor-primaria-clara, $cor-primaria-escura);
+        -webkit-background-clip: text;
+        color: transparent; 
     }
  
     &__texto {
