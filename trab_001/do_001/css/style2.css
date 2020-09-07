@@ -236,6 +236,9 @@ body {
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem gba(#000, 0.15); }
+  .caixa-destaque__icone {
+    font-size: 6rem;
+    margin-bottom: 0.5rem; }
 
 .cabecalho {
   height: 95vh;
