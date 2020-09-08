@@ -235,7 +235,8 @@ body {
   padding: 2.5rem;
   text-align: center;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem gba(#000, 0.15); }
+  box-shadow: 0 1.5rem 4rem gba(#000, 0.15);
+  transition: transform .4s; }
   .caixa-destaque__icone {
     font-size: 6rem;
     margin-bottom: 0.5rem;
