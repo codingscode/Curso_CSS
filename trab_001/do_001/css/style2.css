@@ -141,6 +141,8 @@ body {
   /* opacidade 80%, pois uma imagem fica na frente da outra */
   background-size: cover;
   transform: skewY(-7deg); }
+  .secao-destaques > * {
+    transform: skewY(7deg); }
 
 .botao:link, .botao:visited {
   text-transform: uppercase;

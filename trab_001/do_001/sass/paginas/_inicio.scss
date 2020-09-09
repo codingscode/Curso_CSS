@@ -10,6 +10,14 @@
     background-size: cover;
 
     transform: skewY(-7deg);
+    
+    // .secao-destaques > *
+    & > * {
+        transform: skewY(7deg);
+        
+    }
+    
+    
 }
 
 
