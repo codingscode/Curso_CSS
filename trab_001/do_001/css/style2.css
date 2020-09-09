@@ -139,7 +139,8 @@ body {
   padding: 20rem 0;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/nat-4.jpg");
   /* opacidade 80%, pois uma imagem fica na frente da outra */
-  background-size: cover; }
+  background-size: cover;
+  transform: skewY(-7deg); }
 
 .botao:link, .botao:visited {
   text-transform: uppercase;
@@ -235,7 +236,7 @@ body {
   padding: 2.5rem;
   text-align: center;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem gba(#000, 0.15);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform .4s; }
   .caixa-destaque__icone {
     font-size: 6rem;
