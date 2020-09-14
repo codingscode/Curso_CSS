@@ -1,11 +1,22 @@
 .cartao {
-    background-color: orangered;
-    height: 50rem;
-    transition: all .8s;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    
+    &__lado {
+        background-color: orangered;
+        color: #fff;
+        font-size: 2rem;
+        height: 50rem;
+        transition: all .8s;
 
-    &:hover {
+    }
+
+    &:hover &__lado {
        transform: rotateY(180deg);
     }
 }
+
+// cartao:hover .cartao__lado {}
+
 
 

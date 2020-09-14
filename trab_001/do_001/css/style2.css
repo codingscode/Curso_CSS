@@ -257,10 +257,15 @@ body {
     transform: translateY(-1.5rem) scale(1.03); }
 
 .cartao {
-  background-color: orangered;
-  height: 50rem;
-  transition: all .8s; }
-  .cartao:hover {
+  perspective: 150rem;
+  -moz-perspective: 150rem; }
+  .cartao__lado {
+    background-color: orangered;
+    color: #fff;
+    font-size: 2rem;
+    height: 50rem;
+    transition: all .8s; }
+  .cartao:hover .cartao__lado {
     transform: rotateY(180deg); }
 
 .cabecalho {
