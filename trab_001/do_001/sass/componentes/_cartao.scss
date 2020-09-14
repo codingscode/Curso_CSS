@@ -10,17 +10,21 @@
         transition: all .8s;
 
         &--frente {
-           background-color: orangered;
+            background-color: orangered;
         }
         
         &--atras {
             background-color: green;
-        
+            transform: rotateY(180deg);
         }
     }
 
-    &:hover &__lado {
+    &:hover &__lado--frente {
        transform: rotateY(180deg);
+    }
+
+    &:hover &__lado--atras {
+       transform: rotateY(0);
     }
 }
 

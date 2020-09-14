@@ -269,9 +269,12 @@ body {
     .cartao__lado--frente {
       background-color: orangered; }
     .cartao__lado--atras {
-      background-color: green; }
-  .cartao:hover .cartao__lado {
+      background-color: green;
+      transform: rotateY(180deg); }
+  .cartao:hover .cartao__lado--frente {
     transform: rotateY(180deg); }
+  .cartao:hover .cartao__lado--atras {
+    transform: rotateY(0); }
 
 .cabecalho {
   height: 95vh;
