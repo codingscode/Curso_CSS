@@ -1,5 +1,5 @@
 .cartao {
-    perspective: 150rem;
+    perspective: 150rem;  /* experimentar valores pequenos */
     -moz-perspective: 150rem;
     
     &__lado {
@@ -9,6 +9,14 @@
         height: 50rem;
         transition: all .8s;
 
+        &--frente {
+           background-color: orangered;
+        }
+        
+        &--atras {
+            background-color: green;
+        
+        }
     }
 
     &:hover &__lado {

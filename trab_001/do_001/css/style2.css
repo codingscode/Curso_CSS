@@ -258,6 +258,7 @@ body {
 
 .cartao {
   perspective: 150rem;
+  /* experimentar valores pequenos */
   -moz-perspective: 150rem; }
   .cartao__lado {
     background-color: orangered;
@@ -265,6 +266,10 @@ body {
     font-size: 2rem;
     height: 50rem;
     transition: all .8s; }
+    .cartao__lado--frente {
+      background-color: orangered; }
+    .cartao__lado--atras {
+      background-color: green; }
   .cartao:hover .cartao__lado {
     transform: rotateY(180deg); }
 
