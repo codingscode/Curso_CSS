@@ -269,7 +269,9 @@ body {
     transition: all .8s;
     position: absolute;
     top: 0;
-    left: 0; }
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden; }
     .cartao__lado--frente {
       background-color: orangered; }
     .cartao__lado--atras {
