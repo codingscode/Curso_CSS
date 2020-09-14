@@ -259,13 +259,17 @@ body {
 .cartao {
   perspective: 150rem;
   /* experimentar valores pequenos */
-  -moz-perspective: 150rem; }
+  -moz-perspective: 150rem;
+  position: relative; }
   .cartao__lado {
     background-color: orangered;
     color: #fff;
     font-size: 2rem;
     height: 50rem;
-    transition: all .8s; }
+    transition: all .8s;
+    position: absolute;
+    top: 0;
+    left: 0; }
     .cartao__lado--frente {
       background-color: orangered; }
     .cartao__lado--atras {

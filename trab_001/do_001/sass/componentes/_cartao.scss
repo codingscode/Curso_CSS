@@ -1,6 +1,7 @@
 .cartao {
     perspective: 150rem;  /* experimentar valores pequenos */
     -moz-perspective: 150rem;
+    position: relative;
     
     &__lado {
         background-color: orangered;
@@ -8,6 +9,9 @@
         font-size: 2rem;
         height: 50rem;
         transition: all .8s;
+        position: absolute;
+        top: 0;
+        left: 0;
 
         &--frente {
             background-color: orangered;
