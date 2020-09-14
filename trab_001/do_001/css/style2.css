@@ -260,7 +260,8 @@ body {
   perspective: 150rem;
   /* experimentar valores pequenos */
   -moz-perspective: 150rem;
-  position: relative; }
+  position: relative;
+  height: 50rem; }
   .cartao__lado {
     background-color: orangered;
     color: #fff;
