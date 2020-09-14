@@ -147,7 +147,8 @@ body {
 
 .secao-viagens {
   background-color: #f7f7f7;
-  padding: 25rem 0; }
+  padding: 25rem 0 50rem 0;
+  margin-top: -10rem; }
 
 .botao:link, .botao:visited {
   text-transform: uppercase;
@@ -254,6 +255,13 @@ body {
     color: transparent; }
   .caixa-destaque:hover {
     transform: translateY(-1.5rem) scale(1.03); }
+
+.cartao {
+  background-color: orangered;
+  height: 50rem;
+  transition: all .8s; }
+  .cartao:hover {
+    transform: rotateY(180deg); }
 
 .cabecalho {
   height: 95vh;
