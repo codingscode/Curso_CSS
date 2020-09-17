@@ -1,4 +1,5 @@
 .cartao {
+    // funcionalidade
     perspective: 150rem;  /* experimentar valores pequenos */
     -moz-perspective: 150rem;
     position: relative;
@@ -39,6 +40,26 @@
     &:hover &__lado--atras {
        transform: rotateY(360deg);
     }
+
+    // estilo lado da frente, é em relação ao arquivo style2.css
+    &__imagem {
+        background-size: cover;
+        height: 23rem;
+
+        &--1 {
+            background-image: url('../img/nat-5.jpg');
+        }
+
+        &--2 {
+            background-image: url('../img/nat-5.jpg');
+        }
+
+        &--3 {
+            background-image: url('../img/nat-5.jpg');
+        }
+
+    }
+
 }
 
 // cartao:hover .cartao__lado {}

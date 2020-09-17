@@ -285,6 +285,15 @@ body {
     transform: rotateY(180deg); }
   .cartao:hover .cartao__lado--atras {
     transform: rotateY(360deg); }
+  .cartao__imagem {
+    background-size: cover;
+    height: 23rem; }
+    .cartao__imagem--1 {
+      background-image: url("../img/nat-5.jpg"); }
+    .cartao__imagem--2 {
+      background-image: url("../img/nat-5.jpg"); }
+    .cartao__imagem--3 {
+      background-image: url("../img/nat-5.jpg"); }
 
 .cabecalho {
   height: 95vh;
