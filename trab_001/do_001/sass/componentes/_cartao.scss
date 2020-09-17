@@ -47,7 +47,7 @@
         height: 23rem;
 
         &--1 {
-            background-image: url('../img/nat-5.jpg');
+            background-image: linear-gradient(to right bottom, $cor-secundaria-clara, $cor-secundaria-escura), url('../img/nat-5.jpg');
         }
 
         &--2 {
