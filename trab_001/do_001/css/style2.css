@@ -271,7 +271,9 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    backface-visibility: hidden; }
+    backface-visibility: hidden;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
     .cartao__lado--frente {
       background-color: #fff; }
     .cartao__lado--atras {
