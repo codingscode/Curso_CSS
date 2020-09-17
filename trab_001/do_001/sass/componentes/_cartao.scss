@@ -16,6 +16,7 @@
         width: 100%;
         backface-visibility: hidden;
         border-radius: 3px;
+        overflow: hidden;
         box-shadow: 0 1.5rem 4rem rgba($cor-preta, .15);
         
 
@@ -45,7 +46,7 @@
     &__imagem {
         background-size: cover;
         height: 23rem;
-        background-blend-mode: screen;
+        background-blend-mode: screen; // tentar outros
 
         &--1 {
             background-image: linear-gradient(to right bottom, $cor-secundaria-clara, $cor-secundaria-escura), url('../img/nat-5.jpg');
