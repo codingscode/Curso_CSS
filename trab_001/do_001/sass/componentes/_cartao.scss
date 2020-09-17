@@ -16,12 +16,16 @@
         backface-visibility: hidden;
 
         &--frente {
-            background-color: orangered;
+            background-color: $cor-branca;
         }
         
         &--atras {
             background-color: green;
             transform: rotateY(180deg);
+
+            &-1 {
+                background-image: linear-gradient(to right bottom, $cor-secundaria-clara, $cor-secundaria-escura);
+            }
         }
     }
 
@@ -30,7 +34,7 @@
     }
 
     &:hover &__lado--atras {
-       transform: rotateY(0);
+       transform: rotateY(360deg);
     }
 }
 
