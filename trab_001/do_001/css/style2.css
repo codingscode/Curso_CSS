@@ -331,7 +331,17 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 50%); }
+    transform: translate(-50%, -50%); }
+  .cartao__preco-caixa {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8rem; }
+  .cartao__preco-somente {
+    font-size: 1.4rem;
+    text-transform: uppercase; }
+  .cartao__preco-valor {
+    font-size: 6rem;
+    font-weight: 100; }
 
 .cabecalho {
   height: 95vh;

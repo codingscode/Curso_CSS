@@ -113,9 +113,25 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 50%);
+        transform: translate(-50%, -50%);
     }
 
+    &__preco-caixa {
+        text-align: center;
+        color: $cor-branca;
+        margin-bottom: 8rem;
+    }
+     
+    &__preco-somente {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+     
+    &__preco-valor {
+        font-size: 6rem;
+        font-weight: 100;
+    }
+    
 
 }
 
