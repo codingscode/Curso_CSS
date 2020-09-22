@@ -75,6 +75,15 @@
         right: 2rem;
     }
 
+    // nao é um modificador
+    &__cabecalho-span {
+   
+        &--1 {
+            background-image: linear-gradient(to right bottom, rgba($cor-secundaria-clara, .85), rgba($cor-secundaria-escura, .85));
+        }
+    }
+
+
 }
 
 // cartao:hover .cartao__lado {}
