@@ -3,12 +3,12 @@
     perspective: 150rem;  /* experimentar valores pequenos */
     -moz-perspective: 150rem;
     position: relative;
-    height: 50rem;
+    height: 52rem;
     
     &__lado {
         /* color: #fff;
         font-size: 2rem; */
-        height: 50rem;
+        height: 52rem;
         transition: all .8s ease;
         position: absolute;
         top: 0;
@@ -89,10 +89,12 @@
     }
 
     &__detalhes {
+        padding: 3rem;
 
         ul {
             list-style: none;
             width: 80%;
+            margin: 0 auto;
          
             li {
                 text-align: center;

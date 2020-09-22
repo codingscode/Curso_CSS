@@ -261,11 +261,11 @@ body {
   /* experimentar valores pequenos */
   -moz-perspective: 150rem;
   position: relative;
-  height: 50rem; }
+  height: 52rem; }
   .cartao__lado {
     /* color: #fff;
         font-size: 2rem; */
-    height: 50rem;
+    height: 52rem;
     transition: all .8s ease;
     position: absolute;
     top: 0;
@@ -315,15 +315,18 @@ body {
     box-decoration-break: clone; }
     .cartao__cabecalho-span--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
-  .cartao__detalhes ul {
-    list-style: none;
-    width: 80%; }
-    .cartao__detalhes ul li {
-      text-align: center;
-      font-size: 1.5rem;
-      padding: 1rem; }
-      .cartao__detalhes ul li:not(:last-child) {
-        border-bottom: 1px solid #eee; }
+  .cartao__detalhes {
+    padding: 3rem; }
+    .cartao__detalhes ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto; }
+      .cartao__detalhes ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem; }
+        .cartao__detalhes ul li:not(:last-child) {
+          border-bottom: 1px solid #eee; }
 
 .cabecalho {
   height: 95vh;
