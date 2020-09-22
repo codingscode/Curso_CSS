@@ -306,9 +306,12 @@ body {
     text-align: right;
     position: absolute;
     top: 12rem;
-    right: 2rem; }
-  .cartao__cabecalho-span--1 {
-    background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+    right: 2rem;
+    width: 75%; }
+  .cartao__cabecalho-span {
+    padding: 1rem 1.5rem; }
+    .cartao__cabecalho-span--1 {
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
 
 .cabecalho {
   height: 95vh;
