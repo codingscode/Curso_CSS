@@ -5,6 +5,7 @@
     background-image: linear-gradient(to right bottom, rgba($cor-primaria-clara, 0.8), rgba($cor-primaria-escura, 0.8)), url('../img/hero.jpg'); /* opacidade 80%, pois uma imagem fica na frente da outra */
     background-size: cover;
     background-position: top;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); 
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); 
     position: relative;
 

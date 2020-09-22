@@ -263,8 +263,8 @@ body {
   position: relative;
   height: 50rem; }
   .cartao__lado {
-    color: #fff;
-    font-size: 2rem;
+    /* color: #fff;
+        font-size: 2rem; */
     height: 50rem;
     transition: all .8s ease;
     position: absolute;
@@ -290,6 +290,7 @@ body {
     background-size: cover;
     height: 23rem;
     background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .cartao__imagem--1 {
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url("../img/nat-5.jpg"); }
@@ -297,6 +298,11 @@ body {
       background-image: url("../img/nat-5.jpg"); }
     .cartao__imagem--3 {
       background-image: url("../img/nat-5.jpg"); }
+  .cartao__cabecalho {
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff; }
 
 .cabecalho {
   height: 95vh;
@@ -304,6 +310,7 @@ body {
   /* opacidade 80%, pois uma imagem fica na frente da outra */
   background-size: cover;
   background-position: top;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative; }
   .cabecalho__logo-box {

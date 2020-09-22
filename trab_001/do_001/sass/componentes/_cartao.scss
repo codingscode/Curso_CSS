@@ -6,8 +6,8 @@
     height: 50rem;
     
     &__lado {
-        color: #fff;
-        font-size: 2rem;
+        /* color: #fff;
+        font-size: 2rem; */
         height: 50rem;
         transition: all .8s ease;
         position: absolute;
@@ -47,8 +47,8 @@
         background-size: cover;
         height: 23rem;
         background-blend-mode: screen; // tentar outros
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-
 
         &--1 {
             background-image: linear-gradient(to right bottom, $cor-secundaria-clara, $cor-secundaria-escura), url('../img/nat-5.jpg');
@@ -62,6 +62,13 @@
             background-image: url('../img/nat-5.jpg');
         }
 
+    }
+
+    &__cabecalho {
+        font-size: 2.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: $cor-branca;
     }
 
 }
