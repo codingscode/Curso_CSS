@@ -309,7 +309,10 @@ body {
     right: 2rem;
     width: 75%; }
   .cartao__cabecalho-span {
-    padding: 1rem 1.5rem; }
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    /* faz funcionar */
+    box-decoration-break: clone; }
     .cartao__cabecalho-span--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
 

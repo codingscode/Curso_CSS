@@ -80,6 +80,8 @@
     // nao é um modificador
     &__cabecalho-span {
         padding: 1rem 1.5rem;
+        -webkit-box-decoration-break: clone; /* faz funcionar */
+        box-decoration-break: clone;
    
         &--1 {
             background-image: linear-gradient(to right bottom, rgba($cor-secundaria-clara, .85), rgba($cor-secundaria-escura, .85));
