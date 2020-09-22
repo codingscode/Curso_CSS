@@ -88,6 +88,24 @@
         }
     }
 
+    &__detalhes {
+
+        ul {
+            list-style: none;
+            width: 80%;
+         
+            li {
+                text-align: center;
+                font-size: 1.5rem;
+                padding: 1rem;
+         
+                &:not(:last-child) {
+                   border-bottom: 1px solid $cor-cinza-clara-2;
+                }
+            }
+        }
+    }
+
 
 }
 
