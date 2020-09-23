@@ -53,14 +53,15 @@
         &--1 {
             background-image: linear-gradient(to right bottom, $cor-secundaria-clara, $cor-secundaria-escura), url('../img/nat-5.jpg');
         }
-
+        
         &--2 {
-            background-image: url('../img/nat-5.jpg');
+            background-image: linear-gradient(to right bottom, $cor-secundaria-clara, $cor-secundaria-escura), url('../img/nat-6.jpg');
+        }
+        
+        &--3 {
+            background-image: linear-gradient(to right bottom, $cor-secundaria-clara, $cor-secundaria-escura), url('../img/nat-7.jpg');
         }
 
-        &--3 {
-            background-image: url('../img/nat-5.jpg');
-        }
 
     }
 
