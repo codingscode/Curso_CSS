@@ -31,6 +31,16 @@
             &-1 {
                 background-image: linear-gradient(to right bottom, $cor-secundaria-clara, $cor-secundaria-escura);
             }
+
+            &-2 {
+                background-image: linear-gradient(to right bottom, $cor-primaria-clara, $cor-primaria-escura);
+            }
+
+            &-3 {
+                background-image: linear-gradient(to right bottom, $cor-terciaria-clara, $cor-terciaria-escura);
+            }
+
+
         }
     }
 
@@ -55,11 +65,11 @@
         }
         
         &--2 {
-            background-image: linear-gradient(to right bottom, $cor-secundaria-clara, $cor-secundaria-escura), url('../img/nat-6.jpg');
+            background-image: linear-gradient(to right bottom, $cor-primaria-clara, $cor-primaria-escura), url('../img/nat-6.jpg');
         }
         
         &--3 {
-            background-image: linear-gradient(to right bottom, $cor-secundaria-clara, $cor-secundaria-escura), url('../img/nat-7.jpg');
+            background-image: linear-gradient(to right bottom, $cor-terciaria-clara, $cor-terciaria-escura), url('../img/nat-7.jpg');
         }
 
 
@@ -87,6 +97,15 @@
         &--1 {
             background-image: linear-gradient(to right bottom, rgba($cor-secundaria-clara, .85), rgba($cor-secundaria-escura, .85));
         }
+
+        &--2 {
+            background-image: linear-gradient(to right bottom, rgba($cor-primaria-clara, .85), rgba($cor-primaria-escura, .85));
+        }
+
+        &--3 {
+            background-image: linear-gradient(to right bottom, rgba($cor-terciaria-clara, .85), rgba($cor-terciaria-escura, .85));
+        }
+
     }
 
     &__detalhes {

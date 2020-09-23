@@ -282,6 +282,10 @@ body {
       transform: rotateY(180deg); }
       .cartao__lado--atras-1 {
         background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+      .cartao__lado--atras-2 {
+        background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+      .cartao__lado--atras-3 {
+        background-image: linear-gradient(to right bottom, #2998ff, #5643f1); }
   .cartao:hover .cartao__lado--frente {
     transform: rotateY(180deg); }
   .cartao:hover .cartao__lado--atras {
@@ -295,9 +299,9 @@ body {
     .cartao__imagem--1 {
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url("../img/nat-5.jpg"); }
     .cartao__imagem--2 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url("../img/nat-6.jpg"); }
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("../img/nat-6.jpg"); }
     .cartao__imagem--3 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url("../img/nat-7.jpg"); }
+      background-image: linear-gradient(to right bottom, #2998ff, #5643f1), url("../img/nat-7.jpg"); }
   .cartao__cabecalho {
     font-size: 2.8rem;
     font-weight: 300;
@@ -315,6 +319,10 @@ body {
     box-decoration-break: clone; }
     .cartao__cabecalho-span--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+    .cartao__cabecalho-span--2 {
+      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
+    .cartao__cabecalho-span--3 {
+      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 241, 0.85)); }
   .cartao__detalhes {
     padding: 3rem; }
     .cartao__detalhes ul {
