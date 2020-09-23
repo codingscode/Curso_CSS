@@ -130,6 +130,9 @@ body {
 .u-margin-bottom-pequeno {
   margin-bottom: 1.5rem; }
 
+.u-margin-top-grande {
+  margin-top: 8rem; }
+
 .secao-sobre {
   background-color: #f7f7f7;
   padding: 25rem 0;
@@ -161,10 +164,16 @@ body {
   font-size: 1.6rem; }
 
 .botao--branco {
-  background-color: white;
+  background-color: #fff;
   color: #777; }
   .botao--branco::after {
     background-color: #fff; }
+
+.botao--verde {
+  background-color: #55c57a;
+  color: #fff; }
+  .botao--verde::after {
+    background-color: #55c57a; }
 
 .botao:hover {
   transform: translateY(-0.3rem);

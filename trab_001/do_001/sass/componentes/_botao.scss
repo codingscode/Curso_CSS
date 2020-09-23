@@ -13,11 +13,20 @@
     }
     
     &--branco {
-        background-color: white;
+        background-color: $cor-branca;
         color: $cor-cinza-escura;
 
         &::after {
             background-color: $cor-branca;
+        }
+    }
+
+    &--verde {
+        background-color: $cor-primaria;
+        color: $cor-branca;
+
+        &::after {
+            background-color: $cor-primaria;
         }
     }
     
