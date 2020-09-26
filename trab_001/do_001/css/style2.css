@@ -419,7 +419,8 @@ body {
     opacity: 1;
     transform: translate(-50%, -50%); }
   .depoimento:hover .depoimento__imagem {
-    transform: translateX(-4rem) scale(1); }
+    transform: translateX(-4rem) scale(1);
+    filter: blur(3px) brightness(80%); }
 
 .cabecalho {
   height: 95vh;
