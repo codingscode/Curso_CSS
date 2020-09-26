@@ -389,7 +389,8 @@ body {
     shape-outside: circle(50% at 50% 50%);
     /* só funciona junto com width, height, float */
     -webkit-clip-path: circle(50% at 50% 50%);
-    clip-path: circle(50% at 50% 50%); }
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem); }
 
 .cabecalho {
   height: 95vh;
