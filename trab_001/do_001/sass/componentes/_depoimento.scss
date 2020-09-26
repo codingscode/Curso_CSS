@@ -12,9 +12,12 @@
         height: 15rem;
         float: left;
         background-color: orangered;
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        shape-outside: circle(50% at 50% 50%); /* só funciona junto com width, height, float */
+
     }
 
-    
+
 
 }
 
