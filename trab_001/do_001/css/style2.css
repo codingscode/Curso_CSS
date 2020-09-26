@@ -379,12 +379,12 @@ body {
   background-color: #fff;
   border-radius: 3px;
   padding: 6rem;
+  padding-left: 9rem;
   font-size: 1.6rem; }
   .depoimento__forma {
     width: 15rem;
     height: 15rem;
     float: left;
-    background-color: orangered;
     -webkit-shape-outside: circle(50% at 50% 50%);
     shape-outside: circle(50% at 50% 50%);
     /* só funciona junto com width, height, float */
