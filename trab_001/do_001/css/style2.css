@@ -394,11 +394,21 @@ body {
     /* só funciona junto com width, height, float */
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
-    transform: translateX(-3rem) skewX(12deg); }
+    transform: translateX(-3rem) skewX(12deg);
+    position: relative; }
   .depoimento__imagem {
     height: 100%; }
   .depoimento__texto {
     transform: skewX(12deg); }
+  .depoimento__legenda {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-align: center; }
 
 .cabecalho {
   height: 95vh;
