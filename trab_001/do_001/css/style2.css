@@ -377,7 +377,13 @@ body {
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   background-color: #fff;
   border-radius: 3px;
-  padding: 6rem; }
+  padding: 6rem;
+  font-size: 1.6rem; }
+  .depoimento__forma {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    background-color: orangered; }
 
 .cabecalho {
   height: 95vh;

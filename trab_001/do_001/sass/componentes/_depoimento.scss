@@ -5,6 +5,17 @@
     background-color: $cor-branca;
     border-radius: 3px;
     padding: 6rem;
+    font-size: $font-size-padrao;
+
+    &__forma {
+        width: 15rem;
+        height: 15rem;
+        float: left;
+        background-color: orangered;
+    }
+
+    
+
 }
 
 
