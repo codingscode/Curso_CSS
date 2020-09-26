@@ -9,6 +9,10 @@
     font-size: $font-size-padrao;
     transform: skewX(-12deg);
 
+    & > * {
+        transform: skewX(12deg);
+    }
+
     &__forma {
         width: 15rem;
         height: 15rem;
@@ -24,6 +28,10 @@
 
     &__imagem {
         height: 100%;
+    }
+
+    &__texto {
+
     }
 
 
