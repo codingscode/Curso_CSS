@@ -381,9 +381,10 @@ body {
   padding: 6rem;
   padding-left: 9rem;
   font-size: 1.6rem;
-  transform: skewX(-12deg); }
-  .depoimento > * {
-    transform: skewX(12deg); }
+  transform: skewX(-12deg);
+  /* & > * {
+        transform: skewX(12deg);
+    } */ }
   .depoimento__forma {
     width: 15rem;
     height: 15rem;
@@ -393,9 +394,11 @@ body {
     /* só funciona junto com width, height, float */
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
-    transform: translateX(-3rem); }
+    transform: translateX(-3rem) skewX(12deg); }
   .depoimento__imagem {
     height: 100%; }
+  .depoimento__texto {
+    transform: skewX(12deg); }
 
 .cabecalho {
   height: 95vh;

@@ -9,9 +9,9 @@
     font-size: $font-size-padrao;
     transform: skewX(-12deg);
 
-    & > * {
+    /* & > * {
         transform: skewX(12deg);
-    }
+    } */
 
     &__forma {
         width: 15rem;
@@ -22,7 +22,7 @@
 
         -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
-        transform: translateX(-3rem);
+        transform: translateX(-3rem) skewX(12deg);;
 
     }
 
@@ -31,7 +31,7 @@
     }
 
     &__texto {
-
+        transform: skewX(12deg);
     }
 
 
