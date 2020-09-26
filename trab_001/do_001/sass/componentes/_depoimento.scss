@@ -28,6 +28,8 @@
 
     &__imagem {
         height: 100%;
+        transform: translateX(-4rem) scale(1.4);
+        backface-visibility: hidden;
     }
 
     &__texto {
@@ -45,11 +47,16 @@
         text-align: center;
         opacity: 0;
         transition: all .5s;
+        backface-visibility: hidden;
     }
 
     &:hover &__legenda {
         opacity: 1;
         transform: translate(-50%, -50%);
+    }
+
+    &:hover &__imagem {
+        transform: translateX(-4rem) scale(1);
     }
 
 
