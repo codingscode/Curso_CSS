@@ -380,7 +380,8 @@ body {
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  transform: skewX(-12deg); }
   .depoimento__forma {
     width: 15rem;
     height: 15rem;
