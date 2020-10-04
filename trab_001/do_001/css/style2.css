@@ -216,7 +216,8 @@ body {
   display: inline-block;
   text-decoration: none;
   border-bottom: 1px solid #55c57a;
-  transition: all .2s; }
+  transition: all .2s;
+  padding: 3px; }
 
 .botao-texto:hover {
   background-color: #55c57a;
