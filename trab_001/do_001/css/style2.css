@@ -173,6 +173,9 @@ body {
   border-radius: 4px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
   height: 50rem; }
+  .agendamento__formulario {
+    width: 50%;
+    padding: 6rem; }
 
 .botao:link, .botao:visited {
   text-transform: uppercase;
