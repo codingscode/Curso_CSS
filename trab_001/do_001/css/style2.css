@@ -170,6 +170,8 @@ body {
   background-image: url(../img/nat-10.jpg);
   background-size: 100%;
   /* cover */
+  border-radius: 4px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
   height: 50rem; }
 
 .botao:link, .botao:visited {
