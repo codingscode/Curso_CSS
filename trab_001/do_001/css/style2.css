@@ -162,6 +162,16 @@ body {
   padding: 15rem 0;
   /* background-color: $cor-cinza-clara-1; */ }
 
+.secao-agendamento {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+
+.agendamento {
+  background-image: url(../img/nat-10.jpg);
+  background-size: 100%;
+  /* cover */
+  height: 50rem; }
+
 .botao:link, .botao:visited {
   text-transform: uppercase;
   text-decoration: none;

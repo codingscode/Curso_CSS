@@ -34,6 +34,17 @@
     
 }
 
+.secao-agendamento {
+    padding: 15rem 0;
+    background-image: linear-gradient(to right bottom, $cor-primaria-clara, $cor-primaria-escura);
+}
 
+.agendamento {
+    background-image: url(../img/nat-10.jpg);
+    background-size: 100%; /* cover */
+
+    height: 50rem;
+    
+ }
 
 
