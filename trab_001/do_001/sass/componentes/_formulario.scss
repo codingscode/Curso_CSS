@@ -10,6 +10,7 @@
        border-radius: 2px;
        background-color: rgba($cor-branca, .5);
        border: none;
+       border-bottom: 3px solid $cor-primaria;  /* evita variação de pixel da tela mexendo */
     }
 
     &__entrada:focus {
