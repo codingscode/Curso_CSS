@@ -6,6 +6,7 @@
     &__entrada {
        font-size: 1.5rem;
        font-family: inherit;
+       color: inherit;
        padding: 1.5rem 2rem;
        border-radius: 2px;
        background-color: rgba($cor-branca, .5);
@@ -20,8 +21,12 @@
            border-bottom: 3px solid $cor-primaria;
        }
 
+       &:focus:invalid {
+           border-bottom: $cor-secundaria-escura;
+       }
+
        &::-webkit-input-placeholder {
-          color: $cor-cinza-escura2;
+           color: $cor-cinza-escura2;
        }
 
     }
