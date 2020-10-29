@@ -22,7 +22,7 @@
        }
 
        &:focus:invalid {
-           border-bottom: $cor-secundaria-escura;
+           border-bottom: 3px solid $cor-secundaria-escura;
        }
 
        &::-webkit-input-placeholder {

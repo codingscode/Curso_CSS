@@ -472,7 +472,7 @@ body {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
     border-bottom: 3px solid #55c57a; }
   .formulario__entrada:focus:invalid {
-    border-bottom: #ff7730; }
+    border-bottom: 3px solid #ff7730; }
   .formulario__entrada::-webkit-input-placeholder {
     color: #999; }
 
