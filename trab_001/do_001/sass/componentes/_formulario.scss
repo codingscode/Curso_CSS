@@ -1,14 +1,21 @@
 .formulario {
-    &__grupo {
- 
+    &__grupo:not(:last-child) {
+       margin-bottom: 2rem;
     }
  
     &__entrada {
        font-size: 1.5rem;
+       font-family: inherit;
        padding: 1.5rem 2rem;
        border-radius: 2px;
        background-color: rgba($cor-branca, .5);
        border: none;
+    }
+
+    &__entrada:focus {
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba($cor-preta, .1);
+        border-bottom: 3px solid $cor-primaria;
     }
  
     &__rotulo {
