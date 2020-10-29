@@ -38,6 +38,12 @@
         margin-left: 2rem;
         margin-top: .7rem;
         display: block;
- 
+        transition: all .4s;
     }
+
+    &__entrada:placeholder-shown + &__rotulo {  /* siblings, label deve vir depois de input */
+        opacity: 0;
+        visibility: hidden;
+    }
+
 }
