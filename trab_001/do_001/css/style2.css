@@ -463,8 +463,10 @@ body {
   border-radius: 2px;
   background-color: rgba(255, 255, 255, 0.5);
   border: none;
-  border-bottom: 3px solid #55c57a;
-  /* evita variação de pixel da tela mexendo */ }
+  border-bottom: 3px solid transparent;
+  /* evita variação de pixel da tela mexendo */
+  width: 100%;
+  display: block; }
 
 .formulario__entrada:focus {
   outline: none;
