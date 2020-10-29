@@ -42,8 +42,9 @@
     }
 
     &__entrada:placeholder-shown + &__rotulo {  /* siblings, label deve vir depois de input */
-        opacity: 0;
-        visibility: hidden;
+        /* opacity: 0;
+        visibility: hidden; */
+        transform: translateY(-4rem);
     }
 
 }
