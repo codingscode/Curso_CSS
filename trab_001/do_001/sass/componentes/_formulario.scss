@@ -10,16 +10,22 @@
        border-radius: 2px;
        background-color: rgba($cor-branca, .5);
        border: none;
-       border-bottom: 3px solid transparent;  /* evita variação de pixel da tela mexendo */
-       width: 100%;
+       border-bottom: 3px solid transparent;  
+       width: 90%;
        display: block;
+
+       &:focus {
+           outline: none;
+           box-shadow: 0 1rem 2rem rgba($cor-preta, .1);
+           border-bottom: 3px solid $cor-primaria;
+       }
+
+       &::-webkit-input-placeholder {
+          color: $cor-cinza-escura2;
+       }
+
     }
 
-    &__entrada:focus {
-        outline: none;
-        box-shadow: 0 1rem 2rem rgba($cor-preta, .1);
-        border-bottom: 3px solid $cor-primaria;
-    }
  
     &__rotulo {
  

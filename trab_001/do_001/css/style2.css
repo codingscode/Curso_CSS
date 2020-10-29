@@ -464,14 +464,14 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   border: none;
   border-bottom: 3px solid transparent;
-  /* evita variação de pixel da tela mexendo */
-  width: 100%;
+  width: 90%;
   display: block; }
-
-.formulario__entrada:focus {
-  outline: none;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-  border-bottom: 3px solid #55c57a; }
+  .formulario__entrada:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #55c57a; }
+  .formulario__entrada::-webkit-input-placeholder {
+    color: #999; }
 
 .cabecalho {
   height: 95vh;
