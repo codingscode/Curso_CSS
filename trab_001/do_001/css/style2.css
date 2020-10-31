@@ -521,7 +521,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #55c57a;
-    opacity: 0; }
+    opacity: 0;
+    transition: opacity .3s; }
+
+.formulario__radio-entrada:checked ~ .formulario__radio-rotulo .formulario__radio-botao::after {
+  opacity: 1; }
 
 .cabecalho {
   height: 95vh;

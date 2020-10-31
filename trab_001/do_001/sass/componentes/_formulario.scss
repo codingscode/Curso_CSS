@@ -82,10 +82,14 @@
             transform: translate(-50%, -50%);
             background-color: $cor-primaria;
             opacity: 0;
+            transition: opacity .3s;
         }
 
         
      }
 
+     &__radio-entrada:checked ~ &__radio-rotulo &__radio-botao::after {
+        opacity: 1;
+     }
 
 }
