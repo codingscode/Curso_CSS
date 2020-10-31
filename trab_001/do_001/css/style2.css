@@ -499,7 +499,7 @@ body {
   font-size: 1.6rem;
   cursor: pointer;
   position: relative;
-  padding: 5rem; }
+  padding-left: 4.5rem; }
 
 .formulario__radio-botao {
   height: 3rem;
@@ -509,7 +509,18 @@ body {
   display: inline-block;
   position: absolute;
   left: 0;
-  top: -.1rem; }
+  top: 0; }
+  .formulario__radio-botao::after {
+    content: "";
+    display: block;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #55c57a; }
 
 .cabecalho {
   height: 95vh;

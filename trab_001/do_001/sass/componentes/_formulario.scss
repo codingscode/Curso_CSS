@@ -57,7 +57,7 @@
         font-size: $font-size-padrao;
         cursor: pointer;
         position: relative;
-        padding: 5rem;
+        padding-left: 4.5rem;
     }
 
     &__radio-botao {
@@ -68,13 +68,23 @@
         display: inline-block;
         position: absolute;
         left: 0;
-        top: -.1rem;
+        top: 0;
      
         &::after {
-     
-     
+            content: "";
+            display: block;
+            height: 1rem;
+            width: 1rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: $cor-primaria;
+            
         }
-     
+
+        
      }
 
 
