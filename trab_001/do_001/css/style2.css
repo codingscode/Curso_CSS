@@ -503,7 +503,8 @@ body {
   height: 3rem;
   width: 3rem;
   border: 5px solid #55c57a;
-  border-radius: 50%; }
+  border-radius: 50%;
+  display: inline-block; }
 
 .cabecalho {
   height: 95vh;
