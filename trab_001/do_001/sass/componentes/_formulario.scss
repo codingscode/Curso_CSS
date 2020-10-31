@@ -53,6 +53,10 @@
         display: inline-block;
     }
 
+    &__radio-entrada {
+        display: none;
+    }
+
     &__radio-rotulo {
         font-size: $font-size-padrao;
         cursor: pointer;

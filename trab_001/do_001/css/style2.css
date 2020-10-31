@@ -495,6 +495,9 @@ body {
   width: 49%;
   display: inline-block; }
 
+.formulario__radio-entrada {
+  display: none; }
+
 .formulario__radio-rotulo {
   font-size: 1.6rem;
   cursor: pointer;
