@@ -491,6 +491,14 @@ body {
   visibility: hidden;
   transform: translateY(-4rem); }
 
+.formulario__radio-grupo {
+  width: 50%;
+  display: inline-block; }
+
+.formulario__radio-rotulo {
+  font-size: 1.6rem;
+  cursor: pointer; }
+
 .cabecalho {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/hero.jpg");

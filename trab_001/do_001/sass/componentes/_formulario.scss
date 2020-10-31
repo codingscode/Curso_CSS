@@ -48,4 +48,15 @@
         transform: translateY(-4rem);
     }
 
+    &__radio-grupo {
+        width: 50%;
+        display: inline-block;
+    }
+
+    &__radio-rotulo {
+        font-size: $font-size-padrao;
+        cursor: pointer;
+    }
+
+
 }
