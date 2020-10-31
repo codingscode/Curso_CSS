@@ -492,12 +492,18 @@ body {
   transform: translateY(-4rem); }
 
 .formulario__radio-grupo {
-  width: 50%;
+  width: 49%;
   display: inline-block; }
 
 .formulario__radio-rotulo {
   font-size: 1.6rem;
   cursor: pointer; }
+
+.formulario__radio-botao {
+  height: 3rem;
+  width: 3rem;
+  border: 5px solid #55c57a;
+  border-radius: 50%; }
 
 .cabecalho {
   height: 95vh;
