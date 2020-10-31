@@ -498,7 +498,8 @@ body {
 .formulario__radio-rotulo {
   font-size: 1.6rem;
   cursor: pointer;
-  position: relative; }
+  position: relative;
+  padding: 5rem; }
 
 .formulario__radio-botao {
   height: 3rem;
@@ -508,7 +509,7 @@ body {
   display: inline-block;
   position: absolute;
   left: 0;
-  top: 0; }
+  top: -.1rem; }
 
 .cabecalho {
   height: 95vh;

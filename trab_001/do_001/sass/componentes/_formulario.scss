@@ -57,6 +57,7 @@
         font-size: $font-size-padrao;
         cursor: pointer;
         position: relative;
+        padding: 5rem;
     }
 
     &__radio-botao {
@@ -67,7 +68,7 @@
         display: inline-block;
         position: absolute;
         left: 0;
-        top: 0;
+        top: -.1rem;
      
         &::after {
      
