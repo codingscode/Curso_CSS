@@ -497,14 +497,18 @@ body {
 
 .formulario__radio-rotulo {
   font-size: 1.6rem;
-  cursor: pointer; }
+  cursor: pointer;
+  position: relative; }
 
 .formulario__radio-botao {
   height: 3rem;
   width: 3rem;
   border: 5px solid #55c57a;
   border-radius: 50%;
-  display: inline-block; }
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0; }
 
 .cabecalho {
   height: 95vh;

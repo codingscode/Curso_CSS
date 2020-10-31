@@ -56,6 +56,7 @@
     &__radio-rotulo {
         font-size: $font-size-padrao;
         cursor: pointer;
+        position: relative;
     }
 
     &__radio-botao {
@@ -64,6 +65,9 @@
         border: 5px solid $cor-primaria;
         border-radius: 50%;
         display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 0;
      
         &::after {
      
