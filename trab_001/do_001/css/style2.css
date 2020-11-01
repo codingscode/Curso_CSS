@@ -177,7 +177,7 @@ body {
     width: 50%;
     padding: 6rem; }
 
-.botao:link, .botao:visited {
+.botao, .botao:link, .botao:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -185,7 +185,9 @@ body {
   border-radius: 10rem;
   transition: all .5s;
   position: relative;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer; }
 
 .botao--branco {
   background-color: #fff;

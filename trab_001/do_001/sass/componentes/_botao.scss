@@ -1,7 +1,7 @@
 
 
 .botao {
-    &:link, &:visited {
+     &, &:link, &:visited {
         text-transform: uppercase;
         text-decoration: none;
         padding: 1.5rem 4rem;
@@ -10,6 +10,10 @@
         transition: all .5s;
         position: relative;
         font-size: $font-size-padrao;
+
+        // mudança para o elemento botao
+        border: none;
+        cursor: pointer;
     }
     
     &--branco {
