@@ -208,7 +208,8 @@ body {
     transform: scaleX(1.4) scaleY(1.2);
     opacity: 0; }
 
-.botao:active {
+.botao:active, .botao:focus {
+  outline: none;
   transform: translateY(-0.1rem);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
 
