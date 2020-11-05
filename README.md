@@ -4,7 +4,7 @@
 
 Digitar no terminal da pasta npm run compile:sass
 
-Abrir o arquivo index.html preferencial com live server. 
+Abrir o arquivo index.html preferencialmente com live server. 
 
 
 
