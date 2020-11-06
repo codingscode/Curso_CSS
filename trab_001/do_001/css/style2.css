@@ -597,3 +597,17 @@ body {
   .rodape__logo {
     width: 15rem;
     height: auto; }
+  .rodape__lista {
+    list-style: none; }
+  .rodape__item {
+    display: inline-block; }
+    .rodape__item:not(:last-child) {
+      margin-right: 1.5rem; }
+  .rodape__link:link, .rodape__link:visited {
+    color: #f7f7f7;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block; }
+  .rodape__link:hover, .rodape__link:active {
+    color: #55c57a;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }

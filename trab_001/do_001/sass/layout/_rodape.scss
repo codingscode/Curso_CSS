@@ -20,16 +20,30 @@
  
  
     &__lista {
- 
+       list-style: none;
     }
  
  
     &__item {
- 
+       display: inline-block;
+
+       &:not(:last-child) {
+          margin-right: 1.5rem;
+       }
     }
  
  
     &__link {
- 
+       &:link, &:visited {
+          color: $cor-cinza-clara-1;
+          text-decoration: none;
+          text-transform: uppercase;
+          display: inline-block;
+       }
+
+       &:hover, &:active {
+          color: $cor-primaria;
+          box-shadow: 0 1rem 2rem rgba($cor-preta, .4);
+       }
     }
 }
