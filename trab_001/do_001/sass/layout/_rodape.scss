@@ -2,6 +2,7 @@
     background-color: $cor-cinza-escura3;
     padding: 10rem 0;
     font-size: 1.4rem;
+    color: $cor-cinza-clara-1;
  
     &__logo-caixa {
        text-align: center;
@@ -15,8 +16,9 @@
  
  
     &__navegacao {
-       border-top: 1px solid $cor-cinza-clara-2;
+       border-top: 1px solid $cor-cinza-escura;
        padding-top: 2rem;
+       display: inline-block;
     }
   
     &__lista {
@@ -49,4 +51,11 @@
           transform: rotate(5deg) scale(1.2);
        }
     }
+
+    &__copyright {
+        border-top: 1px solid $cor-cinza-escura;
+        padding-top: 2rem;
+        
+    }
+
 }

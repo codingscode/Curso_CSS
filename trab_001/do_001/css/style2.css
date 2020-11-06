@@ -590,7 +590,8 @@ body {
 .rodape {
   background-color: #333;
   padding: 10rem 0;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  color: #f7f7f7; }
   .rodape__logo-caixa {
     text-align: center;
     margin-bottom: 8rem; }
@@ -598,8 +599,9 @@ body {
     width: 15rem;
     height: auto; }
   .rodape__navegacao {
-    border-top: 1px solid #eee;
-    padding-top: 2rem; }
+    border-top: 1px solid #777;
+    padding-top: 2rem;
+    display: inline-block; }
   .rodape__lista {
     list-style: none; }
   .rodape__item {
@@ -617,3 +619,6 @@ body {
     color: #55c57a;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
     transform: rotate(5deg) scale(1.2); }
+  .rodape__copyright {
+    border-top: 1px solid #777;
+    padding-top: 2rem; }
