@@ -621,4 +621,6 @@ body {
     transform: rotate(5deg) scale(1.2); }
   .rodape__copyright {
     border-top: 1px solid #777;
-    padding-top: 2rem; }
+    padding-top: 2rem;
+    width: 80%;
+    /* float: right; */ }
