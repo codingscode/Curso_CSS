@@ -44,6 +44,7 @@
        &:hover, &:active {
           color: $cor-primaria;
           box-shadow: 0 1rem 2rem rgba($cor-preta, .4);
+          transform: rotate(5deg) scale(1.3);
        }
     }
 }
