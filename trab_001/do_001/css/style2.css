@@ -591,6 +591,9 @@ body {
   background-color: #333;
   padding: 10rem 0;
   font-size: 1.4rem; }
+  .rodape__logo-caixa {
+    text-align: center;
+    margin-bottom: 8rem; }
   .rodape__logo {
     width: 15rem;
     height: auto; }
