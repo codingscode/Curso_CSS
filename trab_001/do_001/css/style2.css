@@ -624,3 +624,8 @@ body {
     padding-top: 2rem;
     width: 80%;
     float: right; }
+
+.navegacao__fundo {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%; }
