@@ -628,4 +628,8 @@ body {
 .navegacao__fundo {
   height: 6rem;
   width: 6rem;
-  border-radius: 50%; }
+  border-radius: 50%;
+  position: fixed;
+  top: 6.5rem;
+  right: 6.5;
+  background-image: radial-gradient(#7ed56f, #28b485); }

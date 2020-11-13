@@ -13,6 +13,11 @@
        height: 6rem;
        width: 6rem;
        border-radius: 50%;
+       position: fixed;
+       top: 6.5rem;
+       right: 6.5;
+       background-image: radial-gradient($cor-primaria-clara, $cor-primaria-escura);
+
     }
 
     &__nav {
