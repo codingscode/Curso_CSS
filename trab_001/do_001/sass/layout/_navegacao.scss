@@ -25,6 +25,8 @@
        right: 6.5rem;
        background-image: radial-gradient($cor-primaria-clara, $cor-primaria-escura);
        z-index: 100;
+
+       transform: scale(80);
     }
 
     &__nav {

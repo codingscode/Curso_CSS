@@ -646,7 +646,8 @@ body {
   top: 6.5rem;
   right: 6.5rem;
   background-image: radial-gradient(#7ed56f, #28b485);
-  z-index: 100; }
+  z-index: 100;
+  transform: scale(80); }
 
 .navegacao__nav {
   height: 100vh;
