@@ -669,6 +669,7 @@ body {
   margin: 1rem; }
 
 .navegacao__link:link, .navegacao__link:visited {
+  display: inline-block;
   font-size: 3rem;
   font-weight: 300;
   padding: 0.5rem 2rem;
@@ -676,8 +677,10 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
-  background-size: 210%;
+  background-size: 220%;
   transition: all 0.4s; }
 
 .navegacao__link:hover, .navegacao__link:active {
-  background-position: 100%; }
+  background-position: 100%;
+  color: #55c57a;
+  transform: translateX(1rem); }
