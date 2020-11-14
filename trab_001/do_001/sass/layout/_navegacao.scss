@@ -52,7 +52,12 @@
     }
 
     &__link {
-
+        font-size: 3rem;
+        font-weight: 300;
+        color: $cor-branca;
+        text-decoration: none;
+        text-transform: uppercase;
+        
     }
 
 }

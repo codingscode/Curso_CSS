@@ -664,3 +664,10 @@ body {
   transform: translate(-50%, -50%);
   list-style: none;
   text-align: center; }
+
+.navegacao__link {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase; }
