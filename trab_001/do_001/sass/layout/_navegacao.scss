@@ -52,12 +52,18 @@
     }
 
     &__link {
-        font-size: 3rem;
-        font-weight: 300;
-        color: $cor-branca;
-        text-decoration: none;
-        text-transform: uppercase;
-        background-image: linear-gradient(120deg, orangered 0%, orangered 50%, $cor-branca 50%);
+        &:link, &:visited {
+            font-size: 3rem;
+            font-weight: 300;
+            padding: 0.5rem 2rem;
+            color: $cor-branca;
+            text-decoration: none;
+            text-transform: uppercase;
+            background-image: linear-gradient(120deg, orangered 0%, orangered 50%, $cor-branca 50%);
+            background-size: 100%;
+        }
+
+
     }
 
 }
