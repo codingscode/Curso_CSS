@@ -6,7 +6,13 @@
     }
 
     &__botao {
-
+        background-color: $cor-branca;
+        height: 7rem;
+        width: 7rem;
+        position: fixed;
+        top: 6rem;
+        right: 6rem;
+        border-radius: 50%;
     }
 
     &__fundo {
@@ -15,9 +21,9 @@
        border-radius: 50%;
        position: fixed;
        top: 6.5rem;
-       right: 6.5;
+       right: 6.5rem;
        background-image: radial-gradient($cor-primaria-clara, $cor-primaria-escura);
-
+       z-index: 1000;
     }
 
     &__nav {
