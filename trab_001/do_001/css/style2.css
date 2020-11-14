@@ -632,7 +632,8 @@ body {
   position: fixed;
   top: 6rem;
   right: 6rem;
-  border-radius: 50%; }
+  border-radius: 50%;
+  z-index: 200; }
 
 .navegacao__fundo {
   height: 6rem;
@@ -642,4 +643,4 @@ body {
   top: 6.5rem;
   right: 6.5rem;
   background-image: radial-gradient(#7ed56f, #28b485);
-  z-index: 1000; }
+  z-index: 100; }

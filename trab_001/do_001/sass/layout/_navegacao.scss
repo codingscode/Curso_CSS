@@ -13,6 +13,7 @@
         top: 6rem;
         right: 6rem;
         border-radius: 50%;
+        z-index: 200;
     }
 
     &__fundo {
@@ -23,7 +24,7 @@
        top: 6.5rem;
        right: 6.5rem;
        background-image: radial-gradient($cor-primaria-clara, $cor-primaria-escura);
-       z-index: 1000;
+       z-index: 100;
     }
 
     &__nav {
