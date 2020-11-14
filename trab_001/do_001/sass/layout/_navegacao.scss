@@ -2,7 +2,7 @@
 .navegacao {
 
     &__checkbox {
-
+        display: none;
     }
 
     &__botao {
@@ -28,7 +28,12 @@
     }
 
     &__nav {
-
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 150;
     }
 
     &__lista {
