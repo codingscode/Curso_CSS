@@ -655,8 +655,9 @@ body {
   height: 100vh;
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: 150;
+  background-color: orangered;
   opacity: 0;
   width: 0;
   transition: all .8s; }
@@ -667,7 +668,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   list-style: none;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
 
 .navegacao__item {
   margin: 1rem; }
