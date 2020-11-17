@@ -80,6 +80,14 @@
         }
     }
 
+
+    &__checkbox:checked ~ &__fundo {
+        transform: scale(80);
+    }
+
+
+
+
 }
 
 

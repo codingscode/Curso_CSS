@@ -689,3 +689,6 @@ body {
   background-position: 100%;
   color: #55c57a;
   transform: translateX(1rem); }
+
+.navegacao__checkbox:checked ~ .navegacao__fundo {
+  transform: scale(80); }
