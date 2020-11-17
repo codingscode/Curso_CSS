@@ -656,7 +656,8 @@ body {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 150; }
+  z-index: 150;
+  opacity: 0; }
 
 .navegacao__lista {
   position: absolute;
