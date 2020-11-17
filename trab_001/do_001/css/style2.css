@@ -692,3 +692,7 @@ body {
 
 .navegacao__checkbox:checked ~ .navegacao__fundo {
   transform: scale(80); }
+
+.navegacao__checkbox:checked ~ .navegacao__nav {
+  opacity: 1;
+  width: 100%; }
