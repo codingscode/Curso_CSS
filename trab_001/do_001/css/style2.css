@@ -659,7 +659,7 @@ body {
   z-index: 150;
   opacity: 0;
   width: 0;
-  transition: opacity .8s; }
+  transition: all .8s; }
 
 .navegacao__lista {
   position: absolute;
