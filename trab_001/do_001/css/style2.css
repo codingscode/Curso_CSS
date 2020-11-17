@@ -648,6 +648,7 @@ body {
   right: 6.5rem;
   background-image: radial-gradient(#7ed56f, #28b485);
   z-index: 100;
+  transition: transform .8s;
   /* transform: scale(80); */ }
 
 .navegacao__nav {
@@ -657,7 +658,8 @@ body {
   right: 0;
   z-index: 150;
   opacity: 0;
-  width: 0; }
+  width: 0;
+  transition: opacity .8s; }
 
 .navegacao__lista {
   position: absolute;
