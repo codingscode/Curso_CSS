@@ -32,13 +32,13 @@
 
     &__nav {
         height: 100vh;
-        width: 100%;
         position: fixed;
         top: 0;
         right: 0;
         z-index: 150;
 
         opacity: 0;
+        width: 0;
     }
 
     &__lista {
