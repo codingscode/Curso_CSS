@@ -14,6 +14,7 @@
         right: 6rem;
         border-radius: 50%;
         z-index: 200;
+        box-shadow: 0 1rem 3rem rgba($cor-preta, .1);
     }
 
     &__fundo {
@@ -26,7 +27,7 @@
        background-image: radial-gradient($cor-primaria-clara, $cor-primaria-escura);
        z-index: 100;
 
-       transform: scale(80);
+       /* transform: scale(80); */
     }
 
     &__nav {
