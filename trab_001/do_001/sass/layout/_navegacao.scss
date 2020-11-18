@@ -26,7 +26,7 @@
        right: 6.5rem;
        background-image: radial-gradient($cor-primaria-clara, $cor-primaria-escura);
        z-index: 100;
-       transition: transform .8s;
+       transition: transform .8s cubic-bezier(0.34, 1.56, 0.64, 1);
 
        /* transform: scale(80); */
     }
@@ -37,11 +37,10 @@
         top: 0;
         left: 0;
         z-index: 150;
-        background-color: orangered;
-
+        
         opacity: 0;
         width: 0;
-        transition: all .8s;
+        transition: all .8s /* cubic-bezier(0.68, -0.55, 0.265, 1.55) */;
     }
 
     &__lista {
