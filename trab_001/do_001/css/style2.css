@@ -714,9 +714,10 @@ body {
     content: "";
     position: absolute;
     left: 0;
-    transition: all 0.2s; }
+    transition: all 2s; }
   .navegacao__icone::before {
-    top: -0.8rem; }
+    top: -0.8rem;
+    transform-origin: right; }
   .navegacao__icone::after {
     top: 0.8rem; }
 
