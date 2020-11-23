@@ -98,6 +98,7 @@
     // icone
     &__icone {
         position: relative;
+        margin-top: 3.5rem;
 
         &, &::before, &::after {
             width: 3rem;
@@ -113,11 +114,11 @@
         }    
 
         &::before {
-            top: -1rem;
+            top: -0.8rem;
         }
          
         &::after {
-            top: 1rem;
+            top: 0.8rem;
         }
 
     

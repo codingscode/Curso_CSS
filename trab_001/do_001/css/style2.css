@@ -702,7 +702,8 @@ body {
   width: 100%; }
 
 .navegacao__icone {
-  position: relative; }
+  position: relative;
+  margin-top: 3.5rem; }
   .navegacao__icone, .navegacao__icone::before, .navegacao__icone::after {
     width: 3rem;
     height: 2px;
@@ -713,6 +714,6 @@ body {
     position: absolute;
     left: 0; }
   .navegacao__icone::before {
-    top: -1rem; }
+    top: -0.8rem; }
   .navegacao__icone::after {
-    top: 1rem; }
+    top: 0.8rem; }
