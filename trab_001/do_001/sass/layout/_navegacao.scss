@@ -16,6 +16,7 @@
         z-index: 200;
         box-shadow: 0 1rem 3rem rgba($cor-preta, .1);
         text-align: center;
+        cursor: pointer;
     }
 
     &__fundo {
@@ -111,6 +112,7 @@
             content: "";
             position: absolute;
             left: 0;
+            transition: all 0.2s;
         }    
 
         &::before {
@@ -123,6 +125,15 @@
 
     
     }
+
+    &__botao:hover &__icone::before {
+        top: -1rem;
+    }
+     
+    &__botao:hover &__icone::after {
+        top: 1rem;
+    }
+
 
 
 }

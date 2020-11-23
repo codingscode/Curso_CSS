@@ -638,7 +638,8 @@ body {
   border-radius: 50%;
   z-index: 200;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
-  text-align: center; }
+  text-align: center;
+  cursor: pointer; }
 
 .navegacao__fundo {
   height: 6rem;
@@ -712,8 +713,15 @@ body {
   .navegacao__icone::before, .navegacao__icone::after {
     content: "";
     position: absolute;
-    left: 0; }
+    left: 0;
+    transition: all 0.2s; }
   .navegacao__icone::before {
     top: -0.8rem; }
   .navegacao__icone::after {
     top: 0.8rem; }
+
+.navegacao__botao:hover .navegacao__icone::before {
+  top: -1rem; }
+
+.navegacao__botao:hover .navegacao__icone::after {
+  top: 1rem; }
