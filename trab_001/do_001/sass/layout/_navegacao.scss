@@ -139,10 +139,12 @@
     }
 
     &__checkbox:checked + &__botao &__icone::before {
+        top: 0;
         transform: rotate(45deg);
     }
     
     &__checkbox:checked + &__botao &__icone::after {
+        top: 0;
         transform: rotate(-45deg);
     }
 
