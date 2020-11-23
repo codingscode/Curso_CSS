@@ -112,12 +112,11 @@
             content: "";
             position: absolute;
             left: 0;
-            transition: all 2s;
+            transition: all .2s;
         }    
 
         &::before {
             top: -0.8rem;
-            transform-origin: left;
         }
          
         &::after {
@@ -140,7 +139,7 @@
     }
 
     &__checkbox:checked + &__botao &__icone::before {
-        /* top: 0; */
+        top: 0;
         transform: rotate(135deg);
     }
     
