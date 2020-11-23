@@ -134,6 +134,10 @@
         top: 1rem;
     }
 
+    &__checkbox:checked + &__botao &__icone {
+        background-color: transparent;
+    }
+
 
 
 }

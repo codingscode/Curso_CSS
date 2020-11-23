@@ -725,3 +725,6 @@ body {
 
 .navegacao__botao:hover .navegacao__icone::after {
   top: 1rem; }
+
+.navegacao__checkbox:checked + .navegacao__botao .navegacao__icone {
+  background-color: transparent; }
