@@ -728,3 +728,9 @@ body {
 
 .navegacao__checkbox:checked + .navegacao__botao .navegacao__icone {
   background-color: transparent; }
+
+.navegacao__checkbox:checked + .navegacao__botao .navegacao__icone::before {
+  transform: rotate(45deg); }
+
+.navegacao__checkbox:checked + .navegacao__botao .navegacao__icone::after {
+  transform: rotate(-45deg); }

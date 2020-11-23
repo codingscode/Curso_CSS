@@ -138,6 +138,14 @@
         background-color: transparent;
     }
 
+    &__checkbox:checked + &__botao &__icone::before {
+        transform: rotate(45deg);
+    }
+    
+    &__checkbox:checked + &__botao &__icone::after {
+        transform: rotate(-45deg);
+    }
+
 
 
 }
