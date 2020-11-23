@@ -717,7 +717,7 @@ body {
     transition: all 2s; }
   .navegacao__icone::before {
     top: -0.8rem;
-    transform-origin: right; }
+    transform-origin: left; }
   .navegacao__icone::after {
     top: 0.8rem; }
 
@@ -735,5 +735,5 @@ body {
   transform: rotate(135deg); }
 
 .navegacao__checkbox:checked + .navegacao__botao .navegacao__icone::after {
-  /* top: 0; */
+  top: 0;
   transform: rotate(-135deg); }

@@ -117,7 +117,7 @@
 
         &::before {
             top: -0.8rem;
-            transform-origin: right;
+            transform-origin: left;
         }
          
         &::after {
@@ -145,7 +145,7 @@
     }
     
     &__checkbox:checked + &__botao &__icone::after {
-        /* top: 0; */
+        top: 0;
         transform: rotate(-135deg);
     }
 
