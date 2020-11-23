@@ -96,6 +96,7 @@
 
     // icone
     &__icone {
+        position: relative;
 
         &, &::before, &::after {
             width: 3rem;
@@ -106,7 +107,18 @@
     
         &::before, &::after {
             content: "";
+            position: absolute;
+            left: 0;
         }    
+
+        &::before {
+            top: -1rem;
+        }
+         
+        &::after {
+            top: 1rem;
+        }
+
     
     }
 
