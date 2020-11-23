@@ -84,6 +84,7 @@
     }
 
 
+    // funcionalidades
     &__checkbox:checked ~ &__fundo {
         transform: scale(80);
     }
@@ -93,7 +94,21 @@
         width: 100%;
     }
 
+    // icone
+    &__icone {
 
+        &, &::before, &::after {
+            width: 3rem;
+            height: 2px;
+            background-color: $cor-cinza-escura3;
+            display: inline-block;
+        }
+    
+        &::before, &::after {
+            content: "";
+        }    
+    
+    }
 
 
 }
