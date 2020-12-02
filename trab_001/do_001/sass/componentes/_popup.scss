@@ -11,7 +11,7 @@
     &__conteudo {
         @include centroAbsoluto;
         width: 75%;
-        height: 50rem;
+        
         background-color: $cor-branca;
         box-shadow: 0 2rem 4rem rgba($cor-preta, .2);
         border-radius: 3px;
@@ -26,7 +26,8 @@
     }
 
     &__img {
-        
+        display: block;
+        width: 100%;   
     }
 
     &__texto {
