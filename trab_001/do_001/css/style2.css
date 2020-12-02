@@ -549,7 +549,8 @@ body {
     width: 75%;
     height: 50rem;
     background-color: #fff;
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    border-radius: 3px; }
 
 .cabecalho {
   height: 95vh;
