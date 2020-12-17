@@ -15,16 +15,18 @@
         background-color: $cor-branca;
         box-shadow: 0 2rem 4rem rgba($cor-preta, .2);
         border-radius: 3px;
+        display: table;
     }
 
     &__esquerdo {
         width: 33.33333333%;
-        float: left;
+        display: table-cell;
     }
     
     &__direito {
         width: 66.66666667%;
-        float: left;
+        display: table-cell;
+        vertical-align: middle;
     }
 
     &__img {
