@@ -19,11 +19,12 @@
 
     &__esquerdo {
         width: 33.33333333%;
+        float: left;
     }
     
     &__direito {
         width: 66.66666667%;
-        
+        float: left;
     }
 
     &__img {

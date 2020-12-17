@@ -551,9 +551,11 @@ body {
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: 3px; }
   .popup__esquerdo {
-    width: 33.33333333%; }
+    width: 33.33333333%;
+    float: left; }
   .popup__direito {
-    width: 66.66666667%; }
+    width: 66.66666667%;
+    float: left; }
   .popup__img {
     display: block;
     width: 100%; }
