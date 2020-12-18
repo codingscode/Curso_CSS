@@ -550,17 +550,22 @@ body {
     background-color: #fff;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: 3px;
-    display: table; }
+    display: table;
+    overflow: hidden; }
   .popup__esquerdo {
     width: 33.33333333%;
     display: table-cell; }
   .popup__direito {
     width: 66.66666667%;
     display: table-cell;
-    vertical-align: middle; }
+    vertical-align: middle;
+    padding: 3rem 5rem; }
   .popup__img {
     display: block;
     width: 100%; }
+  .popup__texto {
+    font-size: 1.4rem;
+    margin-bottom: 4rem; }
 
 .cabecalho {
   height: 95vh;

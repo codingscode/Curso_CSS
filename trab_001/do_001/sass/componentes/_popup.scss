@@ -16,6 +16,7 @@
         box-shadow: 0 2rem 4rem rgba($cor-preta, .2);
         border-radius: 3px;
         display: table;
+        overflow: hidden;
     }
 
     &__esquerdo {
@@ -27,6 +28,7 @@
         width: 66.66666667%;
         display: table-cell;
         vertical-align: middle;
+        padding: 3rem 5rem;
     }
 
     &__img {
@@ -35,7 +37,9 @@
     }
 
     &__texto {
-        
+        font-size: 1.4rem;
+        margin-bottom: 4rem;
+
     }
 
 
