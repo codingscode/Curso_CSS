@@ -40,10 +40,18 @@
         font-size: 1.4rem;
         margin-bottom: 4rem;
 
+        -moz-column-count: 2;
+        -moz-column-gap: 4rem; 
+        -moz-column-rule: 1px solid $cor-cinza-clara-2;
+
         column-count: 2;
         column-gap: 4rem; // 1em = 14px; é do font-size presente 1.4rem
         column-rule: 1px solid $cor-cinza-clara-2;
 
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
     }
 
 
