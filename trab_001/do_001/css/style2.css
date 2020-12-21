@@ -544,21 +544,6 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: all 0.4s; }
-  .popup:target {
-    opacity: 1;
-    visibility: visible; }
-  .popup__fechar:link, .popup__fechar:visited {
-    color: #777;
-    position: absolute;
-    top: 2.5rem;
-    right: 2.5rem;
-    font-size: 3rem;
-    text-decoration: none;
-    display: inline-block;
-    transition: all .3s;
-    line-height: 1; }
-  .popup__fechar:hover {
-    color: #55c57a; }
   .popup__conteudo {
     position: absolute;
     top: 50%;
@@ -570,8 +555,9 @@ body {
     border-radius: 3px;
     display: table;
     overflow: hidden;
-    /* opacity: 0; */
-    transform: translate(-50%, -50%) scale(0.5); }
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+    transition: all 0.5s; }
   .popup__esquerdo {
     width: 33.33333333%;
     display: table-cell; }
@@ -596,6 +582,24 @@ body {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
+  .popup:target .popup__conteudo {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); }
+  .popup:target {
+    opacity: 1;
+    visibility: visible; }
+  .popup__fechar:link, .popup__fechar:visited {
+    color: #777;
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .3s;
+    line-height: 1; }
+  .popup__fechar:hover {
+    color: #55c57a; }
 
 .cabecalho {
   height: 95vh;
