@@ -23,7 +23,7 @@
         overflow: hidden;
         opacity: 0;
         transform: translate(-50%, -50%) scale(0.5);
-        transition: all 0.5s;
+        transition: all 0.5s 0.2s;
     }
 
     &__esquerdo {
