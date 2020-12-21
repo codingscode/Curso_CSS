@@ -36,5 +36,6 @@ https://www.coverr.co/
 
 https://easings.net/
 
+observar o endereço no browser ao clicar
 
  	
