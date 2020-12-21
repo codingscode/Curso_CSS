@@ -547,6 +547,17 @@ body {
   .popup:target {
     opacity: 1;
     visibility: visible; }
+  .popup__fechar:link, .popup__fechar:visited {
+    color: #777;
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .3s; }
+  .popup__fechar :hover {
+    color: #55c57a; }
   .popup__conteudo {
     position: absolute;
     top: 50%;

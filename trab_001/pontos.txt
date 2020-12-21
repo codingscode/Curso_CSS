@@ -38,4 +38,11 @@ https://easings.net/
 
 observar o endereço no browser ao clicar
 
+x para fechar
+
+
+
+
+
+
  	

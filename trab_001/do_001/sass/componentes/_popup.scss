@@ -16,6 +16,25 @@
         visibility: visible;
     }
 
+    &__fechar {
+
+        &:link, &:visited {
+           color: $cor-cinza-escura;
+           position: absolute;
+           top: 2.5rem;
+           right: 2.5rem;
+           font-size: 3rem;
+           text-decoration: none;
+           display: inline-block;    
+           transition: all .3s;  
+        }
+     
+        :hover {
+           color: $cor-primaria;
+        }   
+     
+    }
+
     &__conteudo {
         @include centroAbsoluto;
         width: 75%;
