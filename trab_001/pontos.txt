@@ -40,7 +40,7 @@ observar o endereço no browser ao clicar
 
 x para fechar
 
-
+transição de tamanho
 
 
 
