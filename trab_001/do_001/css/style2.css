@@ -569,7 +569,9 @@ body {
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: 3px;
     display: table;
-    overflow: hidden; }
+    overflow: hidden;
+    /* opacity: 0; */
+    transform: scale(0.5); }
   .popup__esquerdo {
     width: 33.33333333%;
     display: table-cell; }
