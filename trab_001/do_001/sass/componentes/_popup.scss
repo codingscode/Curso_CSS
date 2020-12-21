@@ -8,6 +8,8 @@
     background-color: rgba($cor-preta, .8);
     z-index: 8000;
 
+    display: none;
+
     &__conteudo {
         @include centroAbsoluto;
         width: 75%;
