@@ -26,10 +26,11 @@
            font-size: 3rem;
            text-decoration: none;
            display: inline-block;    
-           transition: all .3s;  
+           transition: all .3s;
+           line-height: 1;  
         }
      
-        :hover {
+        &:hover {
            color: $cor-primaria;
         }   
      

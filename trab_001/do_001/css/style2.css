@@ -555,8 +555,9 @@ body {
     font-size: 3rem;
     text-decoration: none;
     display: inline-block;
-    transition: all .3s; }
-  .popup__fechar :hover {
+    transition: all .3s;
+    line-height: 1; }
+  .popup__fechar:hover {
     color: #55c57a; }
   .popup__conteudo {
     position: absolute;
