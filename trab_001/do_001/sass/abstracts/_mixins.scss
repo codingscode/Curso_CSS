@@ -14,7 +14,28 @@
     transform: translate(-50%, -50%);
 }
 
+// Gerenciador de media query
+/* 0 - 600px: Phone
+600 - 900px: Tablet Potrait
+900 - 1200px: Tablet Landscape
+[1200 - 1800] é onde nosso estilos normais aplicam
+1800px ++ : Big Desktop */
 
+@mixin respond-phone {
+    @media (max-width: 600px) { @content };
+}
+
+/* $breakpoint argument choices:
+-phone
+-tab-port
+-tab-land
+-big-desktop */
+
+@mixin respond($breakpoint) {
+   @if $breakpoint == phone {
+      @media (max-width: 600px) { @content };
+   }  
+}
 
 
 

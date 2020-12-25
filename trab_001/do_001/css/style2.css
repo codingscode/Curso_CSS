@@ -21,6 +21,11 @@ html {
   font-size: 62.5%;
   /* 1 rem = 10px */
   /* quando alterado muda tudo,  62.5% = 10/16 */ }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
+  html respond-phone {
+    font-size: 50%; }
 
 body {
   /* font-family: 'Lato', sans-serif;
@@ -137,6 +142,11 @@ body {
 .u-margin-top-enorme {
   margin-top: 10rem !important; }
 
+/* 0 - 600px: Phone
+600 - 900px: Tablet Potrait
+900 - 1200px: Tablet Landscape
+[1200 - 1800] é onde nosso estilos normais aplicam
+1800px ++ : Big Desktop */
 .secao-sobre {
   background-color: #f7f7f7;
   padding: 25rem 0;
