@@ -42,6 +42,8 @@ x para fechar
 
 transição de tamanho
 
+mudando a ordem dos importados de principal.css pois não estava compilando direito.
+
 
 
 

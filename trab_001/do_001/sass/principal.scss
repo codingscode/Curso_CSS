@@ -7,14 +7,15 @@ Dark green: #28b485
 
 */
 
+@import './abstracts/mixins';
+@import './abstracts/funcoes';
+@import './abstracts/variaveis';
+
+
 @import './base/base';
 @import './base/animacoes';
 @import './base/tipografia';
 @import './base/utilidades';
-
-@import './abstracts/funcoes';
-@import './abstracts/mixins';
-@import './abstracts/variaveis';
 
 @import './paginas/inicio';
 

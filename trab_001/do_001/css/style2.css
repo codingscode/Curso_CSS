@@ -7,6 +7,16 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
+/* 0 - 600px: Phone
+600 - 900px: Tablet Potrait
+900 - 1200px: Tablet Landscape
+[1200 - 1800] é onde nosso estilos normais aplicam
+1800px ++ : Big Desktop */
+/* $breakpoint argument choices:
+-phone
+-tab-port
+-tab-land
+-big-desktop */
 /* @import '../abstracts/variaveis'; */
 *, *::after, *::before {
   margin: 0;
@@ -24,8 +34,15 @@ html {
   @media (max-width: 600px) {
     html {
       font-size: 50%; } }
-  html respond-phone {
-    font-size: 50%; }
+  @media (max-width: 900px) {
+    html {
+      font-size: 60%; } }
+  @media (max-width: 1200px) {
+    html {
+      font-size: 70%; } }
+  @media (min-width: 1800px) {
+    html {
+      font-size: 80%; } }
 
 body {
   /* font-family: 'Lato', sans-serif;
@@ -142,11 +159,6 @@ body {
 .u-margin-top-enorme {
   margin-top: 10rem !important; }
 
-/* 0 - 600px: Phone
-600 - 900px: Tablet Potrait
-900 - 1200px: Tablet Landscape
-[1200 - 1800] é onde nosso estilos normais aplicam
-1800px ++ : Big Desktop */
 .secao-sobre {
   background-color: #f7f7f7;
   padding: 25rem 0;

@@ -13,17 +13,21 @@
 
 html {
     font-size: 62.5%;  /* 1 rem = 10px */ /* quando alterado muda tudo,  62.5% = 10/16 */
-
-    /* @media (max-width: 600px) {
-        font-size: 50%;
-    } */
-     
-    @include respond-phone {
+    
+    @include respond(phone) {
         font-size: 50%;
     }
 
-    @include respond(phone) {
-        font-size: 50%;
+    @include respond(tab-port) {
+        font-size: 60%;
+    }
+
+    @include respond(tab-land) {
+        font-size: 70%;
+    }
+
+    @include respond(big-desktop) {
+        font-size: 80%;
     }
 
 }
