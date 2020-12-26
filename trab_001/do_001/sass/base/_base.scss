@@ -14,20 +14,20 @@
 html {
     font-size: 62.5%;  /* 1 rem = 10px */ /* quando alterado muda tudo,  62.5% = 10/16 */
     
-    @include respond(phone) {
+   /*  @include respond(phone) {
         font-size: 50%;
-    }
+    } */
 
     @include respond(tab-port) {
-        font-size: 60%;
+        font-size: 50%;   // 1 rem = 8px, 8/16 = 50%
     }
 
     @include respond(tab-land) {
-        font-size: 70%;
+        font-size: 56.25%;   // 1 rem = 9px, 9/16 = 56.25%
     }
 
     @include respond(big-desktop) {
-        font-size: 80%;
+        font-size: 75%;     // 1 rem = 12px, 12/16 = 75%
     }
 
 }

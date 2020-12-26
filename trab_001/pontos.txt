@@ -44,7 +44,7 @@ transição de tamanho
 
 mudando a ordem dos importados de principal.css pois não estava compilando direito.
 
-
+ems neste caso é a melhor opção que rem
 
 
 

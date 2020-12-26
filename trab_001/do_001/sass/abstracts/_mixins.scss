@@ -21,28 +21,31 @@
 [1200 - 1800] é onde nosso estilos normais aplicam
 1800px ++ : Big Desktop */
 
-@mixin respond-phone {
-    @media (max-width: 600px) { @content };
-}
+
 
 /* $breakpoint argument choices:
 -phone
 -tab-port
 -tab-land
--big-desktop */
+-big-desktop
+
+1em = 16px
+
+600/16 = 37.5  e assim por diante
+*/
 
 @mixin respond($breakpoint) {
     @if $breakpoint == phone {
-        @media (max-width: 600px) { @content };
+        @media (max-width: 37.5em) { @content };
     }  
     @if $breakpoint == tab-port {
-        @media (max-width: 900px) { @content };
+        @media (max-width: 56.25em) { @content };
     }  
     @if $breakpoint == tab-land {
-        @media (max-width: 1200px) { @content };
+        @media (max-width: 75em) { @content };
     }  
     @if $breakpoint == big-desktop {
-        @media (min-width: 1800px) { @content };
+        @media (min-width: 112.5em) { @content };
     }  
 }
 
