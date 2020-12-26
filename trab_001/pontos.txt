@@ -46,6 +46,9 @@ mudando a ordem dos importados de principal.css pois não estava compilando dire
 
 ems neste caso é a melhor opção que rem
 
+ver página web
+
+mudando algumas ordens
 
 
 

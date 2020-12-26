@@ -18,12 +18,16 @@ html {
         font-size: 50%;
     } */
 
-    @include respond(tab-port) {
-        font-size: 50%;   // 1 rem = 8px, 8/16 = 50%
+    @include respond(tab-land) {  // width < 900px ?
+        font-size: 56.25%;   // 1 rem = 9px, 9/16 = 56.25%
     }
 
-    @include respond(tab-land) {
-        font-size: 56.25%;   // 1 rem = 9px, 9/16 = 56.25%
+    @include respond(tab-port) {  // width < 600px ?
+        font-size: 50%;   // 1 rem = 8px, 8/16 = 50%
+    }
+    
+    @include respond(phone) {  // width < 600px ?
+        font-size: 30%;   // 1 rem = 4.8px
     }
 
     @include respond(big-desktop) {
