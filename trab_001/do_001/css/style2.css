@@ -148,6 +148,12 @@ body {
   color: transparent;
   letter-spacing: .2rem;
   transition: all .2s; }
+  @media (max-width: 56.25em) {
+    .cabecalho-secundario {
+      font-family: 2.5rem; } }
+  @media (max-width: 37.5em) {
+    .cabecalho-secundario {
+      font-family: 2rem; } }
   .cabecalho-secundario:hover {
     transform: skewY(2deg) skewX(10deg) scale(1.05);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }

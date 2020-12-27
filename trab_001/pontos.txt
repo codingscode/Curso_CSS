@@ -54,7 +54,7 @@ ajeitando (ordem correta)
 
 tela com largura menor que 900px fica sem espaço lateral branco
 
-aumentar e diminuir largura da tela para ver efeito
+aumentar e diminuir largura da tela para ver efeito *idem
 
 
  	
