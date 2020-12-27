@@ -44,4 +44,10 @@ body {
     color: $cor-cinza-escura;
     padding: 3rem; */
     box-sizing: border-box;    
+    padding: 3rem;
+
+    @include respond(tab-port) {
+        padding: 0;
+    }
+
 }

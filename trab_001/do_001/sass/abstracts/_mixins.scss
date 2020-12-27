@@ -32,6 +32,9 @@
 1em = 16px
 
 600/16 = 37.5  e assim por diante
+
+Ordem:  Base + tipografia > layout geral + grade > layout pagina > componentes
+
 */
 
 @mixin respond($breakpoint) {

@@ -21,6 +21,9 @@ Dark green: #28b485
 1em = 16px
 
 600/16 = 37.5  e assim por diante
+
+Ordem:  Base + tipografia > layout geral + grade > layout pagina > componentes
+
 */
 /* @import '../abstracts/variaveis'; */
 *, *::after, *::before {
@@ -59,7 +62,11 @@ body {
     line-height: 1.7;
     color: $cor-cinza-escura;
     padding: 3rem; */
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 3rem; }
+  @media (max-width: 56.25em) {
+    body {
+      padding: 0; } }
 
 @keyframes moverParaDireita {
   0% {
@@ -100,7 +107,7 @@ body {
   /* font-size: 16px; */
   line-height: 1.7;
   color: #777;
-  padding: 3rem; }
+  /* padding: 3rem; */ }
 
 .cabecalho-primario {
   color: #fff;
