@@ -106,8 +106,7 @@ body {
   font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
-  color: #777;
-  /* padding: 3rem; */ }
+  color: #777; }
 
 .cabecalho-primario {
   color: #fff;
@@ -124,6 +123,10 @@ body {
     /* animation-delay: 1.5s; 
          animation-iteration-count: 3;  vezes */
     animation-timing-function: ease-in-out; }
+    @media (max-width: 37.5em) {
+      .cabecalho-primario--principal {
+        letter-spacing: 1rem;
+        font-family: 5rem; } }
   .cabecalho-primario--sub {
     display: block;
     font-size: 2rem;
@@ -131,6 +134,9 @@ body {
     letter-spacing: 1.74rem;
     animation: moverParaEsquerda 1s ease-out;
     /* name duration timing-function delay iteration-count direction fill-mode */ }
+    @media (max-width: 37.5em) {
+      .cabecalho-primario--sub {
+        letter-spacing: 0.5rem; } }
 
 .cabecalho-secundario {
   font-size: 3.5rem;

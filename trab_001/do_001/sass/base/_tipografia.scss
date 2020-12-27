@@ -11,8 +11,7 @@ body {
     /* font-size: 16px; */
     line-height: 1.7;
     color: $cor-cinza-escura;
-    /* padding: 3rem; */
-    
+        
 }
 
 .cabecalho-primario {
@@ -34,6 +33,12 @@ body {
          animation-iteration-count: 3;  vezes */
     
         animation-timing-function: ease-in-out;
+
+        @include respond(phone) {
+            letter-spacing: 1rem;
+            font-family: 5rem;
+        }
+
     }
     
     &--sub {
@@ -43,6 +48,11 @@ body {
         letter-spacing: 1.74rem;
     
         animation: moverParaEsquerda 1s ease-out; /* name duration timing-function delay iteration-count direction fill-mode */
+
+        @include respond(phone) {
+            letter-spacing: 0.5rem;
+        }
+
     }
 }
 
