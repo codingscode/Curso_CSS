@@ -7,7 +7,14 @@
     &:not(:last-child) {
         margin-bottom: $espaco-vertical;
         
+        @include respond(tab-port) {
+            margin-right: $espaco-vertical-pequeno;
+        }
+
+        
     }
+
+    @include clearfix;
 
     // class^="?" -> atributo class que inicia com valor de ?
     // class*="?" -> atributo class que contem com valor de ?
@@ -18,12 +25,18 @@
             
         &:not(:last-child) {
             margin-right: $espaco-horizontal;
+
+            @include respond(tab-port) {
+                margin-right: 0;
+            }
+        }
+
+        @include respond(tab-port) {
+            width: 100% !important;
         }
     
     }
 
-    @include clearfix;
-    
     .col-1-de-2 {
         width: calc((100% - #{$espaco-horizontal}) / 2);
     }

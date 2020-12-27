@@ -150,10 +150,10 @@ body {
   transition: all .2s; }
   @media (max-width: 56.25em) {
     .cabecalho-secundario {
-      font-family: 2.5rem; } }
+      font-family: 3rem; } }
   @media (max-width: 37.5em) {
     .cabecalho-secundario {
-      font-family: 2rem; } }
+      font-family: 2.5rem; } }
   .cabecalho-secundario:hover {
     transform: skewY(2deg) skewX(10deg) scale(1.05);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -682,15 +682,24 @@ body {
   margin-top: 10px; }
   .linha:not(:last-child) {
     margin-bottom: 2rem; }
+    @media (max-width: 56.25em) {
+      .linha:not(:last-child) {
+        margin-right: 1.75rem; } }
+  .linha::after {
+    content: "";
+    display: table;
+    clear: both; }
   .linha [class^="col-"] {
     /* background-color: orangered; */
     float: left; }
     .linha [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
-  .linha::after {
-    content: "";
-    display: table;
-    clear: both; }
+      @media (max-width: 56.25em) {
+        .linha [class^="col-"]:not(:last-child) {
+          margin-right: 0; } }
+    @media (max-width: 56.25em) {
+      .linha [class^="col-"] {
+        width: 100% !important; } }
   .linha .col-1-de-2 {
     width: calc((100% - 6rem) / 2); }
   .linha .col-1-de-3 {

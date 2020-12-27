@@ -68,11 +68,11 @@ body {
     transition: all .2s;
 
     @include respond(tab-port) {
-        font-family: 2.5rem;
+        font-family: 3rem;
     }
 
     @include respond(phone) {
-        font-family: 2rem;
+        font-family: 2.5rem;
     }
 
     &:hover {
