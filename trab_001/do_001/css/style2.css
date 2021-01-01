@@ -685,6 +685,9 @@ body {
     @media (max-width: 56.25em) {
       .linha:not(:last-child) {
         margin-bottom: 1.75rem; } }
+  @media (max-width: 56.25em) {
+    .linha {
+      max-width: 50rem; } }
   .linha::after {
     content: "";
     display: table;
