@@ -778,6 +778,10 @@ body {
     .navegacao__botao {
       top: 4rem;
       right: 4rem; } }
+  @media (max-width: 37.5em) {
+    .navegacao__botao {
+      top: 3rem;
+      right: 3rem; } }
 
 .navegacao__fundo {
   height: 6rem;
@@ -793,6 +797,10 @@ body {
     .navegacao__fundo {
       top: 4.5rem;
       right: 4.5rem; } }
+  @media (max-width: 37.5em) {
+    .navegacao__fundo {
+      top: 3.5rem;
+      right: 3.5rem; } }
 
 .navegacao__nav {
   height: 100vh;
