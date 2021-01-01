@@ -8,7 +8,7 @@
         margin-bottom: $espaco-vertical;
         
         @include respond(tab-port) {
-            margin-right: $espaco-vertical-pequeno;
+            margin-bottom: $espaco-vertical-pequeno;
         }
 
         
@@ -28,6 +28,7 @@
 
             @include respond(tab-port) {
                 margin-right: 0;
+                margin-bottom: $espaco-vertical-pequeno;
             }
         }
 

@@ -126,7 +126,7 @@ body {
     @media (max-width: 37.5em) {
       .cabecalho-primario--principal {
         letter-spacing: 1rem;
-        font-family: 5rem; } }
+        font-size: 5rem; } }
   .cabecalho-primario--sub {
     display: block;
     font-size: 2rem;
@@ -150,10 +150,10 @@ body {
   transition: all .2s; }
   @media (max-width: 56.25em) {
     .cabecalho-secundario {
-      font-family: 3rem; } }
+      font-size: 3rem; } }
   @media (max-width: 37.5em) {
     .cabecalho-secundario {
-      font-family: 2.5rem; } }
+      font-size: 2.5rem; } }
   .cabecalho-secundario:hover {
     transform: skewY(2deg) skewX(10deg) scale(1.05);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -684,7 +684,7 @@ body {
     margin-bottom: 2rem; }
     @media (max-width: 56.25em) {
       .linha:not(:last-child) {
-        margin-right: 1.75rem; } }
+        margin-bottom: 1.75rem; } }
   .linha::after {
     content: "";
     display: table;
@@ -696,7 +696,8 @@ body {
       margin-right: 6rem; }
       @media (max-width: 56.25em) {
         .linha [class^="col-"]:not(:last-child) {
-          margin-right: 0; } }
+          margin-right: 0;
+          margin-bottom: 1.75rem; } }
     @media (max-width: 56.25em) {
       .linha [class^="col-"] {
         width: 100% !important; } }
