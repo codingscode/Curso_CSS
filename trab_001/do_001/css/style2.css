@@ -691,7 +691,8 @@ body {
         margin-bottom: 1.75rem; } }
   @media (max-width: 56.25em) {
     .linha {
-      max-width: 50rem; } }
+      max-width: 50rem;
+      padding: 0 3rem; } }
   .linha::after {
     content: "";
     display: table;
