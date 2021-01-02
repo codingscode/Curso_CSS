@@ -3,6 +3,10 @@
     padding: 10rem 0;
     font-size: 1.4rem;
     color: $cor-cinza-clara-1;
+
+    @include respond(tab-port) {
+       padding: 8rem 0;
+    }
  
     &__logo-caixa {
        text-align: center;
@@ -19,6 +23,11 @@
        border-top: 1px solid $cor-cinza-escura;
        padding-top: 2rem;
        display: inline-block;
+
+       @include respond(tab-port) {
+          width: 100%;
+          text-align: center;
+       }
     }
   
     &__lista {
