@@ -7,13 +7,21 @@
     box-shadow: 0 1.5rem 4rem rgba($cor-preta, 0.15);
     transition: transform .4s;
 
+    @include respond(tab-port) {
+        padding: 2rem;
+    }
+
     &__icone {
         font-size: 6rem;
         margin-bottom: 0.5rem;
         display: inline-block;
         background-image: linear-gradient(to right, $cor-primaria-clara, $cor-primaria-escura);
         -webkit-background-clip: text;
-        color: transparent; 
+        color: transparent;
+
+        @include respond(tab-port) {
+            margin-bottom: 0;
+        }
     }
 
     &:hover {

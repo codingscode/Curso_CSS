@@ -211,7 +211,7 @@ body {
     transform: skewY(7deg); }
   @media (max-width: 56.25em) {
     .secao-destaques {
-      padding: 15rem 0; } }
+      padding: 10rem 0; } }
 
 .secao-viagens {
   background-color: #f7f7f7;
@@ -372,6 +372,9 @@ body {
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform .4s; }
+  @media (max-width: 56.25em) {
+    .caixa-destaque {
+      padding: 2rem; } }
   .caixa-destaque__icone {
     font-size: 6rem;
     margin-bottom: 0.5rem;
@@ -379,6 +382,9 @@ body {
     background-image: linear-gradient(to right, #7ed56f, #28b485);
     -webkit-background-clip: text;
     color: transparent; }
+    @media (max-width: 56.25em) {
+      .caixa-destaque__icone {
+        margin-bottom: 0; } }
   .caixa-destaque:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
