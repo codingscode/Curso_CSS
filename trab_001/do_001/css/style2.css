@@ -173,9 +173,15 @@ body {
 
 .u-margin-bottom-grande {
   margin-bottom: 8rem !important; }
+  @media (max-width: 56.25em) {
+    .u-margin-bottom-grande {
+      margin-bottom: 5rem !important; } }
 
 .u-margin-bottom-medio {
   margin-bottom: 4rem !important; }
+  @media (max-width: 56.25em) {
+    .u-margin-bottom-medio {
+      margin-bottom: 3rem !important; } }
 
 .u-margin-bottom-pequeno {
   margin-bottom: 1.5rem !important; }
