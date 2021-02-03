@@ -10,19 +10,39 @@
        transition: all .2s;
        outline-offset: 2rem;
 
+       @include respond(tab-port) {
+          float: left;
+          position: relative;
+          width: 33.3333333333%;
+          box-shadow: 0 1.5rem 3rem rgba($cor-preta, .2);
+       }
+
        &--r1 { 
             left: 0;
             top: -2rem;
+
+            @include respond(tab-port) {
+               top: 0;
+            }
        }
 
        &--r2 { 
             right: 0;
             top: 2rem;
+
+            @include respond(tab-port) {
+               top: 0;
+            }
        }
 
        &--r3 { 
             left: 20%;
             top: 10rem;
+
+            @include respond(tab-port) {
+               top: 0;
+               left: 0;
+            }
        }
 
        &:hover {

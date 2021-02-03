@@ -327,15 +327,31 @@ body {
     z-index: 10;
     transition: all .2s;
     outline-offset: 2rem; }
+    @media (max-width: 56.25em) {
+      .composicao__foto {
+        float: left;
+        position: relative;
+        width: 33.3333333333%;
+        box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); } }
     .composicao__foto--r1 {
       left: 0;
       top: -2rem; }
+      @media (max-width: 56.25em) {
+        .composicao__foto--r1 {
+          top: 0; } }
     .composicao__foto--r2 {
       right: 0;
       top: 2rem; }
+      @media (max-width: 56.25em) {
+        .composicao__foto--r2 {
+          top: 0; } }
     .composicao__foto--r3 {
       left: 20%;
       top: 10rem; }
+      @media (max-width: 56.25em) {
+        .composicao__foto--r3 {
+          top: 0;
+          left: 0; } }
     .composicao__foto:hover {
       outline: 1.5rem solid #55c57a;
       transform: scale(1.05) translateY(-0.5rem);
