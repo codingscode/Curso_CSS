@@ -190,6 +190,9 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0;
   margin-top: -20vh; }
+  @media (max-width: 56.25em) {
+    .secao-sobre {
+      padding: 20rem 0; } }
 
 .secao-destaques {
   padding: 20rem 0;
@@ -200,20 +203,31 @@ body {
   margin-top: -10rem; }
   .secao-destaques > * {
     transform: skewY(7deg); }
+  @media (max-width: 56.25em) {
+    .secao-destaques {
+      padding: 15rem 0; } }
 
 .secao-viagens {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
   margin-top: -10rem; }
+  @media (max-width: 56.25em) {
+    .secao-viagens {
+      padding: 20rem 0 10rem 0; } }
 
 .secao-depoimentos {
   position: relative;
-  padding: 15rem 0;
-  /* background-color: $cor-cinza-clara-1; */ }
+  padding: 15rem 0; }
+  @media (max-width: 56.25em) {
+    .secao-depoimentos {
+      padding: 10rem 0; } }
 
 .secao-agendamento {
   padding: 15rem 0;
   background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+  @media (max-width: 56.25em) {
+    .secao-agendamento {
+      padding: 10rem 0; } }
 
 .agendamento {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
@@ -733,6 +747,9 @@ body {
   .rodape__logo-caixa {
     text-align: center;
     margin-bottom: 8rem; }
+    @media (max-width: 56.25em) {
+      .rodape__logo-caixa {
+        margin-bottom: 6rem; } }
   .rodape__logo {
     width: 15rem;
     height: auto; }

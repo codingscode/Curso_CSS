@@ -2,6 +2,10 @@
     background-color: $cor-cinza-clara-1;
     padding: 25rem 0;
     margin-top: -20vh;
+
+    @include respond(tab-port) {
+        padding: 20rem 0;
+    }
 }
 
 .secao-destaques {
@@ -16,6 +20,10 @@
         transform: skewY(7deg);
         
     }
+
+    @include respond(tab-port) {
+        padding: 15rem 0;
+    }
     
 }
 
@@ -24,19 +32,28 @@
     padding: 25rem 0 15rem 0;
     margin-top: -10rem;
     
+    @include respond(tab-port) {
+        padding: 20rem 0 10rem 0;
+    }
 }
 
 .secao-depoimentos {
     position: relative;
     padding: 15rem 0;
     
-    /* background-color: $cor-cinza-clara-1; */
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
     
 }
 
 .secao-agendamento {
     padding: 15rem 0;
     background-image: linear-gradient(to right bottom, $cor-primaria-clara, $cor-primaria-escura);
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
 }
 
 .agendamento {
