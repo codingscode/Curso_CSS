@@ -488,11 +488,14 @@ body {
     font-weight: 100; }
   @media (max-width: 56.25em) {
     .cartao {
-      height: auto; }
+      height: auto;
+      border-radius: 3px;
+      background-color: #fff;
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
       .cartao__lado {
         height: auto;
         position: relative;
-        border-radius: 3px; }
+        box-shadow: none; }
         .cartao__lado--atras {
           transform: rotateY(0);
           clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%); }
@@ -504,7 +507,7 @@ body {
         left: 0;
         transform: translate(0);
         width: 100%;
-        padding: 4rem; }
+        padding: 7rem 4rem 4rem 4rem; }
       .cartao__preco-caixa {
         margin-bottom: 3rem; }
       .cartao__preco-valor {
