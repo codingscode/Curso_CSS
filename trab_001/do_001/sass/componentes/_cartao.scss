@@ -155,11 +155,51 @@
         font-size: 6rem;
         font-weight: 100;
     }
+
+
+    @include respond(tab-port) {
+        
+        height: auto;
+        
+        &__lado {
+            height: auto;
+            position: relative;
+            border-radius: 3px;
+                        
+            &--atras {
+                transform: rotateY(0);
+                
+            }
+        }
+
+        &:hover &__lado--frente {
+            transform: rotateY(0);
+        }
+
+        
+        // estilo atras
+        &__cta {
+            position: relative;
+            top: 0;
+            left: 0;
+            transform: translate(0);
+            width: 100%;
+        }
+
+        &__preco-caixa {
+            margin-bottom: 8rem;
+        }
+        
+        &__preco-valor {
+            font-size: 6rem;
+        }
+
+    }
     
 
 }
 
-// cartao:hover .cartao__lado {}
+
 
 
 

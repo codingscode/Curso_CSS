@@ -486,6 +486,27 @@ body {
   .cartao__preco-valor {
     font-size: 6rem;
     font-weight: 100; }
+  @media (max-width: 56.25em) {
+    .cartao {
+      height: auto; }
+      .cartao__lado {
+        height: auto;
+        position: relative;
+        border-radius: 3px; }
+        .cartao__lado--atras {
+          transform: rotateY(0); }
+      .cartao:hover .cartao__lado--frente {
+        transform: rotateY(0); }
+      .cartao__cta {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0);
+        width: 100%; }
+      .cartao__preco-caixa {
+        margin-bottom: 8rem; }
+      .cartao__preco-valor {
+        font-size: 6rem; } }
 
 .depoimento {
   width: 75%;
