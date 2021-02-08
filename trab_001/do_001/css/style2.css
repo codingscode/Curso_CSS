@@ -502,9 +502,10 @@ body {
         top: 0;
         left: 0;
         transform: translate(0);
-        width: 100%; }
+        width: 100%;
+        padding: 4rem; }
       .cartao__preco-caixa {
-        margin-bottom: 8rem; }
+        margin-bottom: 3rem; }
       .cartao__preco-valor {
         font-size: 6rem; } }
 
