@@ -179,6 +179,9 @@
             transform: rotateY(0);
         }
 
+        &__detalhes {
+           padding: 1rem 3rem;
+        }
         
         // estilo atras
         &__cta {
@@ -195,7 +198,7 @@
         }
         
         &__preco-valor {
-            font-size: 6rem;
+            font-size: 4rem;
         }
 
     }

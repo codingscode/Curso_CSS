@@ -501,6 +501,8 @@ body {
           clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%); }
       .cartao:hover .cartao__lado--frente {
         transform: rotateY(0); }
+      .cartao__detalhes {
+        padding: 1rem 3rem; }
       .cartao__cta {
         position: relative;
         top: 0;
@@ -511,7 +513,7 @@ body {
       .cartao__preco-caixa {
         margin-bottom: 3rem; }
       .cartao__preco-valor {
-        font-size: 6rem; } }
+        font-size: 4rem; } }
 
 .depoimento {
   width: 75%;
