@@ -617,6 +617,9 @@ body {
   width: 90%;
   display: block;
   transition: all .6s; }
+  @media (max-width: 56.25em) {
+    .formulario__entrada {
+      width: 100%; } }
   .formulario__entrada:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
@@ -643,6 +646,10 @@ body {
 .formulario__radio-grupo {
   width: 49%;
   display: inline-block; }
+  @media (max-width: 56.25em) {
+    .formulario__radio-grupo {
+      width: 100%;
+      margin-bottom: 2rem; } }
 
 .formulario__radio-entrada {
   display: none; }
