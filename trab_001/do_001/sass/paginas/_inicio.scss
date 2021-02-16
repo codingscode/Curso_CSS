@@ -64,7 +64,12 @@
 
     
     @include respond(tab-land) {
-        background-image: linear-gradient(105deg, rgba($cor-branca, .9) 0%, rgba($cor-branca, .9) 50%, transparent 70%), url(../img/nat-10.jpg);
+        background-image: linear-gradient(105deg, rgba($cor-branca, .9) 0%, rgba($cor-branca, .9) 65%, transparent 65%), url(../img/nat-10.jpg);
+        background-size: cover;
+    }
+
+    @include respond(tab-port) {
+        background-image: linear-gradient(to right, rgba($cor-branca, .9) 0%, rgba($cor-branca, .9) 100%, url(../img/nat-10.jpg));
     }
 
     &__formulario {
@@ -72,7 +77,11 @@
         padding: 6rem;
 
         @include respond(tab-land) {
-            width: 70%;
+            width: 65%;
+        }
+
+        @include respond(tab-port) {
+            width: 100%;
         }
     }
     
