@@ -763,7 +763,7 @@ body {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative; }
-  @media (min-resolution: 192dpi) {
+  @media (min-resolution: 192dpi) and (min-width: 600px) {
     .cabecalho {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8)), url("../img/hero.jpg"); } }
   @media (max-width: 37.5em) {
