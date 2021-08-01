@@ -13,7 +13,7 @@
         width: 100%;
         padding: 4rem; 
         padding-left: 7rem;
-     }
+    }
      
     @include respond(phone) {
         transform: skewX(0);
@@ -23,13 +23,20 @@
         width: 15rem;
         height: 15rem;
         float: left;
-        -webkit-shape-outside: circle(50% at 50% 50%);
-        shape-outside: circle(50% at 50% 50%); /* só funciona junto com width, height, float */
-
-        -webkit-clip-path: circle(50% at 50% 50%);
-        clip-path: circle(50% at 50% 50%);
+        
         transform: translateX(-3rem) skewX(12deg);
         position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        
+        @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+            -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
+            -webkit-shape-outside: circle(50% at 50% 50%);
+            shape-outside: circle(50% at 50% 50%); /* só funciona junto com width, height, float */
+            border-radius: none;
+                        
+        }
 
         @include respond(phone) {
             transform: translateX(-3rem) skewX(0);
