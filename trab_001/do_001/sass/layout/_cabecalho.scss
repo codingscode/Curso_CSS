@@ -9,8 +9,9 @@
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); 
     position: relative;
 
-    @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
-        background-image: linear-gradient(to right bottom, rgba($cor-secundaria-clara, 0.8), rgba($cor-secundaria-escura, 0.8)), url('../img/hero.jpg');
+    @media (min-resolution: 192dpi) and (min-width: 37.5em), 
+           (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), (min-width: 125em) {
+        background-image: linear-gradient(to right bottom, rgba($cor-primaria-clara, 0.8), rgba($cor-primaria-escura, 0.8)), url('../img/hero.jpg');
     
     }    
 
