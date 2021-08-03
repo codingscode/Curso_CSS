@@ -65,11 +65,29 @@ idem , ver alteracao de cores
 http://127.0.0.1:5500/trab_001/do_001/index.html#popup
 
 
+executar no terminal:
+     npm run compile:sass   -> cria um arquivo style2.comp.css
+
+
+executar no terminal:
+     npm i concat --save-dev
+     npm i autoprefixer --save-dev
+     npm i postcss-cli --save-dev
+     npm i postcss --save-dev
+     npm i npm-run-all --save-dev
 
 
 
+executar :
+     npm run concat:css   -> gera arquivo style.concat.css
 
 
+executar :
+     npm run prefix:css   -> gera arquivo style.prefix.css
+
+
+executar :
+     npm run compress:css   -> arquivo style2.css é modificado
 
 
 
