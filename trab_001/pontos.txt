@@ -90,6 +90,8 @@ executar :
      npm run compress:css   -> arquivo style2.css é modificado
 
 
+na pasta css deixar apenas o arquivo fonte-icone.css e executar :
+     npm run build:css
 
 
 
