@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/principal.scss css/style2.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "node-sass sass/principal.scss css/style2.comp.css",
     "concat:css": "concat -o css/style.concat.css css/fonte-icone.css css/style2.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.concat.css -o css/style.prefix.css",
@@ -22,5 +24,7 @@
     "postcss": "^8.3.6",
     "postcss-cli": "^8.3.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }

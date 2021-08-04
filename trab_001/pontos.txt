@@ -75,6 +75,7 @@ executar no terminal:
      npm i postcss-cli --save-dev
      npm i postcss --save-dev
      npm i npm-run-all --save-dev
+     npm i live-server
 
 
 
@@ -95,7 +96,9 @@ na pasta css deixar apenas o arquivo fonte-icone.css e executar :
 
 
 
+npm run start
 
+programa executando
 
 
 
