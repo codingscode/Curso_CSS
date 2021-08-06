@@ -68,6 +68,10 @@ body {
     body {
       padding: 0; } }
 
+::selection {
+  background-color: #55c57a;
+  color: #fff; }
+
 @keyframes moverParaDireita {
   0% {
     opacity: 0;

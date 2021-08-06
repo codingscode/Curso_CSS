@@ -51,3 +51,9 @@ body {
     }
 
 }
+
+::selection {
+    background-color: $cor-primaria;
+    color: $cor-branca;
+}
+
