@@ -105,7 +105,8 @@ muda a cor da seleção de texto
 
 impede imprimir a tela
 
-
+npm run build:css
+npm run start
 
 
 
