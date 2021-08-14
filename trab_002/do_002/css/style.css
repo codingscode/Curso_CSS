@@ -15,9 +15,25 @@ cinza escuro 2: #777
 cinza escuro 3: #999
 
 */
+:root {
+  --cor-primaria: #eb2f64;
+  --cor-primaria-clara: #FF3366;
+  --cor-primaria-escura: #BA265D; }
+
 * {
   margin: 0;
   padding: 0; }
 
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
 body {
-  background: #eb2f64; }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-image: linear-gradient(to right bottom, var(--cor-primaria-clara), var(--cor-primaria-escura));
+  background-size: cover; }
