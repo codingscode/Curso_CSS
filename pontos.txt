@@ -108,8 +108,13 @@ impede imprimir a tela
 npm run build:css
 npm run start
 
+----------------------------------------------------------
+projeto trillo
 
 
+no terminal:
+   npm i
+   npm run start
 
 
 
