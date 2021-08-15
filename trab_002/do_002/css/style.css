@@ -25,7 +25,8 @@ cinza escuro 3: #999
   --cor-cinza-claro-4: #ccc;
   --cor-cinza-escuro-1: #333;
   --cor-cinza-escuro-2: #777;
-  --cor-cinza-escuro-3: #999; }
+  --cor-cinza-escuro-3: #999;
+  --sombra-escura: 0 2rem 6rem rgba(0, 0, 0, .3); }
 
 * {
   margin: 0;
@@ -47,3 +48,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh; }
+
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--cor-cinza-claro-2);
+  box-shadow: var(--sombra-escura);
+  min-height: 50rem; }
