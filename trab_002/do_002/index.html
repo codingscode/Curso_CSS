@@ -13,7 +13,36 @@
     <body>
         <div class="container">
             <header class="cabecalho">
-                Parte Cabeçalho
+               <img src="img/logo.png" alt="trillo logo" class="logo" >
+               
+               <form action="#" class="pesquisa" >
+                  <input type="text" class="pesquisa__entrada" placeholder="Pesquisar hoteis">
+                  <button class="pesquisa__botao" >
+                     <svg class="pesquisa__icone" >
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass" ></use>
+                     </svg>
+                  </button>
+               </form>
+                
+               <nav class="usuario-nav" >
+                  <div class="usuario-nav__icone-caixa" >
+                     <svg class="usuario-nav__icone" >
+                        <use xlink:href="img/sprite.svg#icon-bookmark" ></use>
+                     </svg>
+                     <span class="usuario-nav__notificacao" >7</span>
+                  </div>
+                  <div class="usuario-nav__icone-caixa" >
+                     <svg class="usuario-nav__icone" >
+                        <use xlink:href="img/sprite.svg#icon-chat" ></use>
+                     </svg>
+                     <span class="usuario-nav__notificacao" >13</span>
+                  </div>
+                  <div class="usuario-nav__usuario" >
+                     <img src="img/user.jpg" alt="foto usuario" class="usuario-nav__usuario-foto">
+                     <span class="usuario-nav__usuario-nome" >Aladin</span>
+                  </div>   
+               </nav>
+              
             </header>
             <div class="conteudo">
                 <nav class="barralado">
