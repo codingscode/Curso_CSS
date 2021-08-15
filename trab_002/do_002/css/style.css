@@ -65,7 +65,8 @@ body {
   display: flex; }
 
 .barralado {
-  background-color: var(--cor-cinza-escuro-1); }
+  background-color: var(--cor-cinza-escuro-1);
+  flex: 0 0 18%; }
 
 .vista-hotel {
-  background-color: #fff; }
+  background-color: orangered; }
