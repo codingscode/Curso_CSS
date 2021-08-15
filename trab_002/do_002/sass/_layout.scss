@@ -1,14 +1,16 @@
 .container {
    max-width: 120rem;
    margin: 8rem auto;
-   background-color: var(--cor-cinza-claro-2);
+   background-color: var(--cor-cinza-claro-1);
    box-shadow: var(--sombra-escura);
    
    min-height: 50rem;
 }
 
 .cabecalho {
-
+   height: 7rem;
+   background-color: #fff;
+   border-bottom: var(--cor-cinza-escuro-2);
 }
 
 .conteudo {
@@ -16,12 +18,11 @@
 }
 
 .barralado {
-
+   background-color: var(--cor-cinza-escuro-1);
 }
 
 .vista-hotel {
-
-}
- 
+   background-color: #fff;
+} 
  
  
