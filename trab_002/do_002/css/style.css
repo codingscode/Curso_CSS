@@ -61,6 +61,9 @@ body {
   background-color: #fff;
   border-bottom: var(--cor-cinza-escuro-2); }
 
+.conteudo {
+  display: flex; }
+
 .barralado {
   background-color: var(--cor-cinza-escuro-1); }
 
