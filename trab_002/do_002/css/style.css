@@ -78,7 +78,8 @@ body {
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--cor-cinza-escuro-2);
-  display: flex; }
+  display: flex;
+  justify-content: center; }
 
 .conteudo {
   display: flex; }
