@@ -1,9 +1,10 @@
 
-logo {
+.logo {
    height: 3.25rem;
 }
 
 .pesquisa {
+   background-color: orangered;
    &__entrada {
    
    }
@@ -17,6 +18,7 @@ logo {
 }
 
 .usuario-nav {
+   background-color: yellowgreen;
    &__icone-caixa {
    
    }

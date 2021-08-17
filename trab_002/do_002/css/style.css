@@ -49,20 +49,23 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh; }
 
-logo {
+.logo {
   height: 3.25rem; }
 
-.pesquisa__icone {
-  height: 2rem;
-  width: 2rem; }
+.pesquisa {
+  background-color: orangered; }
+  .pesquisa__icone {
+    height: 2rem;
+    width: 2rem; }
 
-.usuario-nav__icone {
-  height: 2.25rem;
-  width: 2.25rem; }
-
-.usuario-nav__usuario-foto {
-  height: 3.75rem;
-  border-radius: 50%; }
+.usuario-nav {
+  background-color: yellowgreen; }
+  .usuario-nav__icone {
+    height: 2.25rem;
+    width: 2.25rem; }
+  .usuario-nav__usuario-foto {
+    height: 3.75rem;
+    border-radius: 50%; }
 
 .container {
   max-width: 120rem;
@@ -74,7 +77,8 @@ logo {
 .cabecalho {
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--cor-cinza-escuro-2); }
+  border-bottom: var(--cor-cinza-escuro-2);
+  display: flex; }
 
 .conteudo {
   display: flex; }
