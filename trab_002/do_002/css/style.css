@@ -79,7 +79,8 @@ body {
   background-color: #fff;
   border-bottom: var(--cor-cinza-escuro-2);
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
 
 .conteudo {
   display: flex; }
