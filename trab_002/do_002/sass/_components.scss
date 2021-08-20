@@ -18,6 +18,7 @@
       border-radius: 100px;
       width: 90%;
       transition: all .2s;
+      margin-right: -3.5rem;
       
       &:focus {
          outline: none;
@@ -26,7 +27,16 @@
       }
    }
    &__botao {
-   
+      border: none;
+      background-color: var(--cor-cinza-claro-2);
+      
+      &:focus {
+         outline: none;
+      }
+      
+      &:active {
+         transform: translateY(2px);
+      }
    }
    &__icone {
       height: 2rem;

@@ -65,11 +65,19 @@ body {
     padding: .7rem 2rem;
     border-radius: 100px;
     width: 90%;
-    transition: all .2s; }
+    transition: all .2s;
+    margin-right: -3.5rem; }
     .pesquisa__entrada:focus {
       outline: none;
       width: 100%;
       background-color: var(--cor-cinza-claro-3); }
+  .pesquisa__botao {
+    border: none;
+    background-color: var(--cor-cinza-claro-2); }
+    .pesquisa__botao:focus {
+      outline: none; }
+    .pesquisa__botao:active {
+      transform: translateY(2px); }
   .pesquisa__icone {
     height: 2rem;
     width: 2rem; }
