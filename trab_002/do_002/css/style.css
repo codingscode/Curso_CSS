@@ -97,7 +97,8 @@ body {
   align-items: center; }
   .usuario-nav > * {
     padding: 0 2rem;
-    cursor: pointer; }
+    cursor: pointer;
+    height: 100%; }
   .usuario-nav > *:hover {
     background-color: var(--cor-cinza-claro-2); }
   .usuario-nav__icone {
