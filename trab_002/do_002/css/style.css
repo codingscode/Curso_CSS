@@ -54,7 +54,6 @@ body {
   margin-left: 3rem; }
 
 .pesquisa {
-  background-color: orangered;
   flex: 0 0 40%;
   display: flex;
   align-items: center;
@@ -74,6 +73,9 @@ body {
       outline: none;
       width: 100%;
       background-color: var(--cor-cinza-claro-3); }
+    .pesquisa__entrada::-webkit-input-placeholder {
+      font-weight: 100;
+      color: var(--cor-cinza-claro-4); }
   .pesquisa__entrada:focus + .pesquisa__botao {
     background-color: var(--cor-cinza-claro-3); }
   .pesquisa__botao {
@@ -105,6 +107,7 @@ body {
   min-height: 50rem; }
 
 .cabecalho {
+  font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--cor-cinza-escuro-2);
