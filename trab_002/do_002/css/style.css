@@ -85,7 +85,8 @@ body {
       transform: translateY(2px); }
   .pesquisa__icone {
     height: 2rem;
-    width: 2rem; }
+    width: 2rem;
+    fill: var(--cor-cinza-escuro-3); }
 
 .usuario-nav {
   background-color: yellowgreen; }
