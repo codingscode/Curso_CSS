@@ -69,6 +69,8 @@
       padding: 0 2rem;
       cursor: pointer;
       height: 100%;
+      display: flex;
+      align-items: center;
    }
    
    & > *:hover {
@@ -76,8 +78,6 @@
    }
 
    &__icone-caixa {
-      display: flex;
-      align-items: center;
    }
    &__icone {
       height: 2.25rem;

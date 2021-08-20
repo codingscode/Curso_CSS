@@ -98,12 +98,11 @@ body {
   .usuario-nav > * {
     padding: 0 2rem;
     cursor: pointer;
-    height: 100%; }
-  .usuario-nav > *:hover {
-    background-color: var(--cor-cinza-claro-2); }
-  .usuario-nav__icone-caixa {
+    height: 100%;
     display: flex;
     align-items: center; }
+  .usuario-nav > *:hover {
+    background-color: var(--cor-cinza-claro-2); }
   .usuario-nav__icone {
     height: 2.25rem;
     width: 2.25rem; }
