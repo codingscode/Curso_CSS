@@ -16,6 +16,14 @@
       border: none;
       padding: .7rem 2rem;
       border-radius: 100px;
+      width: 90%;
+      transition: all .2s;
+      
+      &:focus {
+         outline: none;
+         width: 100%;
+         background-color: var(--cor-cinza-claro-3);
+      }
    }
    &__botao {
    
