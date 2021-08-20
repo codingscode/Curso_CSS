@@ -106,14 +106,18 @@ body {
   .usuario-nav__icone {
     height: 2.25rem;
     width: 2.25rem;
-    fill: var(--cor-cinza-escuro-2); }
+    fill: var(--cor-cinza-escuro-2);
+    position: relative; }
   .usuario-nav__notificacao {
     font-size: .8rem;
     height: 1.75rem;
     width: 1.75rem;
     border-radius: 50%;
     background-color: var(--cor-primaria);
-    color: #fff; }
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 1rem; }
   .usuario-nav__usuario-foto {
     height: 3.75rem;
     border-radius: 50%; }
