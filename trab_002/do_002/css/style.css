@@ -55,7 +55,10 @@ body {
 
 .pesquisa {
   background-color: orangered;
-  flex: 0 0 40%; }
+  flex: 0 0 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   .pesquisa__entrada {
     font-family: inherit;
     font-size: inherit;
