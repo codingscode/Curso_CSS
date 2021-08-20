@@ -101,6 +101,9 @@ body {
     height: 100%; }
   .usuario-nav > *:hover {
     background-color: var(--cor-cinza-claro-2); }
+  .usuario-nav__icone-caixa {
+    display: flex;
+    align-items: center; }
   .usuario-nav__icone {
     height: 2.25rem;
     width: 2.25rem; }

@@ -76,7 +76,8 @@
    }
 
    &__icone-caixa {
-   
+      display: flex;
+      align-items: center;
    }
    &__icone {
       height: 2.25rem;
