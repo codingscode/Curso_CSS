@@ -1,12 +1,21 @@
 
 .logo {
    height: 3.25rem;
+   margin-left: 3rem;
 }
 
 .pesquisa {
    background-color: orangered;
+   flex: 0 0 40%;
+
    &__entrada {
-   
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+      background-color: var(--cor-cinza-claro-2);
+      border: none;
+      padding: .7rem 2rem;
+      border-radius: 100px;
    }
    &__botao {
    
