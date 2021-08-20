@@ -78,21 +78,33 @@
    }
 
    &__icone-caixa {
+
    }
+
    &__icone {
       height: 2.25rem;
       width: 2.25rem;
+      fill: var(--cor-cinza-escuro-2);
    }
+
    &__notificacao {
-   
+      font-size: .8rem;
+      height: 1.75rem;
+      width: 1.75rem;
+      border-radius: 50%;
+      background-color: var(--cor-primaria);
+      color: #fff;
    }
+
    &__usuario {
    
    }
+
    &__usuario-foto {
       height: 3.75rem;
       border-radius: 50%;
    }
+
    &__usuario-nome {
    
    }
