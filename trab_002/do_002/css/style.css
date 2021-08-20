@@ -103,11 +103,12 @@ body {
     align-items: center; }
   .usuario-nav > *:hover {
     background-color: var(--cor-cinza-claro-2); }
+  .usuario-nav__icone-caixa {
+    position: relative; }
   .usuario-nav__icone {
     height: 2.25rem;
     width: 2.25rem;
-    fill: var(--cor-cinza-escuro-2);
-    position: relative; }
+    fill: var(--cor-cinza-escuro-2); }
   .usuario-nav__notificacao {
     font-size: .8rem;
     height: 1.75rem;

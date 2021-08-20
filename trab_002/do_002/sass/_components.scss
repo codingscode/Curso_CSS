@@ -78,6 +78,7 @@
    }
 
    &__icone-caixa {
+      position: relative;
 
    }
 
@@ -85,7 +86,6 @@
       height: 2.25rem;
       width: 2.25rem;
       fill: var(--cor-cinza-escuro-2);
-      position: relative;
    }
 
    &__notificacao {
