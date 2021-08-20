@@ -92,7 +92,13 @@ body {
 
 .usuario-nav {
   background-color: yellowgreen;
-  display: flex; }
+  display: flex;
+  align-items: center; }
+  .usuario-nav > * {
+    padding: 0 2rem;
+    cursor: pointer; }
+  .usuario-nav > *:hover {
+    background-color: var(--cor-cinza-claro-2); }
   .usuario-nav__icone {
     height: 2.25rem;
     width: 2.25rem; }
