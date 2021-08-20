@@ -69,11 +69,13 @@ body {
     border-radius: 100px;
     width: 90%;
     transition: all .2s;
-    margin-right: -3.5rem; }
+    margin-right: -3.25rem; }
     .pesquisa__entrada:focus {
       outline: none;
       width: 100%;
       background-color: var(--cor-cinza-claro-3); }
+  .pesquisa__entrada:focus + .pesquisa__botao {
+    background-color: var(--cor-cinza-claro-3); }
   .pesquisa__botao {
     border: none;
     background-color: var(--cor-cinza-claro-2); }

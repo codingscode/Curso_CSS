@@ -22,7 +22,7 @@
       border-radius: 100px;
       width: 90%;
       transition: all .2s;
-      margin-right: -3.5rem;
+      margin-right: -3.25rem;
       
       &:focus {
          outline: none;
@@ -30,6 +30,11 @@
          background-color: var(--cor-cinza-claro-3);
       }
    }
+
+   &__entrada:focus + &__botao {
+      background-color: var(--cor-cinza-claro-3);
+   }
+
    &__botao {
       border: none;
       background-color: var(--cor-cinza-claro-2);
