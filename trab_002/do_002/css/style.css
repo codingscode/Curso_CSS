@@ -91,7 +91,8 @@ body {
     fill: var(--cor-cinza-escuro-3); }
 
 .usuario-nav {
-  background-color: yellowgreen; }
+  background-color: yellowgreen;
+  display: flex; }
   .usuario-nav__icone {
     height: 2.25rem;
     width: 2.25rem; }
