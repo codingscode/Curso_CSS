@@ -117,7 +117,7 @@ body {
     background-color: var(--cor-primaria);
     color: #fff;
     position: absolute;
-    top: 0;
+    top: 1.5rem;
     right: 1rem; }
   .usuario-nav__usuario-foto {
     height: 3.75rem;
