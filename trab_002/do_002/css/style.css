@@ -158,7 +158,9 @@ body {
 
 .barralado {
   background-color: var(--cor-cinza-escuro-1);
-  flex: 0 0 18%; }
+  flex: 0 0 18%;
+  display: flex;
+  flex-direction: column; }
 
 .vista-hotel {
   background-color: #fff;
