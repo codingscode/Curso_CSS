@@ -160,7 +160,8 @@ body {
   background-color: var(--cor-cinza-escuro-1);
   flex: 0 0 18%;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: space-between; }
 
 .vista-hotel {
   background-color: #fff;
