@@ -161,5 +161,7 @@ body {
   flex: 0 0 18%; }
 
 .vista-hotel {
+  background-color: #fff;
   background-color: orangered;
+  height: 80rem;
   flex: 1; }
