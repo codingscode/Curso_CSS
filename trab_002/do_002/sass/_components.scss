@@ -120,12 +120,20 @@
 
 // navegação lateral
 .lado-nav {
+   font-size: 1.4rem;
+   list-style: none;
+   margin-top: 3.5rem;
+
    &__item {
    
    }
    
-   &__link {
-   
+   &__link:link, &__link:visited {
+      color: var(--cor-cinza-claro-1);
+      text-decoration: none;
+      text-transform: uppercase;
+      display: block;
+      padding: 1.5rem 3rem;
    }
    
    &__icone {
