@@ -118,6 +118,31 @@
    }
 }
 
+// navegação lateral
+.lado-nav {
+   &__item {
+   
+   }
+   
+   &__link {
+   
+   }
+   
+   &__icone {
+      width: 1.75rem;
+      height: 1.75rem;
+      background-color: white;
+   }
+      
+
+}
+
+.legal {
+   font-size: 1.2rem;
+   color: var(--cor-cinza-claro-4);
+   text-align: center;
+   padding: 2.5rem;
+}
 
 
 
