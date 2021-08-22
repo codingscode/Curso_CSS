@@ -143,6 +143,7 @@ body {
     width: 3px;
     background-color: var(--cor-primaria);
     transform: scaleY(0);
+    transform-origin: bottom;
     transition: transform 1s; }
   .lado-nav__item:hover::before {
     transform: scaleY(1); }

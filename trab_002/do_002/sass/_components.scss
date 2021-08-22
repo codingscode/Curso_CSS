@@ -141,6 +141,7 @@
       width: 3px;
       background-color: var(--cor-primaria);
       transform: scaleY(0);
+      transform-origin: bottom;
       transition: transform 1s;
    }
 
