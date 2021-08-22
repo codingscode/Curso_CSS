@@ -128,7 +128,7 @@ começa do fundo para cima
 
 site  https://cubic-bezier.com/#.17,.67,.83,.67
 
-
+clicar fica mais claro
 
 
 

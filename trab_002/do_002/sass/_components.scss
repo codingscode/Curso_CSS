@@ -141,12 +141,16 @@
       width: 3px;
       background-color: var(--cor-primaria);
       transform: scaleY(0);
-      transition: transform .1s, width .4s cubic-bezier(1,.09,0,1.01) 0.2s;
+      transition: transform .1s, width .4s cubic-bezier(1,.09,0,1.01) 0.2s, background-color .1s;
    }
 
    &__item:hover::before, &__item--active::before {
       transform: scaleY(1);
       width: 100%;
+   }
+
+   &__item:active::before {
+      background-color: var(--cor-primaria-clara);
    }
    
    &__link:link, &__link:visited {

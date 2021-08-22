@@ -143,10 +143,12 @@ body {
     width: 3px;
     background-color: var(--cor-primaria);
     transform: scaleY(0);
-    transition: transform 0.1s, width 0.4s cubic-bezier(1, 0.09, 0, 1.01) 0.2s; }
+    transition: transform 0.1s, width 0.4s cubic-bezier(1, 0.09, 0, 1.01) 0.2s, background-color 0.1s; }
   .lado-nav__item:hover::before, .lado-nav__item--active::before {
     transform: scaleY(1);
     width: 100%; }
+  .lado-nav__item:active::before {
+    background-color: var(--cor-primaria-clara); }
   .lado-nav__link:link, .lado-nav__link:visited {
     color: var(--cor-cinza-claro-1);
     text-decoration: none;
