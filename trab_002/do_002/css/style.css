@@ -132,6 +132,8 @@ body {
   margin-top: 3.5rem; }
   .lado-nav__item {
     position: relative; }
+    .lado-nav__item:not(:last-child) {
+      margin-bottom: .5rem; }
   .lado-nav__item::before {
     content: "";
     position: absolute;

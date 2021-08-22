@@ -126,6 +126,10 @@
 
    &__item {
       position: relative;
+
+      &:not(:last-child) {
+         margin-bottom: .5rem;
+      }
    }
 
    &__item::before {
