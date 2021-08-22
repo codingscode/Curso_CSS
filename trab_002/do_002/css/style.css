@@ -139,7 +139,8 @@ body {
   .lado-nav__icone {
     width: 1.75rem;
     height: 1.75rem;
-    background-color: white; }
+    margin-right: 2rem;
+    fill: currentColor; }
 
 .legal {
   font-size: 1.2rem;
