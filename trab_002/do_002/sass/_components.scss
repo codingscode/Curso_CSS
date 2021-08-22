@@ -141,12 +141,12 @@
       width: 3px;
       background-color: var(--cor-primaria);
       transform: scaleY(0);
-      transform-origin: bottom;
-      transition: transform 1s;
+      transition: transform .2s, width .4s 0.2s;
    }
 
    &__item:hover::before {
       transform: scaleY(1);
+      width: 100%;
    }
    
    &__link:link, &__link:visited {
