@@ -126,7 +126,7 @@ o filete rosa lateral esquerdo aparece
 
 começa do fundo para cima
 
-
+site  https://cubic-bezier.com/#.17,.67,.83,.67
 
 
 
