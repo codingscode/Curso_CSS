@@ -140,6 +140,12 @@
       height: 100%;
       width: 3px;
       background-color: var(--cor-primaria);
+      transform: scaleY(0);
+      transition: transform 1s;
+   }
+
+   &__item:hover::before {
+      transform: scaleY(1);
    }
    
    &__link:link, &__link:visited {
