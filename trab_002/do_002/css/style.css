@@ -130,6 +130,16 @@ body {
   font-size: 1.4rem;
   list-style: none;
   margin-top: 3.5rem; }
+  .lado-nav__item {
+    position: relative; }
+  .lado-nav__item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: var(--cor-primaria); }
   .lado-nav__link:link, .lado-nav__link:visited {
     color: var(--cor-cinza-claro-1);
     text-decoration: none;
