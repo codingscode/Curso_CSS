@@ -136,8 +136,11 @@
       padding: 1.5rem 3rem;
    }
    
+   &__link:hover {
+      color: lightgreen;
+   }
+
    &__icone {
-      color: blue;
       width: 1.75rem;
       height: 1.75rem;
       margin-right: 2rem;
