@@ -135,9 +135,9 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     display: block;
-    padding: 1.5rem 3rem; }
-  .lado-nav__link:hover {
-    color: lightgreen; }
+    padding: 1.5rem 3rem;
+    display: flex;
+    align-items: center; }
   .lado-nav__icone {
     width: 1.75rem;
     height: 1.75rem;
