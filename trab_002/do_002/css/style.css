@@ -137,6 +137,7 @@ body {
     display: block;
     padding: 1.5rem 3rem; }
   .lado-nav__icone {
+    color: blue;
     width: 1.75rem;
     height: 1.75rem;
     margin-right: 2rem;
