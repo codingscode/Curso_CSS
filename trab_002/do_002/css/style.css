@@ -180,14 +180,11 @@ body {
 .visaogeral {
   display: flex; }
   .visaogeral__estrelas {
-    margin-right: auto;
-    background-color: lightgreen; }
+    margin-right: auto; }
   .visaogeral__icone-estrela, .visaogeral__icone-local {
     width: 1.75rem;
     height: 1.75rem;
     fill: var(--cor-primaria); }
-  .visaogeral__local {
-    flex: 1; }
 
 .container {
   max-width: 120rem;
