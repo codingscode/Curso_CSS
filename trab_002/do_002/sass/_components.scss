@@ -196,14 +196,15 @@
 
 .visaogeral {
    display: flex;
-   justify-content: space-between;
+   
 
    &__cabecalho {
    
    }
    
    &__estrelas {
-   
+      flex: 1;
+      background-color: lightgreen;
    }
    
    &__icone-estrela, &__icone-local {
@@ -213,7 +214,7 @@
    }
    
    &__local {
-   
+      flex: 1;
    }
    
    &__rating {

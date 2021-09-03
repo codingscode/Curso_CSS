@@ -178,12 +178,16 @@ body {
     display: block; }
 
 .visaogeral {
-  display: flex;
-  justify-content: space-between; }
+  display: flex; }
+  .visaogeral__estrelas {
+    flex: 1;
+    background-color: lightgreen; }
   .visaogeral__icone-estrela, .visaogeral__icone-local {
     width: 1.75rem;
     height: 1.75rem;
     fill: var(--cor-primaria); }
+  .visaogeral__local {
+    flex: 1; }
 
 .container {
   max-width: 120rem;
