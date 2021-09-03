@@ -194,7 +194,37 @@
 
 }
 
-
+.visaogeral {
+   &__cabecalho {
+   
+   }
+   
+   &__estrelas {
+   
+   }
+   
+   &__icone-estrela, &__icone-local {
+      width: 1.75rem;
+      height: 1.75rem;
+      fill: var(--cor-primaria);
+   }
+   
+   &__local {
+   
+   }
+   
+   &__rating {
+   
+   }
+   
+   &__rating-media {
+   
+   }
+   
+   &__rating-contagem {
+   
+   }
+}
 
 
 
