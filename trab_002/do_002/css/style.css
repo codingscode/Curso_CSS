@@ -177,10 +177,12 @@ body {
     width: 100%;
     display: block; }
 
-.visaogeral__icone-estrela, .visaogeral__icone-local {
-  width: 1.75rem;
-  height: 1.75rem;
-  fill: var(--cor-primaria); }
+.visaogeral {
+  display: flex; }
+  .visaogeral__icone-estrela, .visaogeral__icone-local {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--cor-primaria); }
 
 .container {
   max-width: 120rem;
