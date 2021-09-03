@@ -184,7 +184,15 @@
    padding: 2.5rem;
 }
 
+.galeria {
+   display: flex;
+   
+   &__foto {
+      width: 100%;
+      display: block;
+   }
 
+}
 
 
 

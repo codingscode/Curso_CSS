@@ -171,6 +171,12 @@ body {
   text-align: center;
   padding: 2.5rem; }
 
+.galeria {
+  display: flex; }
+  .galeria__foto {
+    width: 100%;
+    display: block; }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
