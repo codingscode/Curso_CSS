@@ -179,7 +179,8 @@ body {
 
 .visaogeral {
   display: flex;
-  border-bottom: 1px solid var(--cor-cinza-claro-2); }
+  border-bottom: 1px solid var(--cor-cinza-claro-2);
+  align-items: center; }
   .visaogeral__estrelas {
     margin-right: auto; }
   .visaogeral__icone-estrela, .visaogeral__icone-local {
