@@ -188,7 +188,8 @@ body {
     letter-spacing: 1px;
     padding: 1.5rem 3rem; }
   .visaogeral__estrelas {
-    margin-right: auto; }
+    margin-right: auto;
+    display: flex; }
   .visaogeral__icone-estrela, .visaogeral__icone-local {
     width: 1.75rem;
     height: 1.75rem;
