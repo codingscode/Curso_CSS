@@ -201,7 +201,11 @@
    
 
    &__cabecalho {
-   
+      font-size: 2.25rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 1.5rem 3rem;
    }
    
    &__estrelas {

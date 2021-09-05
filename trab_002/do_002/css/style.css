@@ -181,6 +181,12 @@ body {
   display: flex;
   border-bottom: 1px solid var(--cor-cinza-claro-2);
   align-items: center; }
+  .visaogeral__cabecalho {
+    font-size: 2.25rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.5rem 3rem; }
   .visaogeral__estrelas {
     margin-right: auto; }
   .visaogeral__icone-estrela, .visaogeral__icone-local {
