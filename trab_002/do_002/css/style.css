@@ -203,7 +203,9 @@ body {
   .visaogeral__rating {
     background-color: var(--cor-primaria);
     color: #fff;
-    margin-left: 3rem; }
+    margin-left: 3rem;
+    padding: 0 2.25rem;
+    align-self: stretch; }
   .visaogeral__rating-media {
     font-size: 2.25rem;
     font-weight: 300; }
