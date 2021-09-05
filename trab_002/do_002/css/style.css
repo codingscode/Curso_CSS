@@ -207,6 +207,20 @@ body {
   transition: all .2s; }
   .btn-inline:hover {
     color: var(--cor-cinza-escuro-1); }
+  .btn-inline:focus {
+    outline: none;
+    animation: pulsate 1s; }
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    box-shadow: none; }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25); }
+  100% {
+    transform: scale(1);
+    box-shadow: none; } }
 
 .container {
   max-width: 120rem;
