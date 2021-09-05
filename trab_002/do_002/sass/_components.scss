@@ -230,15 +230,19 @@
    }
    
    &__rating {
-   
+      background-color: var(--cor-primaria);
+      color: #fff;
+      margin-left: 3rem;
    }
    
    &__rating-media {
-   
+      font-size: 2.25rem;
+      font-weight: 300;
    }
    
    &__rating-contagem {
-   
+      font-size: .8rem;
+      text-transform: uppercase;
    }
 }
 
