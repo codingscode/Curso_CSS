@@ -241,6 +241,11 @@
    color: var(--cor-primaria);
    font-size: inherit;
    border-bottom: 1px solid currentColor;
+   padding-bottom: 2px;
+   display: inline-block;
+   background-color: transparent;
+   cursor: pointer;
+   transition: all .2s;
    
    &:hover {
       color: var(--cor-cinza-escuro-1);
