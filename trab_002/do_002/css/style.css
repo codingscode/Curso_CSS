@@ -205,7 +205,10 @@ body {
     color: #fff;
     margin-left: 3rem;
     padding: 0 2.25rem;
-    align-self: stretch; }
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   .visaogeral__rating-media {
     font-size: 2.25rem;
     font-weight: 300; }

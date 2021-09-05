@@ -235,6 +235,10 @@
       margin-left: 3rem;
       padding: 0 2.25rem;
       align-self: stretch;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
    }
    
    &__rating-media {
