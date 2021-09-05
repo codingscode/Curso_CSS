@@ -195,6 +195,14 @@ body {
     height: 1.75rem;
     fill: var(--cor-primaria); }
 
+.btn-inline {
+  border: none;
+  color: var(--cor-primaria);
+  font-size: inherit;
+  border-bottom: 1px solid currentColor; }
+  .btn-inline:hover {
+    color: var(--cor-cinza-escuro-1); }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;

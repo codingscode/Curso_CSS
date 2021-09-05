@@ -236,7 +236,16 @@
    }
 }
 
-
+.btn-inline {
+   border: none;
+   color: var(--cor-primaria);
+   font-size: inherit;
+   border-bottom: 1px solid currentColor;
+   
+   &:hover {
+      color: var(--cor-cinza-escuro-1);
+   }
+}
 
 
 
