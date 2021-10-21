@@ -26,7 +26,8 @@ cinza escuro 3: #999
   --cor-cinza-escuro-1: #333;
   --cor-cinza-escuro-2: #777;
   --cor-cinza-escuro-3: #999;
-  --sombra-escura: 0 2rem 6rem rgba(0, 0, 0, .3); }
+  --sombra-escura: 0 2rem 6rem rgba(0, 0, 0, .3);
+  --linha: 1px solid var(--cor-cinza-claro-2); }
 
 * {
   margin: 0;
@@ -179,7 +180,7 @@ body {
 
 .visaogeral {
   display: flex;
-  border-bottom: 1px solid var(--cor-cinza-claro-2);
+  border-bottom: var(--linha);
   align-items: center; }
   .visaogeral__cabecalho {
     font-size: 2.25rem;
@@ -256,7 +257,7 @@ body {
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: 1px solid var(--cor-cinza-claro-2);
+  border-bottom: var(--linha);
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -277,7 +278,10 @@ body {
   flex: 1; }
 
 .detalhe {
-  display: flex; }
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--cor-cinza-claro-1);
+  border-bottom: var(--linha); }
 
 .descricao {
   background-color: orangered;

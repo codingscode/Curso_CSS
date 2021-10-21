@@ -11,7 +11,7 @@
    font-size: 1.4rem;
    height: 7rem;
    background-color: #fff;
-   border-bottom: 1px solid var(--cor-cinza-claro-2);
+   border-bottom: var(--linha);
 
    display: flex;
    justify-content: space-between;
@@ -44,6 +44,9 @@
  
 .detalhe {
    display: flex;
+   padding: 4.5rem;
+   background-color: var(--cor-cinza-claro-1);
+   border-bottom: var(--linha);
 }
 
 .descricao {
