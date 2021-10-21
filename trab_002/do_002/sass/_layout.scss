@@ -35,9 +35,7 @@
 .vista-hotel {
     background-color: #fff;
 
-    // teste
     
-    height: 80rem;
     flex: 1;
     
 } 
@@ -50,6 +48,7 @@
 }
 
 .descricao {
+   font-size: 1.4rem;
    background-color: #fff;
    box-shadow: var(--sombra-clara);
    padding: 3rem;

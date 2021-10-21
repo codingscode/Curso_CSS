@@ -275,7 +275,6 @@ body {
 
 .vista-hotel {
   background-color: #fff;
-  height: 80rem;
   flex: 1; }
 
 .detalhe {
@@ -285,6 +284,7 @@ body {
   border-bottom: var(--linha); }
 
 .descricao {
+  font-size: 1.4rem;
   background-color: #fff;
   box-shadow: var(--sombra-clara);
   padding: 3rem;
