@@ -255,7 +255,8 @@ body {
   margin: 3rem 0;
   padding: 3rem 0;
   border-top: var(--linha);
-  border-bottom: var(--linha); }
+  border-bottom: var(--linha);
+  display: flex; }
 
 .container {
   max-width: 120rem;
