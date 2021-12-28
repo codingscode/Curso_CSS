@@ -258,6 +258,8 @@ body {
   border-bottom: var(--linha);
   display: flex;
   flex-wrap: wrap; }
+  .lista__item {
+    flex: 0 0 50%; }
 
 .container {
   max-width: 120rem;
