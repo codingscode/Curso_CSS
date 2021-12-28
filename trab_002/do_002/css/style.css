@@ -276,7 +276,10 @@ body {
 .recomendar {
   font-size: 1.3rem;
   color: var(--cor-cinza-escuro-3);
-  display: flex; }
+  display: flex;
+  align-items: center; }
+  .recomendar__contar {
+    margin-right: auto; }
   .recomendar__foto {
     box-sizing: content-box;
     height: 4rem;

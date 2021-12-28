@@ -346,9 +346,11 @@
    color: var(--cor-cinza-escuro-3);
    
    display: flex;
+   align-items: center;
+   
 
    &__contar {
-   
+      margin-right: auto;
    }
    
    &__amigos {
