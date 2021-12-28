@@ -343,7 +343,9 @@
 //recomendar
 .recomendar {
    font-size: 1.3rem;
-   color: var(--cor-cinza-claro-3);
+   color: var(--cor-cinza-escuro-3);
+   
+   display: flex;
 
    &__contar {
    
