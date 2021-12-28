@@ -278,6 +278,7 @@ body {
   color: var(--cor-cinza-escuro-3);
   display: flex; }
   .recomendar__foto {
+    box-sizing: content-box;
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
