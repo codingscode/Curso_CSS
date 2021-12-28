@@ -256,7 +256,8 @@ body {
   padding: 3rem 0;
   border-top: var(--linha);
   border-bottom: var(--linha);
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
 
 .container {
   max-width: 120rem;
