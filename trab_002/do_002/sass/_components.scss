@@ -323,7 +323,15 @@
       height: 2rem;
       width: 2rem;
       margin-right: .7rem;
-      background-image: url(../img/chevron-thin-right.svg);
+      
+      // browsers antigos
+      //background-image: url(../img/chevron-thin-right.svg);
+      //background-size: cover;
+      
+      // novos browsers - masks
+      background-color: var(--cor-primaria);
+      
+      
    }
    
    
