@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>trillo &mdash; Aplicativo de Agendamento tudo em um</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="cabecalho">
+               <img src="img/logo.png" alt="trillo logo" class="logo" >
+               
+               <form action="#" class="pesquisa" >
+                  <input type="text" class="pesquisa__entrada" placeholder="Pesquisar hoteis">
+                  <button class="pesquisa__botao" >
+                     <svg class="pesquisa__icone" >
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass" ></use>
+                     </svg>
+                  </button>
+               </form>
+                
+               <nav class="usuario-nav" >
+                  <div class="usuario-nav__icone-caixa" >
+                     <svg class="usuario-nav__icone" >
+                        <use xlink:href="img/sprite.svg#icon-bookmark" ></use>
+                     </svg>
+                     <span class="usuario-nav__notificacao" >7</span>
+                  </div>
+                  <div class="usuario-nav__icone-caixa" >
+                     <svg class="usuario-nav__icone" >
+                        <use xlink:href="img/sprite.svg#icon-chat" ></use>
+                     </svg>
+                     <span class="usuario-nav__notificacao" >13</span>
+                  </div>
+                  <div class="usuario-nav__usuario" >
+                     <img src="img/user.jpg" alt="foto usuario" class="usuario-nav__usuario-foto">
+                     <span class="usuario-nav__usuario-nome" >Aladin</span>
+                  </div>   
+               </nav>
+              
+            </header>
+            <div class="conteudo">
+                <nav class="barralado">
+                  <ul class="lado-nav" >
+                     <li class="lado-nav__item lado-nav__item--active" >
+                        <a href="#" class="lado-nav__link" >
+                           <svg class="lado-nav__icone" >
+                              <use xlink:href="img/sprite.svg#icon-home" ></use>
+                           </svg>
+                           <span>Hotel</span>
+                        </a>
+                     </li>
+                     <li class="lado-nav__item" >
+                        <a href="#" class="lado-nav__link" >
+                           <svg class="lado-nav__icone" >
+                              <use xlink:href="img/sprite.svg#icon-aircraft-take-off" ></use>
+                           </svg>
+                           <span>Voo</span>
+                        </a>
+                     </li>
+                     <li class="lado-nav__item" >
+                        <a href="#" class="lado-nav__link" >
+                           <svg class="lado-nav__icone" >
+                              <use xlink:href="img/sprite.svg#icon-key" ></use>
+                           </svg>
+                           <span>Aluguel carros</span>
+                        </a>
+                     </li>
+                     <li class="lado-nav__item" >
+                        <a href="#" class="lado-nav__link" >
+                           <svg class="lado-nav__icone" >
+                              <use xlink:href="img/sprite.svg#icon-map" ></use>
+                           </svg>
+                           <span>Viagens</span>
+                        </a>
+                     </li>
+                                       
+                  </ul>
+                  <div class="legal">&copy; 2021 por trillo. Todos direitos reservados.</div>
+
+                </nav>
+                
+                <main class="vista-hotel">
+                    <div class="galeria" >
+                       <figure class="galeria__item" >
+                          <img src="img/hotel-1.jpg" alt="foto de hotel 1" class="galeria__foto" />
+                       </figure>
+                       <figure class="galeria__item" >
+                          <img src="img/hotel-2.jpg" alt="foto de hotel 2" class="galeria__foto" />
+                       </figure>
+                       <figure class="galeria__item" >
+                          <img src="img/hotel-3.jpg" alt="foto de hotel 3" class="galeria__foto" />
+                       </figure>
+                    </div>
+                    <div class="visaogeral" >
+                       <h1 class="visaogeral__cabecalho" >
+                          Hotel Las Palmas
+                       </h1>
+                       <div class="visaogeral__estrelas" >
+                          <svg class="visaogeral__icone-estrela">
+                             <use xlink:href="img/sprite.svg#icon-star" ></use>
+                          </svg>
+                          <svg class="visaogeral__icone-estrela">
+                             <use xlink:href="img/sprite.svg#icon-star" ></use>
+                          </svg>
+                          <svg class="visaogeral__icone-estrela">
+                             <use xlink:href="img/sprite.svg#icon-star" ></use>
+                          </svg>
+                          <svg class="visaogeral__icone-estrela">
+                             <use xlink:href="img/sprite.svg#icon-star" ></use>
+                          </svg>
+                          <svg class="visaogeral__icone-estrela">
+                             <use xlink:href="img/sprite.svg#icon-star" ></use>
+                          </svg>
+                       </div>
+                       <div class="visaogeral__local">
+                          <svg class="visaogeral__icone-local">
+                             <use xlink:href="img/sprite.svg#icon-location-pin" ></use>
+                          </svg>
+                          <button class="btn-inline" >Albufeira, Portugal</button>
+                       </div>
+                       
+                       <div class="visaogeral__rating" >
+                          <div class="visaogeral__rating-media" >8.6</div>
+                          <div class="visaogeral__rating-contagem" >429 votes</div>
+                       </div>
+                       
+                    </div>
+                    
+                    <div class="detalhe" >
+                       <div class="descricao" >
+                          <p class="paragrafo" >
+                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil eos quas debitis,
+                             distinctio inventore a veritatis dignissimos blanditiis odio! Eius ducimus placeat
+                             recusandae dignissimos perspiciatis
+                          </p>
+                          <p class="paragrafo" >
+                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil eos quas debitis,
+                             distinctio inventore a veritatis dignissimos
+                          </p>
+                          <ul class="lista" >
+                             <li class="lista__item">Perto da praia</li>
+                             <li class="lista__item">Café da manhã incluso</li>
+                             <li class="lista__item">Transporte gratuito do aeroporto</li>
+                             <li class="lista__item">Wifi gratis em todos os quartos</li>
+                             <li class="lista__item">Ar condicionado e Aquecedor</li>
+                             <li class="lista__item">Animais permitidos</li>
+                             <li class="lista__item">Falamos todas as linguas</li>
+                             <li class="lista__item">Perfeito para familias</li>                                                                                                                                                                                                           
+                          </ul>
+                          <div class="recomendar" >
+                             <p class="recomendar__contar" >
+                                Lucy e 3 outros amigos recomendam este hotel.
+                             </p>
+                             <div class="recomendar__amigos" >
+                                <img src="img/user-3.jpg" alt="Amigo 1" class="recomendar__foto" >
+                                <img src="img/user-4.jpg" alt="Amigo 2" class="recomendar__foto" >
+                                <img src="img/user-5.jpg" alt="Amigo 3" class="recomendar__foto" >
+                                <img src="img/user-6.jpg" alt="Amigo 4" class="recomendar__foto" >                                                                                                
+                             </div>
+                          </div>
+                       </div>
+                       <div class="usuarios-reviews" >
+                          Usuários Reviews
+                       </div>                       
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
