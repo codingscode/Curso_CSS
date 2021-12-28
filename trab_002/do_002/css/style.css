@@ -281,6 +281,8 @@ body {
     height: 4rem;
     width: 4rem;
     border-radius: 50%; }
+    .recomendar__foto:not(:last-child) {
+      margin-right: -1.5rem; }
 
 .container {
   max-width: 120rem;
