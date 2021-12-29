@@ -38,9 +38,10 @@
     
     flex: 1;
     
-} 
- 
+}
+
 .detalhe {
+   font-size: 1.4rem;
    display: flex;
    padding: 4.5rem;
    background-color: var(--cor-cinza-claro-1);
@@ -48,7 +49,6 @@
 }
 
 .descricao {
-   font-size: 1.4rem;
    background-color: #fff;
    box-shadow: var(--sombra-clara);
    padding: 3rem;
