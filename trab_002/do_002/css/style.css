@@ -289,6 +289,12 @@ body {
     .recomendar__foto:not(:last-child) {
       margin-right: -1.5rem; }
 
+.review {
+  background-color: #fff;
+  box-shadow: var(--sombra-clara);
+  padding: 3rem;
+  margin-bottom: 3.5rem; }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -334,5 +340,5 @@ body {
   margin-right: 4.5rem; }
 
 .usuarios-reviews {
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   flex: 1; }
