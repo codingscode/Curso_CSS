@@ -138,6 +138,9 @@ clicando 1 vez pulsa infinito
 
 
 
+html entities css tricks
+https://css-tricks.com/snippets/html/glyphs/
+
 
 
 

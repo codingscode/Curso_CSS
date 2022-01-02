@@ -417,6 +417,12 @@
       font-weight: 300;
    }
    
+   &::before {
+      content: "\201C";
+      
+   }
+
+   
 }
 
 
