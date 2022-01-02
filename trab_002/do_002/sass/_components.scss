@@ -265,9 +265,20 @@
    cursor: pointer;
    transition: all .2s;
    
+   &_span {
+      margin-left: 3px;
+      transition: all .2s;
+   }
+   
    &:hover {
       color: var(--cor-cinza-escuro-1);
+      
+      span {
+         margin-left: 8px;
+      }
    }
+   
+   
    
    &:focus {
       outline: none;

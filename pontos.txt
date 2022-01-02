@@ -142,6 +142,7 @@ html entities css tricks
 https://css-tricks.com/snippets/html/glyphs/
 
 
+passar o cursor
 
 
 
