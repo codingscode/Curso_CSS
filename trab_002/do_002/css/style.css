@@ -294,9 +294,12 @@ body {
   box-shadow: var(--sombra-clara);
   padding: 3rem;
   margin-bottom: 3.5rem;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .review__texto {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    z-index: 10;
+    position: relative; }
   .review__usuario {
     display: flex;
     align-items: center; }
@@ -327,7 +330,8 @@ body {
     line-height: 1;
     font-size: 20rem;
     color: var(--cor-cinza-claro-2);
-    font-family: sans-serif; }
+    font-family: sans-serif;
+    z-index: 1; }
 
 .container {
   max-width: 120rem;
