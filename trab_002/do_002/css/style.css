@@ -232,7 +232,7 @@ body {
   transition: all .2s; }
   .btn-inline_span {
     margin-left: 3px;
-    transition: margin-left .2s; }
+    transition: margin-left 1s; }
   .btn-inline:hover {
     color: var(--cor-cinza-escuro-1); }
     .btn-inline:hover span {
@@ -384,4 +384,5 @@ body {
 
 .usuarios-reviews {
   /* background-color: yellowgreen; */
-  flex: 1; }
+  flex: 1;
+  text-align: center; }
