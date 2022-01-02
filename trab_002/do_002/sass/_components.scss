@@ -384,7 +384,8 @@
    }
    
    &__usuario {
-   
+      display: flex;
+      align-items: center;
    }
    
    &__foto {
