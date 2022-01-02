@@ -323,9 +323,11 @@ body {
     content: "\201C";
     position: absolute;
     top: -2rem;
-    right: -1rem;
+    left: -1rem;
+    line-height: 1;
     font-size: 20rem;
-    color: var(--cor-cinza-claro-2); }
+    color: var(--cor-cinza-claro-2);
+    font-family: sans-serif; }
 
 .container {
   max-width: 120rem;
