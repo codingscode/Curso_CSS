@@ -294,6 +294,8 @@ body {
   box-shadow: var(--sombra-clara);
   padding: 3rem;
   margin-bottom: 3.5rem; }
+  .review__texto {
+    margin-bottom: 2rem; }
   .review__usuario {
     display: flex;
     align-items: center; }
@@ -301,6 +303,8 @@ body {
     height: 4.5rem;
     width: 4.5rem;
     border-radius: 50%; }
+  .review__usuario-caixa {
+    margin-right: auto; }
 
 .container {
   max-width: 120rem;
