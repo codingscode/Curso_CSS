@@ -377,6 +377,7 @@
    box-shadow: var(--sombra-clara);
    padding: 3rem;
    margin-bottom: 3.5rem;
+   position: relative;
    
    
    &__texto {
@@ -419,7 +420,11 @@
    
    &::before {
       content: "\201C";
-      
+      position: absolute;
+      top: -2rem;
+      right: -1rem;
+      font-size: 20rem;
+      color: var(--cor-cinza-claro-2);
    }
 
    
