@@ -355,6 +355,9 @@ body {
   border: none;
   background-image: linear-gradient(to right, var(--cor-primaria-clara), var(--cor-primaria-escura));
   color: #fff; }
+  .btn__visivel {
+    display: inline-block;
+    padding: 2rem 7.5rem; }
 
 .container {
   max-width: 120rem;
