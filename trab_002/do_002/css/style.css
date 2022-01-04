@@ -367,7 +367,10 @@ body {
     height: 100%;
     width: 100%;
     left: 0;
-    top: -100%; }
+    top: -100%;
+    transition: all .2s; }
+  .btn:hover .btn__invisivel {
+    top: 0; }
 
 .container {
   max-width: 120rem;

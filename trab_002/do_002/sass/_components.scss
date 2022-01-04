@@ -487,7 +487,16 @@
       width: 100%;
       left: 0;
       top: -100%;
+      transition: all .2s;
    }
+   
+   &:hover &__visivel {
+   
+   }
+ 
+   &:hover &__invisivel {
+      top: 0;
+   }  
    
 }
 
