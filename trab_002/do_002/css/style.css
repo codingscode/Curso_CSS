@@ -355,7 +355,8 @@ body {
   border: none;
   background-image: linear-gradient(to right, var(--cor-primaria-clara), var(--cor-primaria-escura));
   color: #fff;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .btn__visivel {
     display: inline-block;
     padding: 2rem 7.5rem; }

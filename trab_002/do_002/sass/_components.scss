@@ -469,8 +469,9 @@
    border-radius: 100px;
    border: none;
    background-image: linear-gradient(to right, var(--cor-primaria-clara), var(--cor-primaria-escura));
-   color: #fff;
+   color: #fff;  // experimentar mudar a cor no commit antes
    position: relative;
+   overflow: hidden;
    
    
    &__visivel {
