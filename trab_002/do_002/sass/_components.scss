@@ -453,7 +453,7 @@
    text-align: center;
    
    &__agendar-agora {
-      font-size: 1.2rem;
+      font-size: 2rem;
       font-weight: 300;
       text-transform: uppercase;
       margin-bottom: 2.5rem;
@@ -462,7 +462,25 @@
    
 }
 
-
+.btn {
+   font-size: 1.5rem;
+   font-weight: 300;
+   text-transform: uppercase;
+   border-radius: 100px;
+   border: none;
+   background-image: linear-gradient(to right, var(--cor-primaria-clara), var(--cor-primaria-escura));
+   color: #fff;
+   
+   
+   &__visivel {
+   
+   }
+   
+   &__invisivel {
+   
+   }
+   
+}
 
 
 
