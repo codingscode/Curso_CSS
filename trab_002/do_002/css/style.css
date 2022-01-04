@@ -369,10 +369,15 @@ body {
     padding: 2rem 0;
     left: 0;
     top: -100%; }
+  .btn:hover {
+    background-image: linear-gradient(to left, var(--cor-primaria-clara), var(--cor-primaria-escura)); }
   .btn:hover .btn__visivel {
     transform: translateY(100%); }
   .btn:hover .btn__invisivel {
     top: 0; }
+  .btn:focus {
+    outline: none;
+    animation: pulsate 1s infinite; }
 
 .container {
   max-width: 120rem;
