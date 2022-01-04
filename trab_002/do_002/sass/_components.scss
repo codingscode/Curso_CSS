@@ -472,6 +472,7 @@
    color: #fff;
    position: relative;
    
+   
    &__visivel {
       display: inline-block;
       padding: 2rem 7.5rem;
@@ -480,7 +481,7 @@
    &__invisivel {
       display: inline-block;
       position: absolute;
-      padding: 2rem 7.5rem;
+      padding: 2rem 0;
       height: 100%;
       width: 100%;
       left: 0;
