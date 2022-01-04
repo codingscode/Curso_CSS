@@ -338,6 +338,15 @@ body {
     font-family: sans-serif;
     z-index: 1; }
 
+.cta {
+  padding: 3.5rem 0;
+  text-align: center; }
+  .cta__agendar-agora {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem; }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
