@@ -470,7 +470,7 @@
    border: none;
    background-image: linear-gradient(to right, var(--cor-primaria-clara), var(--cor-primaria-escura));
    color: #fff;
-   
+   position: relative;
    
    &__visivel {
       display: inline-block;
