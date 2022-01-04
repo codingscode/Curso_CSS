@@ -473,25 +473,28 @@
    position: relative;
    overflow: hidden;
    
-   
-   &__visivel {
+   & > * {
       display: inline-block;
-      padding: 2rem 7.5rem;
-   }
-   
-   &__invisivel {
-      display: inline-block;
-      position: absolute;
-      padding: 2rem 0;
       height: 100%;
       width: 100%;
-      left: 0;
-      top: -100%;
       transition: all .2s;
    }
    
-   &:hover &__visivel {
+   &__visivel {
+      padding: 2rem 7.5rem;
+      
+   }
    
+   &__invisivel {
+      position: absolute;
+      padding: 2rem 0;
+      left: 0;
+      top: -100%;
+      
+   }
+   
+   &:hover &__visivel {
+      transform: translateY(100%);
    }
  
    &:hover &__invisivel {
