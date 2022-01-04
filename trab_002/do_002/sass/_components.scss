@@ -472,6 +472,7 @@
    color: #fff;  // experimentar mudar a cor no commit antes
    position: relative;
    overflow: hidden;
+   cursor: pointer;
    
    & > * {
       display: inline-block;

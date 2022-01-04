@@ -356,7 +356,8 @@ body {
   background-image: linear-gradient(to right, var(--cor-primaria-clara), var(--cor-primaria-escura));
   color: #fff;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  cursor: pointer; }
   .btn > * {
     display: inline-block;
     height: 100%;
