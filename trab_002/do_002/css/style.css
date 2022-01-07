@@ -406,6 +406,9 @@ body {
 
 .conteudo {
   display: flex; }
+  @media only screen and (max-width: 56.25em) {
+    .conteudo {
+      flex-direction: column; } }
 
 .barralado {
   background-color: var(--cor-cinza-escuro-1);
