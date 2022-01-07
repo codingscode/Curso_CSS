@@ -416,6 +416,10 @@
    position: relative;
    overflow: hidden;
    
+   @media only screen and (max-width: $bp-medium) {
+      padding: 2rem;
+      margin-bottom: 3rem;
+   }
    
    &__texto {
       margin-bottom: 2rem;
@@ -476,6 +480,10 @@
 .cta {
    padding: 3.5rem 0;
    text-align: center;
+   
+   @media only screen and (max-width: $bp-medium) {
+      padding: 2.5rem 0;
+   }
    
    &__agendar-agora {
       font-size: 2rem;

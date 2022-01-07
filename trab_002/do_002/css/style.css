@@ -321,6 +321,10 @@ body {
   margin-bottom: 3.5rem;
   position: relative;
   overflow: hidden; }
+  @media only screen and (max-width: 56.25em) {
+    .review {
+      padding: 2rem;
+      margin-bottom: 3rem; } }
   .review__texto {
     margin-bottom: 2rem;
     z-index: 10;
@@ -361,6 +365,9 @@ body {
 .cta {
   padding: 3.5rem 0;
   text-align: center; }
+  @media only screen and (max-width: 56.25em) {
+    .cta {
+      padding: 2.5rem 0; } }
   .cta__agendar-agora {
     font-size: 2rem;
     font-weight: 300;
@@ -444,6 +451,9 @@ body {
   padding: 4.5rem;
   background-color: var(--cor-cinza-claro-1);
   border-bottom: var(--linha); }
+  @media only screen and (max-width: 56.25em) {
+    .detalhe {
+      padding: 3rem; } }
 
 .descricao {
   background-color: #fff;
@@ -451,6 +461,10 @@ body {
   padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .descricao {
+      padding: 2rem;
+      margin-right: 3rem; } }
 
 .usuarios-reviews {
   /* background-color: yellowgreen; */
