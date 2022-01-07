@@ -135,6 +135,9 @@ body {
   font-size: 1.4rem;
   list-style: none;
   margin-top: 3.5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .lado-nav {
+      display: flex; } }
   .lado-nav__item {
     position: relative; }
     .lado-nav__item:not(:last-child) {
