@@ -158,6 +158,8 @@ redimensionamento de tela , break-point
 ate largura 915
 
 
+igualmente dividido para quatro
+
 
 
 

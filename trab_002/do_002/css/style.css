@@ -143,6 +143,12 @@ body {
     position: relative; }
     .lado-nav__item:not(:last-child) {
       margin-bottom: .5rem; }
+      @media only screen and (max-width: 56.25em) {
+        .lado-nav__item:not(:last-child) {
+          margin: 0; } }
+    @media only screen and (max-width: 56.25em) {
+      .lado-nav__item {
+        flex: 1; } }
   .lado-nav__item::before {
     content: "";
     position: absolute;
