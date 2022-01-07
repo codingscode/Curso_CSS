@@ -386,6 +386,9 @@ body {
   background-color: var(--cor-cinza-claro-1);
   box-shadow: var(--sombra-escura);
   min-height: 50rem; }
+  @media only screen and (max-width: 75em) {
+    .container {
+      margin: 0; } }
 
 .cabecalho {
   font-size: 1.4rem;

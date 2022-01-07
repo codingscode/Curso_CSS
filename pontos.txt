@@ -153,6 +153,49 @@ passar o cursor
    
 clicar no botao
 
+redimensionamento de tela , break-point
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
