@@ -155,7 +155,7 @@ clicar no botao
 
 redimensionamento de tela , break-point
 
-
+ate largura 915
 
 
 

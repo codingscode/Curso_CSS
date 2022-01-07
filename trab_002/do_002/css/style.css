@@ -295,7 +295,7 @@ body {
     border-radius: 50%;
     border: 3px solid #fff; }
     .recomendar__foto:not(:last-child) {
-      margin-right: -1.5rem; }
+      margin-right: -2rem; }
 
 .review {
   background-color: #fff;
