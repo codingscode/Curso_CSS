@@ -305,6 +305,8 @@ body {
   align-items: center; }
   .recomendar__contar {
     margin-right: auto; }
+  .recomendar__amigos {
+    display: flex; }
   .recomendar__foto {
     box-sizing: content-box;
     height: 4rem;
