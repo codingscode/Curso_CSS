@@ -137,7 +137,8 @@ body {
   margin-top: 3.5rem; }
   @media only screen and (max-width: 56.25em) {
     .lado-nav {
-      display: flex; } }
+      display: flex;
+      margin: 0; } }
   .lado-nav__item {
     position: relative; }
     .lado-nav__item:not(:last-child) {
@@ -178,6 +179,9 @@ body {
   color: var(--cor-cinza-claro-4);
   text-align: center;
   padding: 2.5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .legal {
+      display: none; } }
 
 .galeria {
   display: flex; }

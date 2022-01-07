@@ -126,6 +126,7 @@
    
    @media only screen and (max-width: $bp-medium) {
       display: flex;
+      margin: 0;
    }
 
    &__item {
@@ -186,6 +187,11 @@
    color: var(--cor-cinza-claro-4);
    text-align: center;
    padding: 2.5rem;
+   
+   @media only screen and (max-width: $bp-medium) {
+      display: none;
+   }
+
 }
 
 .galeria {
