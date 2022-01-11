@@ -180,12 +180,18 @@ body {
         padding: 2rem; } }
     @media only screen and (max-width: 37.5em) {
       .lado-nav__link:link, .lado-nav__link:visited {
-        flex-direction: column; } }
+        flex-direction: column;
+        padding: 1.5rem .5rem; } }
   .lado-nav__icone {
     width: 1.75rem;
     height: 1.75rem;
     margin-right: 2rem;
     fill: currentColor; }
+    @media only screen and (max-width: 37.5em) {
+      .lado-nav__icone {
+        margin: 0;
+        width: 1.5rem;
+        height: 1.5rem; } }
 
 .legal {
   font-size: 1.2rem;

@@ -187,6 +187,7 @@
       
       @media only screen and (max-width: $bp-small) {
          flex-direction: column;
+         padding: 1.5rem .5rem;
       }
       
    }
@@ -197,6 +198,13 @@
       height: 1.75rem;
       margin-right: 2rem;
       fill: currentColor;
+      
+      @media only screen and (max-width: $bp-small) {
+         margin: 0;
+         width: 1.5rem;
+         height: 1.5rem;
+      }
+      
    }
       
 
