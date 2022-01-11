@@ -200,10 +200,12 @@
       fill: currentColor;
       
       @media only screen and (max-width: $bp-small) {
-         margin: 0;
+         margin-right: 0;
+         margin-bottom: .7rem;
          width: 1.5rem;
          height: 1.5rem;
       }
+      
       
    }
       
