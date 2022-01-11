@@ -456,6 +456,9 @@ body {
   @media only screen and (max-width: 56.25em) {
     .detalhe {
       padding: 3rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .detalhe {
+      flex-direction: column; } }
 
 .descricao {
   background-color: #fff;

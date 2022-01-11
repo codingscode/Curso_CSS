@@ -160,6 +160,8 @@ ate largura 915
 
 igualmente dividido para quatro
 
+< 600px
+
 
 
 
