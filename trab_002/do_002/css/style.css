@@ -178,6 +178,9 @@ body {
       .lado-nav__link:link, .lado-nav__link:visited {
         justify-content: center;
         padding: 2rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .lado-nav__link:link, .lado-nav__link:visited {
+        flex-direction: column; } }
   .lado-nav__icone {
     width: 1.75rem;
     height: 1.75rem;
