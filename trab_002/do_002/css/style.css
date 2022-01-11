@@ -219,6 +219,10 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1.5rem 3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .visaogeral__cabecalho {
+        font-size: 1.8rem;
+        padding: 1.25rem 2rem; } }
   .visaogeral__estrelas {
     margin-right: auto;
     display: flex; }
@@ -242,13 +246,22 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
+    @media only screen and (max-width: 37.5em) {
+      .visaogeral__rating {
+        padding: 0 1.5rem; } }
   .visaogeral__rating-media {
     font-size: 2.25rem;
     font-weight: 300;
     margin-bottom: 3px; }
+    @media only screen and (max-width: 37.5em) {
+      .visaogeral__rating-media {
+        font-size: 1.8rem; } }
   .visaogeral__rating-contagem {
     font-size: .8rem;
     text-transform: uppercase; }
+    @media only screen and (max-width: 37.5em) {
+      .visaogeral__rating-contagem {
+        font-size: .5rem; } }
 
 .btn-inline {
   border: none;
