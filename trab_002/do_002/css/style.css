@@ -470,6 +470,10 @@ body {
     .descricao {
       padding: 2rem;
       margin-right: 3rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .descricao {
+      margin-right: 0;
+      margin-bottom: 3rem; } }
 
 .usuarios-reviews {
   /* background-color: yellowgreen; */
