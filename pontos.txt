@@ -168,7 +168,7 @@ a caixa de entrada desce, experimentar largura < 425, diminuir espaço para desc
 
 < 500px
 
-
+clicar na entrada
 
 
 

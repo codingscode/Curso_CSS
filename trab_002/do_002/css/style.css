@@ -458,7 +458,8 @@ body {
   align-items: center; }
   @media only screen and (max-width: 31.25em) {
     .cabecalho {
-      flex-wrap: wrap; } }
+      flex-wrap: wrap;
+      height: 12rem; } }
 
 .conteudo {
   display: flex; }
