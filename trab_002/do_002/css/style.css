@@ -63,6 +63,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; }
+  @media only screen and (max-width: 31.25em) {
+    .pesquisa {
+      order: 1; } }
   .pesquisa__entrada {
     font-family: inherit;
     font-size: inherit;

@@ -162,7 +162,7 @@ igualmente dividido para quatro
 
 < 600px
 
-
+< 500px
 
 
 
