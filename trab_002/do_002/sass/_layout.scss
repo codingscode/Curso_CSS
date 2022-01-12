@@ -26,7 +26,7 @@
    align-items: center;
    
    @media only screen and (max-width: $bp-smallest) {
-
+      flex-wrap: wrap;
    }
    
 }
