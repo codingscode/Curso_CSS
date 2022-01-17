@@ -320,11 +320,15 @@ body {
     height: 1rem;
     width: 1rem;
     margin-right: .7rem;
-    background-color: var(--cor-primaria);
-    -webkit-mask-image: url(../img/chevron-thin-right.svg);
-    -webkit-mask-size: cover;
-    mask-image: url(../img/chevron-thin-right.svg);
-    mask-size: cover; }
+    background-image: url(../img/chevron-thin-right.svg);
+    background-size: cover; }
+    @supports (-webkit-mask-image: url()) or (mask-image: url) {
+      .lista__item::before {
+        background-color: var(--cor-primaria);
+        -webkit-mask-image: url(../img/chevron-thin-right.svg);
+        -webkit-mask-size: cover;
+        mask-image: url(../img/chevron-thin-right.svg);
+        mask-size: cover; } }
 
 .recomendar {
   font-size: 1.3rem;
